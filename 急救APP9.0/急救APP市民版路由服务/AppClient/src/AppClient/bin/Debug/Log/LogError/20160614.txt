@@ -1,0 +1,21 @@
+[2016-06-14 13:52:49,031] 线程:[10184]  
+System.TimeoutException: The host failed to connect. Timeout occured.
+   在 ZIT.Communication.Comm.Client.Tcp.TcpHelper.ConnectToServer(EndPoint endPoint, Int32 timeoutMs) 位置 E:\Works\APP\AppClient\src\COM\Communication\Comm\Client\Tcp\TcpHelper.cs:行号 41
+   在 ZIT.Communication.Comm.Client.Tcp.ScsTcpClient.CreateCommunicationChannel() 位置 E:\Works\APP\AppClient\src\COM\Communication\Comm\Client\Tcp\ScsTcpClient.cs:行号 33
+   在 ZIT.Communication.Comm.Client.ScsClientBase.Connect() 位置 E:\Works\APP\AppClient\src\COM\Communication\Comm\Client\ScsClientBase.cs:行号 150
+   在 ZIT.AppClient.Controller.AppRouteServer.RouteServer.Start() 位置 E:\Works\APP\AppClient\src\Controller\AppRouteServer\RouteServer.cs:行号 72
+   在 ZIT.AppClient.Controller.CoreService.StartService() 位置 E:\Works\APP\AppClient\src\Controller\CoreService.cs:行号 100
+[2016-06-14 13:52:49,203] 线程:[10184]  
+System.TimeoutException: The host failed to connect. Timeout occured.
+   在 ZIT.Communication.Comm.Client.Tcp.TcpHelper.ConnectToServer(EndPoint endPoint, Int32 timeoutMs) 位置 E:\Works\APP\AppClient\src\COM\Communication\Comm\Client\Tcp\TcpHelper.cs:行号 41
+   在 ZIT.Communication.Comm.Client.Tcp.ScsTcpClient.CreateCommunicationChannel() 位置 E:\Works\APP\AppClient\src\COM\Communication\Comm\Client\Tcp\ScsTcpClient.cs:行号 33
+   在 ZIT.Communication.Comm.Client.ScsClientBase.Connect() 位置 E:\Works\APP\AppClient\src\COM\Communication\Comm\Client\ScsClientBase.cs:行号 150
+   在 ZIT.AppClient.Controller.AppRouteServer.RouteServer.Start() 位置 E:\Works\APP\AppClient\src\Controller\AppRouteServer\RouteServer.cs:行号 72
+   在 ZIT.AppClient.Controller.CoreService.StartService() 位置 E:\Works\APP\AppClient\src\Controller\CoreService.cs:行号 107
+[2016-06-14 13:52:49,296] 线程:[10184]  
+System.TimeoutException: The host failed to connect. Timeout occured.
+   在 ZIT.Communication.Comm.Client.Tcp.TcpHelper.ConnectToServer(EndPoint endPoint, Int32 timeoutMs) 位置 E:\Works\APP\AppClient\src\COM\Communication\Comm\Client\Tcp\TcpHelper.cs:行号 41
+   在 ZIT.Communication.Comm.Client.Tcp.ScsTcpClient.CreateCommunicationChannel() 位置 E:\Works\APP\AppClient\src\COM\Communication\Comm\Client\Tcp\ScsTcpClient.cs:行号 33
+   在 ZIT.Communication.Comm.Client.ScsClientBase.Connect() 位置 E:\Works\APP\AppClient\src\COM\Communication\Comm\Client\ScsClientBase.cs:行号 150
+   在 ZIT.AppClient.Controller.AppRouteServer.RouteServer.Start() 位置 E:\Works\APP\AppClient\src\Controller\AppRouteServer\RouteServer.cs:行号 72
+   在 ZIT.AppClient.Controller.CoreService.StartService() 位置 E:\Works\APP\AppClient\src\Controller\CoreService.cs:行号 114

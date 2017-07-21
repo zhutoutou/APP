@@ -1,0 +1,18 @@
+[2016-06-13 18:20:36,196] 线程:[5868] Recieved message Unitcode is  Port is 6001:{"messageName":"LoginServer","unitCode":"522121"} 
+[2016-06-13 18:20:36,383] 线程:[3180] Recieved message Unitcode is  Port is 6003:{"messageName":"LoginServer","unitCode":"522121"} 
+[2016-06-13 18:20:36,399] 线程:[9336] Recieved message Unitcode is  Port is 6002:{"messageName":"LoginServer","unitCode":"522121"} 
+[2016-06-13 18:20:41,359] 线程:[5868] Send message Unitcode is 522121 Port is 6001:{"failtureReason":"","messageName":"LoginServerResp","loginResult":"1"} 
+[2016-06-13 18:20:41,359] 线程:[9336] Send message Unitcode is 522121 Port is 6002:{"failtureReason":"","messageName":"LoginServerResp","loginResult":"1"} 
+[2016-06-13 18:20:41,359] 线程:[3180] Send message Unitcode is 522121 Port is 6003:{"failtureReason":"","messageName":"LoginServerResp","loginResult":"1"} 
+[2016-06-13 18:33:21,523] 线程:[6608] Recieved message Unitcode is  Port is 6001:{"messageName":"LoginServer","unitCode":"522121"} 
+[2016-06-13 18:33:21,733] 线程:[6608] Send message Unitcode is 522121 Port is 6001:{"failtureReason":"","messageName":"LoginServerResp","loginResult":"1"} 
+[2016-06-13 18:33:21,753] 线程:[6608] Recieved message Unitcode is  Port is 6003:{"messageName":"LoginServer","unitCode":"522121"} 
+[2016-06-13 18:33:21,755] 线程:[6608] Send message Unitcode is 522121 Port is 6003:{"failtureReason":"","messageName":"LoginServerResp","loginResult":"1"} 
+[2016-06-13 18:33:21,805] 线程:[6608] Recieved message Unitcode is  Port is 6002:{"messageName":"LoginServer","unitCode":"522121"} 
+[2016-06-13 18:33:21,807] 线程:[6608] Send message Unitcode is 522121 Port is 6002:{"failtureReason":"","messageName":"LoginServerResp","loginResult":"1"} 
+[2016-06-13 18:43:28,163] 线程:[8132] Recieved message Unitcode is  Port is 6001:{"messageName":"LoginServer","unitCode":"522121"} 
+[2016-06-13 18:43:28,163] 线程:[8132] Send message Unitcode is 522121 Port is 6001:{"failtureReason":"","messageName":"LoginServerResp","loginResult":"1"} 
+[2016-06-13 18:43:28,397] 线程:[8132] Recieved message Unitcode is  Port is 6003:{"messageName":"LoginServer","unitCode":"522121"} 
+[2016-06-13 18:43:28,397] 线程:[8132] Send message Unitcode is 522121 Port is 6003:{"failtureReason":"","messageName":"LoginServerResp","loginResult":"1"} 
+[2016-06-13 18:43:28,444] 线程:[8132] Recieved message Unitcode is  Port is 6002:{"messageName":"LoginServer","unitCode":"522121"} 
+[2016-06-13 18:43:28,459] 线程:[8132] Send message Unitcode is 522121 Port is 6002:{"failtureReason":"","messageName":"LoginServerResp","loginResult":"1"} 

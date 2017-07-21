@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://www.zitsoft.com/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://www.zitsoft.com/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://www.zitsoft.com/">
+      <s:element name="addCallInfo">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="callInfoJson" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="addCallInfoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="addCallInfoResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CredentialSoapHeader" type="tns:CredentialSoapHeader" />
+      <s:complexType name="CredentialSoapHeader">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="Username" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Password" type="s:string" />
+        </s:sequence>
+        <s:anyAttribute />
+      </s:complexType>
+      <s:element name="addQualityComment">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="qualityCommentJson" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="addQualityCommentResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="addQualityCommentResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="addCallInfoSoapIn">
+    <wsdl:part name="parameters" element="tns:addCallInfo" />
+  </wsdl:message>
+  <wsdl:message name="addCallInfoSoapOut">
+    <wsdl:part name="parameters" element="tns:addCallInfoResponse" />
+  </wsdl:message>
+  <wsdl:message name="addCallInfoCredentialSoapHeader">
+    <wsdl:part name="CredentialSoapHeader" element="tns:CredentialSoapHeader" />
+  </wsdl:message>
+  <wsdl:message name="addQualityCommentSoapIn">
+    <wsdl:part name="parameters" element="tns:addQualityComment" />
+  </wsdl:message>
+  <wsdl:message name="addQualityCommentSoapOut">
+    <wsdl:part name="parameters" element="tns:addQualityCommentResponse" />
+  </wsdl:message>
+  <wsdl:message name="addQualityCommentCredentialSoapHeader">
+    <wsdl:part name="CredentialSoapHeader" element="tns:CredentialSoapHeader" />
+  </wsdl:message>
+  <wsdl:portType name="AppRouteServiceSoap">
+    <wsdl:operation name="addCallInfo">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Add call info</wsdl:documentation>
+      <wsdl:input message="tns:addCallInfoSoapIn" />
+      <wsdl:output message="tns:addCallInfoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="addQualityComment">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Add quality comment</wsdl:documentation>
+      <wsdl:input message="tns:addQualityCommentSoapIn" />
+      <wsdl:output message="tns:addQualityCommentSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="AppRouteServiceSoap" type="tns:AppRouteServiceSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="addCallInfo">
+      <soap:operation soapAction="http://www.zitsoft.com/addCallInfo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:addCallInfoCredentialSoapHeader" part="CredentialSoapHeader" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="addQualityComment">
+      <soap:operation soapAction="http://www.zitsoft.com/addQualityComment" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:addQualityCommentCredentialSoapHeader" part="CredentialSoapHeader" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="AppRouteServiceSoap12" type="tns:AppRouteServiceSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="addCallInfo">
+      <soap12:operation soapAction="http://www.zitsoft.com/addCallInfo" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:addCallInfoCredentialSoapHeader" part="CredentialSoapHeader" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="addQualityComment">
+      <soap12:operation soapAction="http://www.zitsoft.com/addQualityComment" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:addQualityCommentCredentialSoapHeader" part="CredentialSoapHeader" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="AppRouteService">
+    <wsdl:port name="AppRouteServiceSoap" binding="tns:AppRouteServiceSoap">
+      <soap:address location="http://120.25.193.80:8081/approuteservice.asmx" />
+    </wsdl:port>
+    <wsdl:port name="AppRouteServiceSoap12" binding="tns:AppRouteServiceSoap12">
+      <soap12:address location="http://120.25.193.80:8081/approuteservice.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

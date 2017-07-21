@@ -1,0 +1,47 @@
+[2016-06-20 15:20:56,728] 线程:[8164]  
+System.TimeoutException: The host failed to connect. Timeout occured.
+   在 ZIT.Communication.Comm.Client.Tcp.TcpHelper.ConnectToServer(EndPoint endPoint, Int32 timeoutMs) 位置 E:\Works\APP\AppClient\src\COM\Communication\Comm\Client\Tcp\TcpHelper.cs:行号 41
+   在 ZIT.Communication.Comm.Client.Tcp.ScsTcpClient.CreateCommunicationChannel() 位置 E:\Works\APP\AppClient\src\COM\Communication\Comm\Client\Tcp\ScsTcpClient.cs:行号 33
+   在 ZIT.Communication.Comm.Client.ScsClientBase.Connect() 位置 E:\Works\APP\AppClient\src\COM\Communication\Comm\Client\ScsClientBase.cs:行号 150
+   在 ZIT.AppClient.Controller.AppRouteServer.RouteServer.Start() 位置 E:\Works\APP\AppClient\src\Controller\AppRouteServer\RouteServer.cs:行号 72
+   在 ZIT.AppClient.Controller.CoreService.StartService() 位置 E:\Works\APP\AppClient\src\Controller\CoreService.cs:行号 100
+[2016-06-20 15:20:56,908] 线程:[8164]  
+System.TimeoutException: The host failed to connect. Timeout occured.
+   在 ZIT.Communication.Comm.Client.Tcp.TcpHelper.ConnectToServer(EndPoint endPoint, Int32 timeoutMs) 位置 E:\Works\APP\AppClient\src\COM\Communication\Comm\Client\Tcp\TcpHelper.cs:行号 41
+   在 ZIT.Communication.Comm.Client.Tcp.ScsTcpClient.CreateCommunicationChannel() 位置 E:\Works\APP\AppClient\src\COM\Communication\Comm\Client\Tcp\ScsTcpClient.cs:行号 33
+   在 ZIT.Communication.Comm.Client.ScsClientBase.Connect() 位置 E:\Works\APP\AppClient\src\COM\Communication\Comm\Client\ScsClientBase.cs:行号 150
+   在 ZIT.AppClient.Controller.AppRouteServer.RouteServer.Start() 位置 E:\Works\APP\AppClient\src\Controller\AppRouteServer\RouteServer.cs:行号 72
+   在 ZIT.AppClient.Controller.CoreService.StartService() 位置 E:\Works\APP\AppClient\src\Controller\CoreService.cs:行号 107
+[2016-06-20 15:20:57,015] 线程:[8164]  
+System.TimeoutException: The host failed to connect. Timeout occured.
+   在 ZIT.Communication.Comm.Client.Tcp.TcpHelper.ConnectToServer(EndPoint endPoint, Int32 timeoutMs) 位置 E:\Works\APP\AppClient\src\COM\Communication\Comm\Client\Tcp\TcpHelper.cs:行号 41
+   在 ZIT.Communication.Comm.Client.Tcp.ScsTcpClient.CreateCommunicationChannel() 位置 E:\Works\APP\AppClient\src\COM\Communication\Comm\Client\Tcp\ScsTcpClient.cs:行号 33
+   在 ZIT.Communication.Comm.Client.ScsClientBase.Connect() 位置 E:\Works\APP\AppClient\src\COM\Communication\Comm\Client\ScsClientBase.cs:行号 150
+   在 ZIT.AppClient.Controller.AppRouteServer.RouteServer.Start() 位置 E:\Works\APP\AppClient\src\Controller\AppRouteServer\RouteServer.cs:行号 72
+   在 ZIT.AppClient.Controller.CoreService.StartService() 位置 E:\Works\APP\AppClient\src\Controller\CoreService.cs:行号 114
+[2016-06-20 17:53:12,617] 线程:[5764] Error occurred: 
+System.Net.Sockets.SocketException (0x80004005): 由于系统缓冲区空间不足或队列已满，不能执行套接字上的操作。
+   在 System.Net.Sockets.Socket.SendTo(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, EndPoint remoteEP)
+   在 System.Net.Sockets.UdpClient.Send(Byte[] dgram, Int32 bytes, String hostname, Int32 port)
+   在 ZIT.AppClient.Controller.BusinessServer.BServer.SharkHands_Thread(Object e) 位置 E:\Works\APP\AppClient\src\Controller\BusinessServer\BServer.cs:行号 178
+[2016-06-20 18:15:43,246] 线程:[3160]  
+System.TimeoutException: The host failed to connect. Timeout occured.
+   在 ZIT.Communication.Comm.Client.Tcp.TcpHelper.ConnectToServer(EndPoint endPoint, Int32 timeoutMs) 位置 E:\Works\APP\AppClient\src\COM\Communication\Comm\Client\Tcp\TcpHelper.cs:行号 41
+   在 ZIT.Communication.Comm.Client.Tcp.ScsTcpClient.CreateCommunicationChannel() 位置 E:\Works\APP\AppClient\src\COM\Communication\Comm\Client\Tcp\ScsTcpClient.cs:行号 33
+   在 ZIT.Communication.Comm.Client.ScsClientBase.Connect() 位置 E:\Works\APP\AppClient\src\COM\Communication\Comm\Client\ScsClientBase.cs:行号 150
+   在 ZIT.AppClient.Controller.AppRouteServer.RouteServer.Start() 位置 E:\Works\APP\AppClient\src\Controller\AppRouteServer\RouteServer.cs:行号 72
+   在 ZIT.AppClient.Controller.CoreService.StartService() 位置 E:\Works\APP\AppClient\src\Controller\CoreService.cs:行号 100
+[2016-06-20 18:15:43,411] 线程:[3160]  
+System.TimeoutException: The host failed to connect. Timeout occured.
+   在 ZIT.Communication.Comm.Client.Tcp.TcpHelper.ConnectToServer(EndPoint endPoint, Int32 timeoutMs) 位置 E:\Works\APP\AppClient\src\COM\Communication\Comm\Client\Tcp\TcpHelper.cs:行号 41
+   在 ZIT.Communication.Comm.Client.Tcp.ScsTcpClient.CreateCommunicationChannel() 位置 E:\Works\APP\AppClient\src\COM\Communication\Comm\Client\Tcp\ScsTcpClient.cs:行号 33
+   在 ZIT.Communication.Comm.Client.ScsClientBase.Connect() 位置 E:\Works\APP\AppClient\src\COM\Communication\Comm\Client\ScsClientBase.cs:行号 150
+   在 ZIT.AppClient.Controller.AppRouteServer.RouteServer.Start() 位置 E:\Works\APP\AppClient\src\Controller\AppRouteServer\RouteServer.cs:行号 72
+   在 ZIT.AppClient.Controller.CoreService.StartService() 位置 E:\Works\APP\AppClient\src\Controller\CoreService.cs:行号 107
+[2016-06-20 18:15:43,555] 线程:[3160]  
+System.TimeoutException: The host failed to connect. Timeout occured.
+   在 ZIT.Communication.Comm.Client.Tcp.TcpHelper.ConnectToServer(EndPoint endPoint, Int32 timeoutMs) 位置 E:\Works\APP\AppClient\src\COM\Communication\Comm\Client\Tcp\TcpHelper.cs:行号 41
+   在 ZIT.Communication.Comm.Client.Tcp.ScsTcpClient.CreateCommunicationChannel() 位置 E:\Works\APP\AppClient\src\COM\Communication\Comm\Client\Tcp\ScsTcpClient.cs:行号 33
+   在 ZIT.Communication.Comm.Client.ScsClientBase.Connect() 位置 E:\Works\APP\AppClient\src\COM\Communication\Comm\Client\ScsClientBase.cs:行号 150
+   在 ZIT.AppClient.Controller.AppRouteServer.RouteServer.Start() 位置 E:\Works\APP\AppClient\src\Controller\AppRouteServer\RouteServer.cs:行号 72
+   在 ZIT.AppClient.Controller.CoreService.StartService() 位置 E:\Works\APP\AppClient\src\Controller\CoreService.cs:行号 114

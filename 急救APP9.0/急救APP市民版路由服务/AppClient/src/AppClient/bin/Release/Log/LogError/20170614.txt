@@ -1,0 +1,18 @@
+[2017-06-14 10:42:53,500] 线程:[5620]  
+System.TimeoutException: The host failed to connect. Timeout occured.
+   在 ZIT.Communication.Comm.Client.Tcp.TcpHelper.ConnectToServer(EndPoint endPoint, Int32 timeoutMs) 位置 E:\朱星汉\急救\急救APP市民版路由服务\AppClient\src\COM\Communication\Comm\Client\Tcp\TcpHelper.cs:行号 41
+   在 ZIT.Communication.Comm.Client.Tcp.ScsTcpClient.CreateCommunicationChannel() 位置 E:\朱星汉\急救\急救APP市民版路由服务\AppClient\src\COM\Communication\Comm\Client\Tcp\ScsTcpClient.cs:行号 33
+   在 ZIT.Communication.Comm.Client.ScsClientBase.Connect() 位置 E:\朱星汉\急救\急救APP市民版路由服务\AppClient\src\COM\Communication\Comm\Client\ScsClientBase.cs:行号 150
+   在 ZIT.AppClient.Controller.AppRouteServer.RouteServer.Start() 位置 E:\朱星汉\急救\急救APP市民版路由服务\AppClient\src\Controller\AppRouteServer\RouteServer.cs:行号 72
+   在 ZIT.AppClient.Controller.CoreService.StartService() 位置 E:\朱星汉\急救\急救APP市民版路由服务\AppClient\src\Controller\CoreService.cs:行号 113
+[2017-06-14 17:11:56,609] 线程:[5772]  
+System.TimeoutException: The host failed to connect. Timeout occured.
+   在 ZIT.Communication.Comm.Client.Tcp.TcpHelper.ConnectToServer(EndPoint endPoint, Int32 timeoutMs) 位置 E:\朱星汉\急救\急救APP市民版路由服务\AppClient\src\COM\Communication\Comm\Client\Tcp\TcpHelper.cs:行号 41
+   在 ZIT.Communication.Comm.Client.Tcp.ScsTcpClient.CreateCommunicationChannel() 位置 E:\朱星汉\急救\急救APP市民版路由服务\AppClient\src\COM\Communication\Comm\Client\Tcp\ScsTcpClient.cs:行号 33
+   在 ZIT.Communication.Comm.Client.ScsClientBase.Connect() 位置 E:\朱星汉\急救\急救APP市民版路由服务\AppClient\src\COM\Communication\Comm\Client\ScsClientBase.cs:行号 150
+   在 ZIT.AppClient.Controller.AppRouteServer.RouteServer.Start() 位置 E:\朱星汉\急救\急救APP市民版路由服务\AppClient\src\Controller\AppRouteServer\RouteServer.cs:行号 72
+   在 ZIT.AppClient.Controller.CoreService.StartService() 位置 E:\朱星汉\急救\急救APP市民版路由服务\AppClient\src\Controller\CoreService.cs:行号 127
+[2017-06-14 17:19:24,703] 线程:[6204]  
+ZIT.Communication.Comm.Communication.CommunicationStateException: Client is not connected to the server.
+   在 ZIT.Communication.Comm.Client.ScsClientBase.SendMessage(IScsMessage message) 位置 E:\朱星汉\急救\急救APP市民版路由服务\AppClient\src\COM\Communication\Comm\Client\ScsClientBase.cs:行号 191
+   在 ZIT.AppClient.Controller.AppRouteServer.RouteServer.SendMessage(ScsTextMessage Message) 位置 E:\朱星汉\急救\急救APP市民版路由服务\AppClient\src\Controller\AppRouteServer\RouteServer.cs:行号 171

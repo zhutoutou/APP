@@ -1,0 +1,9 @@
+[2017-06-02 11:20:03,296] 线程:[5248] Recieve BServer message:{"ID":"004"} 
+[2017-06-02 11:20:04,296] 线程:[5248] Recieve BServer message:{
+  "ID": "004",
+  "Result": "1"
+} 
+[2017-06-02 11:20:07,296] 线程:[5248] Recieve BServer message:{
+  "ID": "004",
+  "Result": "1"
+} 

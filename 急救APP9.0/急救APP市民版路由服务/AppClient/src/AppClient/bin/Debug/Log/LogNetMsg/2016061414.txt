@@ -1,0 +1,65 @@
+[2016-06-14 14:00:09,040] 线程:[8404] Sent message to RouteServer:{"messageName":"LoginServer","unitCode":"522121"} 
+[2016-06-14 14:00:09,055] 线程:[9576] Recieve route server message:{"failtureReason":"","messageName":"LoginServerResp","loginResult":"1"} 
+[2016-06-14 14:02:41,789] 线程:[4920] Sent message to RouteServer:{"messageName":"LoginServer","unitCode":"522121"} 
+[2016-06-14 14:02:41,847] 线程:[8404] Sent message to RouteServer:{"messageName":"LoginServer","unitCode":"522121"} 
+[2016-06-14 14:02:41,867] 线程:[7112] Sent message to RouteServer:{"messageName":"LoginServer","unitCode":"522121"} 
+[2016-06-14 14:02:41,991] 线程:[8412] Recieve route server message:{"failtureReason":"","messageName":"LoginServerResp","loginResult":"1"} 
+[2016-06-14 14:02:41,993] 线程:[8412] Recieve route server message:{"failtureReason":"","messageName":"LoginServerResp","loginResult":"1"} 
+[2016-06-14 14:02:41,999] 线程:[8912] Recieve route server message:{"failtureReason":"","messageName":"LoginServerResp","loginResult":"1"} 
+[2016-06-14 14:08:56,881] 线程:[10188] Recieve BServer message:[5183LSH:2016061400000000001*#CaseID:56602ce1-a49a-42d2-84ed-ac452b54a120*#CCCC:01*#CLID:101*#SJ:2016-06-14 13:57:34*#ZT:到达现场*#Reason:*#] 
+[2016-06-14 14:08:56,889] 线程:[10188] Sent message to RouteServer:{"sj":"2016-06-14 13:57:34","lsh":"2016061400000000001","caseId":"56602ce1-a49a-42d2-84ed-ac452b54a120","zt":"到达现场","reason":"","clid":"101","messageName":"CarStep","cccc":1} 
+[2016-06-14 14:10:44,959] 线程:[7508] Sent message to RouteServer:{"messageName":"LoginServer","unitCode":"522121"} 
+[2016-06-14 14:10:45,144] 线程:[3440] Recieve route server message:{"failtureReason":"","messageName":"LoginServerResp","loginResult":"1"} 
+[2016-06-14 14:10:45,145] 线程:[7508] Sent message to RouteServer:{"messageName":"LoginServer","unitCode":"522121"} 
+[2016-06-14 14:10:45,150] 线程:[3440] Recieve route server message:{"failtureReason":"","messageName":"LoginServerResp","loginResult":"1"} 
+[2016-06-14 14:12:14,178] 线程:[10188] Recieve BServer message:[5183LSH:2016061400000000001*#CaseID:56602ce1-a49a-42d2-84ed-ac452b54a120*#CCCC:01*#CLID:101*#SJ:2016-06-14 14:12:09*#ZT:病人上车*#Reason:*#] 
+[2016-06-14 14:12:14,178] 线程:[10188] Sent message to RouteServer:{"sj":"2016-06-14 14:12:09","lsh":"2016061400000000001","caseId":"56602ce1-a49a-42d2-84ed-ac452b54a120","zt":"病人上车","reason":"","clid":"101","messageName":"CarStep","cccc":1} 
+[2016-06-14 14:14:11,415] 线程:[6316] Sent message to RouteServer:{"messageName":"LoginServer","unitCode":"522121"} 
+[2016-06-14 14:14:11,618] 线程:[6316] Sent message to RouteServer:{"messageName":"LoginServer","unitCode":"522121"} 
+[2016-06-14 14:14:11,727] 线程:[6316] Sent message to RouteServer:{"messageName":"LoginServer","unitCode":"522121"} 
+[2016-06-14 14:14:16,672] 线程:[6484] Recieve route server message:{"failtureReason":"","messageName":"LoginServerResp","loginResult":"1"} 
+[2016-06-14 14:14:16,672] 线程:[5740] Recieve route server message:{"failtureReason":"","messageName":"LoginServerResp","loginResult":"1"} 
+[2016-06-14 14:14:16,688] 线程:[5740] Recieve route server message:{"failtureReason":"","messageName":"LoginServerResp","loginResult":"1"} 
+[2016-06-14 14:14:36,323] 线程:[10188] Recieve BServer message:[5183LSH:2016061400000000001*#CaseID:56602ce1-a49a-42d2-84ed-ac452b54a120*#CCCC:01*#CLID:101*#SJ:2016-06-14 14:14:32*#ZT:送达医院*#Reason:*#] 
+[2016-06-14 14:14:36,323] 线程:[10188] Sent message to RouteServer:{"sj":"2016-06-14 14:14:32","lsh":"2016061400000000001","caseId":"56602ce1-a49a-42d2-84ed-ac452b54a120","zt":"送达医院","reason":"","clid":"101","messageName":"CarStep","cccc":1} 
+[2016-06-14 14:16:58,718] 线程:[6872] Sent message to RouteServer:{"messageName":"LoginServer","unitCode":"522121"} 
+[2016-06-14 14:16:58,796] 线程:[6872] Sent message to RouteServer:{"messageName":"LoginServer","unitCode":"522121"} 
+[2016-06-14 14:16:58,890] 线程:[6872] Sent message to RouteServer:{"messageName":"LoginServer","unitCode":"522121"} 
+[2016-06-14 14:17:10,435] 线程:[9948] Recieve route server message:{"failtureReason":"","messageName":"LoginServerResp","loginResult":"1"} 
+[2016-06-14 14:17:10,439] 线程:[8416] Recieve route server message:{"failtureReason":"","messageName":"LoginServerResp","loginResult":"1"} 
+[2016-06-14 14:17:10,553] 线程:[4092] Recieve route server message:{"failtureReason":"","messageName":"LoginServerResp","loginResult":"1"} 
+[2016-06-14 14:19:34,267] 线程:[10008] Recieve route server message:{"city":"南京","medicalInsuranceCard":"232335567787","caseId":"bb3c04b6-5cfa-4771-8192-ebe87a39fdca","isSelf":1,"name":"测试名","contactWay1":"13404178872","identityCard":"340879198808081211","weight":65,"brithday":"19870101","medicalHistory":"测试病史","contactWay2":"13404178873","height":175,"province":"江苏","phone":"12345","sex":1,"messageName":"CallInfo","wd":"134.799686555","jd":"34.799686555","contactWay3":"13404178874","address":"江苏省南京市秦淮区太平南路333号","area":"秦淮","callTime":"2016-06-14 14:19:33"} 
+[2016-06-14 14:19:34,267] 线程:[10008] Sent message to BServer:[5180caseId:bb3c04b6-5cfa-4771-8192-ebe87a39fdca*#phone:12345*#name:测试名*#sex:1*#brithday:19870101*#height:175*#weight:65*#identityCard:340879198808081211*#jd:34.799686555*#wd:134.799686555*#address:江苏省南京市秦淮区太平南路333号*#medicalHistory:测试病史*#contactWay1:13404178872*#contactWay2:13404178873*#contactWay3:13404178874*#medicalInsuranceCard:232335567787*#province:江苏*#city:南京*#callTime:2016-06-14 14:19:33*#isSelf:1*#] 
+[2016-06-14 14:21:20,755] 线程:[10188] Recieve BServer message:[5182LSH:2016061400000000002*#CLID:101*#CCCC:01*#CPH:鄂K06772*#CCSJ:2016-06-14 14:21:18*#SSDW:孝感市中心医院*#DriverPhone:13871888610*#DriverName:刘豫*#DoctorPhone:13871887869*#DoctorName:孙光辉*#CaseID:bb3c04b6-5cfa-4771-8192-ebe87a39fdca*#TH:0*#] 
+[2016-06-14 14:21:20,756] 线程:[10188] Sent message to RouteServer:{"driverName":"刘豫","doctorPhone":"13871887869","doctorName":"孙光辉","ccsj":"2016-06-14 14:21:18","ssdw":"孝感市中心医院","driverPhone":"13871888610","caseId":"bb3c04b6-5cfa-4771-8192-ebe87a39fdca","lsh":"2016061400000000002","cph":"鄂K06772","clid":"101","messageName":"SendCarInfo","cccc":1} 
+[2016-06-14 14:24:43,721] 线程:[8252] Sent message to RouteServer:{"messageName":"LoginServer","unitCode":"522121"} 
+[2016-06-14 14:24:43,730] 线程:[456] Recieve route server message:{"failtureReason":"","messageName":"LoginServerResp","loginResult":"1"} 
+[2016-06-14 14:24:43,833] 线程:[8252] Sent message to RouteServer:{"messageName":"LoginServer","unitCode":"522121"} 
+[2016-06-14 14:24:43,861] 线程:[456] Recieve route server message:{"failtureReason":"","messageName":"LoginServerResp","loginResult":"1"} 
+[2016-06-14 14:24:43,888] 线程:[8252] Sent message to RouteServer:{"messageName":"LoginServer","unitCode":"522121"} 
+[2016-06-14 14:24:43,893] 线程:[456] Recieve route server message:{"failtureReason":"","messageName":"LoginServerResp","loginResult":"1"} 
+[2016-06-14 14:32:00,104] 线程:[8252] Sent message to RouteServer:{"messageName":"LoginServer","unitCode":"522121"} 
+[2016-06-14 14:32:00,437] 线程:[5772] Recieve route server message:{"failtureReason":"","messageName":"LoginServerResp","loginResult":"1"} 
+[2016-06-14 14:32:01,158] 线程:[8252] Sent message to RouteServer:{"messageName":"LoginServer","unitCode":"522121"} 
+[2016-06-14 14:32:01,164] 线程:[5772] Recieve route server message:{"failtureReason":"","messageName":"LoginServerResp","loginResult":"1"} 
+[2016-06-14 14:32:01,259] 线程:[8252] Sent message to RouteServer:{"messageName":"LoginServer","unitCode":"522121"} 
+[2016-06-14 14:32:01,267] 线程:[7048] Recieve route server message:{"failtureReason":"","messageName":"LoginServerResp","loginResult":"1"} 
+[2016-06-14 14:33:44,847] 线程:[10188] Recieve BServer message:[5183LSH:2016061400000000002*#CaseID:bb3c04b6-5cfa-4771-8192-ebe87a39fdca*#CCCC:01*#CLID:101*#SJ:2016-06-14 14:33:42*#ZT:到达现场*#Reason:*#] 
+[2016-06-14 14:33:44,847] 线程:[10188] Sent message to RouteServer:{"sj":"2016-06-14 14:33:42","lsh":"2016061400000000002","caseId":"bb3c04b6-5cfa-4771-8192-ebe87a39fdca","zt":"到达现场","reason":"","clid":"101","messageName":"CarStep","cccc":1} 
+[2016-06-14 14:34:13,750] 线程:[10188] Recieve BServer message:[5183LSH:2016061400000000002*#CaseID:bb3c04b6-5cfa-4771-8192-ebe87a39fdca*#CCCC:01*#CLID:101*#SJ:2016-06-14 14:34:11*#ZT:病人上车*#Reason:*#] 
+[2016-06-14 14:34:13,750] 线程:[10188] Sent message to RouteServer:{"sj":"2016-06-14 14:34:11","lsh":"2016061400000000002","caseId":"bb3c04b6-5cfa-4771-8192-ebe87a39fdca","zt":"病人上车","reason":"","clid":"101","messageName":"CarStep","cccc":1} 
+[2016-06-14 14:36:12,412] 线程:[9148] Sent message to RouteServer:{"messageName":"LoginServer","unitCode":"522121"} 
+[2016-06-14 14:36:12,418] 线程:[2432] Recieve route server message:{"failtureReason":"","messageName":"LoginServerResp","loginResult":"1"} 
+[2016-06-14 14:38:15,333] 线程:[10188] Recieve BServer message:[5183LSH:2016061400000000002*#CaseID:bb3c04b6-5cfa-4771-8192-ebe87a39fdca*#CCCC:01*#CLID:101*#SJ:2016-06-14 14:38:13*#ZT:送达医院*#Reason:*#] 
+[2016-06-14 14:38:15,333] 线程:[10188] Sent message to RouteServer:{"sj":"2016-06-14 14:38:13","lsh":"2016061400000000002","caseId":"bb3c04b6-5cfa-4771-8192-ebe87a39fdca","zt":"送达医院","reason":"","clid":"101","messageName":"CarStep","cccc":1} 
+[2016-06-14 14:47:16,387] 线程:[10188] Recieve BServer message:[5183LSH:2016061400000000002*#CaseID:bb3c04b6-5cfa-4771-8192-ebe87a39fdca*#CCCC:01*#CLID:101*#SJ:2016-06-14 14:47:14*#ZT:任务完成*#Reason:*#] 
+[2016-06-14 14:47:16,387] 线程:[10188] Sent message to RouteServer:{"sj":"2016-06-14 14:47:14","lsh":"2016061400000000002","caseId":"bb3c04b6-5cfa-4771-8192-ebe87a39fdca","zt":"任务完成","reason":"","clid":"101","messageName":"CarStep","cccc":1} 
+[2016-06-14 14:49:48,830] 线程:[7008] Recieve route server message:{"city":"南京市","medicalInsuranceCard":"73736212343322132","caseId":"108","isSelf":1,"name":"jack","contactWay1":"13788864033","identityCard":"342299922999283838","weight":68,"brithday":"19920101","medicalHistory":"受过伤","contactWay2":"","height":178,"province":"江苏省","phone":"13890929671","sex":1,"messageName":"CallInfo","wd":"32.033508808267840","jd":"118.78668255387065","contactWay3":"","address":"萨家湾","area":"白下区","callTime":"2016-06-14 14:49:46"} 
+[2016-06-14 14:49:48,831] 线程:[7008] Sent message to BServer:[5180caseId:108*#phone:13890929671*#name:jack*#sex:1*#brithday:19920101*#height:178*#weight:68*#identityCard:342299922999283838*#jd:118.78668255387065*#wd:32.033508808267840*#address:萨家湾*#medicalHistory:受过伤*#contactWay1:13788864033*#contactWay2:*#contactWay3:*#medicalInsuranceCard:73736212343322132*#province:江苏省*#city:南京市*#callTime:2016-06-14 14:49:46*#isSelf:1*#] 
+[2016-06-14 14:51:12,164] 线程:[10188] Recieve BServer message:[5182LSH:2016061400000000003*#CLID:101*#CCCC:01*#CPH:鄂K06772*#CCSJ:2016-06-14 14:51:09*#SSDW:孝感市中心医院*#DriverPhone:13871888610*#DriverName:刘豫*#DoctorPhone:13871887869*#DoctorName:孙光辉*#CaseID:108*#TH:0*#] 
+[2016-06-14 14:51:12,164] 线程:[10188] Sent message to RouteServer:{"driverName":"刘豫","doctorPhone":"13871887869","doctorName":"孙光辉","ccsj":"2016-06-14 14:51:09","ssdw":"孝感市中心医院","driverPhone":"13871888610","caseId":"108","lsh":"2016061400000000003","cph":"鄂K06772","clid":"101","messageName":"SendCarInfo","cccc":1} 
+[2016-06-14 14:54:46,302] 线程:[10184] Sent message to RouteServer:{"sd":0.0,"wd":"31.985227584838867","sj":"2016-06-14 14:54:43","lsh":"2016061400000000003","caseId":"108","fx":"0.0","jd":"118.77556610107422","clid":"101","messageName":"CarLocation","cccc":1} 
+[2016-06-14 14:55:34,662] 线程:[10188] Recieve BServer message:[5183LSH:2016061400000000003*#CaseID:108*#CCCC:01*#CLID:101*#SJ:2016-06-14 14:55:32*#ZT:到达现场*#Reason:*#] 
+[2016-06-14 14:55:34,662] 线程:[10188] Sent message to RouteServer:{"sj":"2016-06-14 14:55:32","lsh":"2016061400000000003","caseId":"108","zt":"到达现场","reason":"","clid":"101","messageName":"CarStep","cccc":1} 
+[2016-06-14 14:57:16,463] 线程:[10188] Recieve BServer message:[5183LSH:2016061400000000003*#CaseID:108*#CCCC:01*#CLID:101*#SJ:2016-06-14 14:57:14*#ZT:病人上车*#Reason:*#] 
+[2016-06-14 14:57:16,464] 线程:[10188] Sent message to RouteServer:{"sj":"2016-06-14 14:57:14","lsh":"2016061400000000003","caseId":"108","zt":"病人上车","reason":"","clid":"101","messageName":"CarStep","cccc":1} 

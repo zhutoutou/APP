@@ -1,0 +1,5 @@
+D:\tfs\联网系统\Dev\DEP\bin\Release\LOG.dll
+D:\tfs\联网系统\Dev\DEP\src\LOG\obj\Release\ResolveAssemblyReference.cache
+D:\tfs\联网系统\Dev\DEP\src\LOG\obj\Release\LOG.dll
+D:\tfs\联网系统\Dev\DEP\src\LOG\bin\Release\LOG.dll
+D:\tfs\联网系统\Dev\DEP\src\LOG\bin\Release\log4net.dll

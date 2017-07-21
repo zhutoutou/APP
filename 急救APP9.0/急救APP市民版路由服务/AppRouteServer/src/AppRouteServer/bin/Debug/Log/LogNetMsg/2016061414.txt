@@ -1,0 +1,52 @@
+[2016-06-14 14:00:09,040] 线程:[5568] Recieved message Unitcode is  Port is 6001:{"messageName":"LoginServer","unitCode":"522121"} 
+[2016-06-14 14:00:09,055] 线程:[5568] Send message Unitcode is 522121 Port is 6001:{"failtureReason":"","messageName":"LoginServerResp","loginResult":"1"} 
+[2016-06-14 14:02:41,804] 线程:[8328] Recieved message Unitcode is  Port is 6001:{"messageName":"LoginServer","unitCode":"522121"} 
+[2016-06-14 14:02:41,854] 线程:[9024] Recieved message Unitcode is  Port is 6002:{"messageName":"LoginServer","unitCode":"522121"} 
+[2016-06-14 14:02:41,874] 线程:[9840] Recieved message Unitcode is  Port is 6003:{"messageName":"LoginServer","unitCode":"522121"} 
+[2016-06-14 14:02:41,991] 线程:[8328] Send message Unitcode is 522121 Port is 6001:{"failtureReason":"","messageName":"LoginServerResp","loginResult":"1"} 
+[2016-06-14 14:02:41,991] 线程:[9024] Send message Unitcode is 522121 Port is 6002:{"failtureReason":"","messageName":"LoginServerResp","loginResult":"1"} 
+[2016-06-14 14:02:41,993] 线程:[9840] Send message Unitcode is 522121 Port is 6003:{"failtureReason":"","messageName":"LoginServerResp","loginResult":"1"} 
+[2016-06-14 14:08:56,890] 线程:[9928] Recieved message Unitcode is 522121 Port is 6003:{"sj":"2016-06-14 13:57:34","lsh":"2016061400000000001","caseId":"56602ce1-a49a-42d2-84ed-ac452b54a120","zt":"到达现场","reason":"","clid":"101","messageName":"CarStep","cccc":1} 
+[2016-06-14 14:10:44,959] 线程:[9928] Recieved message Unitcode is  Port is 6003:{"messageName":"LoginServer","unitCode":"522121"} 
+[2016-06-14 14:10:44,966] 线程:[9928] Send message Unitcode is 522121 Port is 6003:{"failtureReason":"","messageName":"LoginServerResp","loginResult":"1"} 
+[2016-06-14 14:10:45,145] 线程:[9928] Recieved message Unitcode is  Port is 6001:{"messageName":"LoginServer","unitCode":"522121"} 
+[2016-06-14 14:10:45,150] 线程:[9928] Send message Unitcode is 522121 Port is 6001:{"failtureReason":"","messageName":"LoginServerResp","loginResult":"1"} 
+[2016-06-14 14:12:14,178] 线程:[9928] Recieved message Unitcode is 522121 Port is 6003:{"sj":"2016-06-14 14:12:09","lsh":"2016061400000000001","caseId":"56602ce1-a49a-42d2-84ed-ac452b54a120","zt":"病人上车","reason":"","clid":"101","messageName":"CarStep","cccc":1} 
+[2016-06-14 14:14:11,431] 线程:[9096] Recieved message Unitcode is  Port is 6003:{"messageName":"LoginServer","unitCode":"522121"} 
+[2016-06-14 14:14:11,618] 线程:[7816] Recieved message Unitcode is  Port is 6001:{"messageName":"LoginServer","unitCode":"522121"} 
+[2016-06-14 14:14:11,727] 线程:[6444] Recieved message Unitcode is  Port is 6002:{"messageName":"LoginServer","unitCode":"522121"} 
+[2016-06-14 14:14:16,672] 线程:[7816] Send message Unitcode is 522121 Port is 6001:{"failtureReason":"","messageName":"LoginServerResp","loginResult":"1"} 
+[2016-06-14 14:14:16,672] 线程:[9096] Send message Unitcode is 522121 Port is 6003:{"failtureReason":"","messageName":"LoginServerResp","loginResult":"1"} 
+[2016-06-14 14:14:16,688] 线程:[6444] Send message Unitcode is 522121 Port is 6002:{"failtureReason":"","messageName":"LoginServerResp","loginResult":"1"} 
+[2016-06-14 14:14:36,323] 线程:[9096] Recieved message Unitcode is 522121 Port is 6003:{"sj":"2016-06-14 14:14:32","lsh":"2016061400000000001","caseId":"56602ce1-a49a-42d2-84ed-ac452b54a120","zt":"送达医院","reason":"","clid":"101","messageName":"CarStep","cccc":1} 
+[2016-06-14 14:17:10,421] 线程:[6444] Recieved message Unitcode is  Port is 6001:{"messageName":"LoginServer","unitCode":"522121"} 
+[2016-06-14 14:17:10,423] 线程:[8484] Recieved message Unitcode is  Port is 6003:{"messageName":"LoginServer","unitCode":"522121"} 
+[2016-06-14 14:17:10,429] 线程:[3104] Recieved message Unitcode is  Port is 6002:{"messageName":"LoginServer","unitCode":"522121"} 
+[2016-06-14 14:17:10,434] 线程:[8484] Send message Unitcode is 522121 Port is 6003:{"failtureReason":"","messageName":"LoginServerResp","loginResult":"1"} 
+[2016-06-14 14:17:10,435] 线程:[3104] Send message Unitcode is 522121 Port is 6002:{"failtureReason":"","messageName":"LoginServerResp","loginResult":"1"} 
+[2016-06-14 14:17:10,553] 线程:[6444] Send message Unitcode is 522121 Port is 6001:{"failtureReason":"","messageName":"LoginServerResp","loginResult":"1"} 
+[2016-06-14 14:19:34,267] 线程:[8436] Send message Unitcode is 522121 Port is 6001:{"city":"南京","medicalInsuranceCard":"232335567787","caseId":"bb3c04b6-5cfa-4771-8192-ebe87a39fdca","isSelf":1,"name":"测试名","contactWay1":"13404178872","identityCard":"340879198808081211","weight":65,"brithday":"19870101","medicalHistory":"测试病史","contactWay2":"13404178873","height":175,"province":"江苏","phone":"12345","sex":1,"messageName":"CallInfo","wd":"134.799686555","jd":"34.799686555","contactWay3":"13404178874","address":"江苏省南京市秦淮区太平南路333号","area":"秦淮","callTime":"2016-06-14 14:19:33"} 
+[2016-06-14 14:21:20,756] 线程:[2432] Recieved message Unitcode is 522121 Port is 6003:{"driverName":"刘豫","doctorPhone":"13871887869","doctorName":"孙光辉","ccsj":"2016-06-14 14:21:18","ssdw":"孝感市中心医院","driverPhone":"13871888610","caseId":"bb3c04b6-5cfa-4771-8192-ebe87a39fdca","lsh":"2016061400000000002","cph":"鄂K06772","clid":"101","messageName":"SendCarInfo","cccc":1} 
+[2016-06-14 14:24:43,724] 线程:[10072] Recieved message Unitcode is  Port is 6002:{"messageName":"LoginServer","unitCode":"522121"} 
+[2016-06-14 14:24:43,729] 线程:[10072] Send message Unitcode is 522121 Port is 6002:{"failtureReason":"","messageName":"LoginServerResp","loginResult":"1"} 
+[2016-06-14 14:24:43,833] 线程:[10072] Recieved message Unitcode is  Port is 6001:{"messageName":"LoginServer","unitCode":"522121"} 
+[2016-06-14 14:24:43,838] 线程:[10072] Send message Unitcode is 522121 Port is 6001:{"failtureReason":"","messageName":"LoginServerResp","loginResult":"1"} 
+[2016-06-14 14:24:43,888] 线程:[10072] Recieved message Unitcode is  Port is 6003:{"messageName":"LoginServer","unitCode":"522121"} 
+[2016-06-14 14:24:43,893] 线程:[10072] Send message Unitcode is 522121 Port is 6003:{"failtureReason":"","messageName":"LoginServerResp","loginResult":"1"} 
+[2016-06-14 14:32:00,122] 线程:[8920] Recieved message Unitcode is  Port is 6001:{"messageName":"LoginServer","unitCode":"522121"} 
+[2016-06-14 14:32:00,437] 线程:[8920] Send message Unitcode is 522121 Port is 6001:{"failtureReason":"","messageName":"LoginServerResp","loginResult":"1"} 
+[2016-06-14 14:32:01,159] 线程:[8920] Recieved message Unitcode is  Port is 6003:{"messageName":"LoginServer","unitCode":"522121"} 
+[2016-06-14 14:32:01,163] 线程:[8920] Send message Unitcode is 522121 Port is 6003:{"failtureReason":"","messageName":"LoginServerResp","loginResult":"1"} 
+[2016-06-14 14:32:01,259] 线程:[8920] Recieved message Unitcode is  Port is 6002:{"messageName":"LoginServer","unitCode":"522121"} 
+[2016-06-14 14:32:01,263] 线程:[8920] Send message Unitcode is 522121 Port is 6002:{"failtureReason":"","messageName":"LoginServerResp","loginResult":"1"} 
+[2016-06-14 14:33:44,848] 线程:[9160] Recieved message Unitcode is 522121 Port is 6003:{"sj":"2016-06-14 14:33:42","lsh":"2016061400000000002","caseId":"bb3c04b6-5cfa-4771-8192-ebe87a39fdca","zt":"到达现场","reason":"","clid":"101","messageName":"CarStep","cccc":1} 
+[2016-06-14 14:34:13,750] 线程:[392] Recieved message Unitcode is 522121 Port is 6003:{"sj":"2016-06-14 14:34:11","lsh":"2016061400000000002","caseId":"bb3c04b6-5cfa-4771-8192-ebe87a39fdca","zt":"病人上车","reason":"","clid":"101","messageName":"CarStep","cccc":1} 
+[2016-06-14 14:36:12,413] 线程:[9236] Recieved message Unitcode is  Port is 6002:{"messageName":"LoginServer","unitCode":"522121"} 
+[2016-06-14 14:36:12,417] 线程:[9236] Send message Unitcode is 522121 Port is 6002:{"failtureReason":"","messageName":"LoginServerResp","loginResult":"1"} 
+[2016-06-14 14:38:15,333] 线程:[9748] Recieved message Unitcode is 522121 Port is 6003:{"sj":"2016-06-14 14:38:13","lsh":"2016061400000000002","caseId":"bb3c04b6-5cfa-4771-8192-ebe87a39fdca","zt":"送达医院","reason":"","clid":"101","messageName":"CarStep","cccc":1} 
+[2016-06-14 14:47:16,387] 线程:[9268] Recieved message Unitcode is 522121 Port is 6003:{"sj":"2016-06-14 14:47:14","lsh":"2016061400000000002","caseId":"bb3c04b6-5cfa-4771-8192-ebe87a39fdca","zt":"任务完成","reason":"","clid":"101","messageName":"CarStep","cccc":1} 
+[2016-06-14 14:49:48,830] 线程:[2932] Send message Unitcode is 522121 Port is 6001:{"city":"南京市","medicalInsuranceCard":"73736212343322132","caseId":"108","isSelf":1,"name":"jack","contactWay1":"13788864033","identityCard":"342299922999283838","weight":68,"brithday":"19920101","medicalHistory":"受过伤","contactWay2":"","height":178,"province":"江苏省","phone":"13890929671","sex":1,"messageName":"CallInfo","wd":"32.033508808267840","jd":"118.78668255387065","contactWay3":"","address":"萨家湾","area":"白下区","callTime":"2016-06-14 14:49:46"} 
+[2016-06-14 14:51:12,164] 线程:[9628] Recieved message Unitcode is 522121 Port is 6003:{"driverName":"刘豫","doctorPhone":"13871887869","doctorName":"孙光辉","ccsj":"2016-06-14 14:51:09","ssdw":"孝感市中心医院","driverPhone":"13871888610","caseId":"108","lsh":"2016061400000000003","cph":"鄂K06772","clid":"101","messageName":"SendCarInfo","cccc":1} 
+[2016-06-14 14:54:46,307] 线程:[9396] Recieved message Unitcode is 522121 Port is 6002:{"sd":0.0,"wd":"31.985227584838867","sj":"2016-06-14 14:54:43","lsh":"2016061400000000003","caseId":"108","fx":"0.0","jd":"118.77556610107422","clid":"101","messageName":"CarLocation","cccc":1} 
+[2016-06-14 14:55:34,662] 线程:[5284] Recieved message Unitcode is 522121 Port is 6003:{"sj":"2016-06-14 14:55:32","lsh":"2016061400000000003","caseId":"108","zt":"到达现场","reason":"","clid":"101","messageName":"CarStep","cccc":1} 
+[2016-06-14 14:57:16,464] 线程:[8116] Recieved message Unitcode is 522121 Port is 6003:{"sj":"2016-06-14 14:57:14","lsh":"2016061400000000003","caseId":"108","zt":"病人上车","reason":"","clid":"101","messageName":"CarStep","cccc":1} 

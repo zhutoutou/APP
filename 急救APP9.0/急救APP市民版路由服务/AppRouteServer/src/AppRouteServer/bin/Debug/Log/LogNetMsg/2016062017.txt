@@ -1,0 +1,9 @@
+[2016-06-20 17:53:31,609] 线程:[2696] Recieved message Unitcode is  Port is 6001:{"messageName":"LoginServer","unitCode":"522121"} 
+[2016-06-20 17:53:31,614] 线程:[12088] Recieved message Unitcode is  Port is 6003:{"messageName":"LoginServer","unitCode":"522121"} 
+[2016-06-20 17:53:31,667] 线程:[12092] Recieved message Unitcode is  Port is 6002:{"messageName":"LoginServer","unitCode":"522121"} 
+[2016-06-20 17:57:21,055] 线程:[9580] Recieved message Unitcode is  Port is 6002:{"messageName":"LoginServer","unitCode":"522121"} 
+[2016-06-20 17:57:21,919] 线程:[9580] Recieved message Unitcode is  Port is 6003:{"messageName":"LoginServer","unitCode":"522121"} 
+[2016-06-20 17:57:22,231] 线程:[6844] Recieved message Unitcode is  Port is 6001:{"messageName":"LoginServer","unitCode":"522121"} 
+[2016-06-20 17:57:52,849] 线程:[8068] Recieved message Unitcode is  Port is 6001:{"messageName":"LoginServer","unitCode":"522121"} 
+[2016-06-20 17:57:53,305] 线程:[7608] Recieved message Unitcode is  Port is 6002:{"messageName":"LoginServer","unitCode":"522121"} 
+[2016-06-20 17:57:53,387] 线程:[8068] Recieved message Unitcode is  Port is 6003:{"messageName":"LoginServer","unitCode":"522121"} 

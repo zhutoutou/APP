@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definitions xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tns="http://ws.firstAid.com/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="CarInfoManagerService" targetNamespace="http://ws.firstAid.com/" xmlns="http://schemas.xmlsoap.org/wsdl/">
+  <types>
+    <xsd:schema>
+      <xsd:import schemaLocation="http://120.25.193.80:8080/AppService/CarInfoManagerPort?xsd=1" namespace="http://ws.firstAid.com/" />
+    </xsd:schema>
+  </types>
+  <message name="addCarInfo">
+    <part name="parameters" element="tns:addCarInfo" />
+  </message>
+  <message name="addCarInfoResponse">
+    <part name="parameters" element="tns:addCarInfoResponse" />
+  </message>
+  <portType name="CarInfoManagerDelegate">
+    <operation name="addCarInfo">
+      <input message="tns:addCarInfo" />
+      <output message="tns:addCarInfoResponse" />
+    </operation>
+  </portType>
+  <binding name="CarInfoManagerPortBinding" type="tns:CarInfoManagerDelegate">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <operation name="addCarInfo">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+  </binding>
+  <service name="CarInfoManagerService">
+    <port name="CarInfoManagerPort" binding="tns:CarInfoManagerPortBinding">
+      <soap:address location="http://120.25.193.80:8080/AppService/CarInfoManagerPort" />
+    </port>
+  </service>
+</definitions>

@@ -1,0 +1,6 @@
+[2016-06-20 15:24:18,558] 线程:[6768] Sent message to RouteServer:{"messageName":"LoginServer","unitCode":"522121"} 
+[2016-06-20 15:24:18,558] 线程:[8836] Sent message to RouteServer:{"messageName":"LoginServer","unitCode":"522121"} 
+[2016-06-20 15:24:18,606] 线程:[6768] Sent message to RouteServer:{"messageName":"LoginServer","unitCode":"522121"} 
+[2016-06-20 15:24:18,873] 线程:[9720] Recieve route server message:{"failtureReason":"","messageName":"LoginServerResp","loginResult":"1"} 
+[2016-06-20 15:24:18,873] 线程:[8216] Recieve route server message:{"failtureReason":"","messageName":"LoginServerResp","loginResult":"1"} 
+[2016-06-20 15:24:19,218] 线程:[8216] Recieve route server message:{"failtureReason":"","messageName":"LoginServerResp","loginResult":"1"} 

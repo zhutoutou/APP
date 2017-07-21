@@ -1,0 +1,9 @@
+[2016-06-20 17:53:31,608] 线程:[8688] Sent message to RouteServer:{"messageName":"LoginServer","unitCode":"522121"} 
+[2016-06-20 17:53:31,608] 线程:[660] Sent message to RouteServer:{"messageName":"LoginServer","unitCode":"522121"} 
+[2016-06-20 17:53:31,660] 线程:[9332] Sent message to RouteServer:{"messageName":"LoginServer","unitCode":"522121"} 
+[2016-06-20 17:57:20,843] 线程:[12284] Sent message to RouteServer:{"messageName":"LoginServer","unitCode":"522121"} 
+[2016-06-20 17:57:21,919] 线程:[3368] Sent message to RouteServer:{"messageName":"LoginServer","unitCode":"522121"} 
+[2016-06-20 17:57:22,081] 线程:[12284] Sent message to RouteServer:{"messageName":"LoginServer","unitCode":"522121"} 
+[2016-06-20 17:57:52,848] 线程:[660] Sent message to RouteServer:{"messageName":"LoginServer","unitCode":"522121"} 
+[2016-06-20 17:57:53,300] 线程:[660] Sent message to RouteServer:{"messageName":"LoginServer","unitCode":"522121"} 
+[2016-06-20 17:57:53,359] 线程:[660] Sent message to RouteServer:{"messageName":"LoginServer","unitCode":"522121"} 

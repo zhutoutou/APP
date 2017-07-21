@@ -1,0 +1,85 @@
+[2017-06-02 11:19:24,218] 线程:[3412] Recieve BServer message:{"ID":"004"} 
+[2017-06-02 11:19:25,218] 线程:[3412] Recieve BServer message:{
+  "ID": "004",
+  "Result": "1"
+} 
+[2017-06-02 11:19:29,218] 线程:[3412] Recieve BServer message:{"ID":"004"} 
+[2017-06-02 11:19:31,218] 线程:[3412] Recieve BServer message:{
+  "ID": "004",
+  "Result": "1"
+} 
+[2017-06-02 11:19:34,109] 线程:[4612] Recieve BServer message:{"ID":"004"} 
+[2017-06-02 11:19:35,109] 线程:[4612] Recieve BServer message:{
+  "ID": "004",
+  "Result": "1"
+} 
+[2017-06-02 11:19:39,109] 线程:[4612] Recieve BServer message:{"ID":"004"} 
+[2017-06-02 11:19:44,109] 线程:[4612] Recieve BServer message:{"ID":"004"} 
+[2017-06-02 11:19:49,109] 线程:[4612] Recieve BServer message:{"ID":"004"} 
+[2017-06-02 11:19:49,109] 线程:[4612] Recieve BServer message:{
+  "ID": "004",
+  "Result": "1"
+} 
+[2017-06-02 11:21:05,468] 线程:[6124] Recieve BServer message:{"ID":"004"} 
+[2017-06-02 11:21:06,468] 线程:[6124] Recieve BServer message:{
+  "ID": "004",
+  "Result": "1"
+} 
+[2017-06-02 11:21:10,468] 线程:[6124] Recieve BServer message:{"ID":"004"} 
+[2017-06-02 11:21:15,468] 线程:[6124] Recieve BServer message:{"ID":"004"} 
+[2017-06-02 11:21:20,468] 线程:[6124] Recieve BServer message:{"ID":"004"} 
+[2017-06-02 11:21:25,468] 线程:[6124] Recieve BServer message:{"ID":"004"} 
+[2017-06-02 11:21:30,468] 线程:[6124] Recieve BServer message:{"ID":"004"} 
+[2017-06-02 11:21:35,468] 线程:[6124] Recieve BServer message:{"ID":"004"} 
+[2017-06-02 11:21:40,468] 线程:[6124] Recieve BServer message:{"ID":"004"} 
+[2017-06-02 11:21:45,468] 线程:[6124] Recieve BServer message:{"ID":"004"} 
+[2017-06-02 11:21:50,468] 线程:[6124] Recieve BServer message:{"ID":"004"} 
+[2017-06-02 11:21:55,468] 线程:[6124] Recieve BServer message:{"ID":"004"} 
+[2017-06-02 11:22:00,468] 线程:[6124] Recieve BServer message:{"ID":"004"} 
+[2017-06-02 11:22:05,468] 线程:[6124] Recieve BServer message:{"ID":"004"} 
+[2017-06-02 11:22:10,468] 线程:[6124] Recieve BServer message:{"ID":"004"} 
+[2017-06-02 11:22:15,468] 线程:[6124] Recieve BServer message:{"ID":"004"} 
+[2017-06-02 11:22:20,468] 线程:[6124] Recieve BServer message:{"ID":"004"} 
+[2017-06-02 11:22:25,468] 线程:[6124] Recieve BServer message:{"ID":"004"} 
+[2017-06-02 11:22:28,468] 线程:[6124] Recieve BServer message:{
+  "lsh": "20170602420600000001",
+  "clid": "001",
+  "cccc": "1",
+  "cph": "鄂F-02521",
+  "ccsj": "2017-06-02 11:22:31",
+  "driverphone": "13871777651",
+  "drivername": "周佩",
+  "doctorphone": null,
+  "doctorname": null,
+  "caseid": "fc54d345-a38a-4b49-89dc-f453c2b8e844",
+  "tel": "15327906001"
+} 
+[2017-06-02 11:22:30,468] 线程:[6124] Recieve BServer message:{"ID":"004"} 
+[2017-06-02 11:22:35,468] 线程:[6124] Recieve BServer message:{"ID":"004"} 
+[2017-06-02 11:22:40,468] 线程:[6124] Recieve BServer message:{"ID":"004"} 
+[2017-06-02 11:22:45,468] 线程:[6124] Recieve BServer message:{"ID":"004"} 
+[2017-06-02 11:22:50,468] 线程:[6124] Recieve BServer message:{"ID":"004"} 
+[2017-06-02 11:22:55,468] 线程:[6124] Recieve BServer message:{"ID":"004"} 
+[2017-06-02 11:23:00,468] 线程:[6124] Recieve BServer message:{"ID":"004"} 
+[2017-06-02 11:23:05,468] 线程:[6124] Recieve BServer message:{"ID":"004"} 
+[2017-06-02 11:23:10,468] 线程:[6124] Recieve BServer message:{"ID":"004"} 
+[2017-06-02 11:23:15,468] 线程:[6124] Recieve BServer message:{"ID":"004"} 
+[2017-06-02 11:23:20,468] 线程:[6124] Recieve BServer message:{"ID":"004"} 
+[2017-06-02 11:23:25,468] 线程:[6124] Recieve BServer message:{"ID":"004"} 
+[2017-06-02 11:23:30,468] 线程:[6124] Recieve BServer message:{"ID":"004"} 
+[2017-06-02 11:23:35,468] 线程:[6124] Recieve BServer message:{"ID":"004"} 
+[2017-06-02 11:23:40,468] 线程:[6124] Recieve BServer message:{"ID":"004"} 
+[2017-06-02 11:23:45,468] 线程:[6124] Recieve BServer message:{"ID":"004"} 
+[2017-06-02 11:23:50,468] 线程:[6124] Recieve BServer message:{"ID":"004"} 
+[2017-06-02 11:23:55,468] 线程:[6124] Recieve BServer message:{"ID":"004"} 
+[2017-06-02 11:24:00,468] 线程:[6124] Recieve BServer message:{"ID":"004"} 
+[2017-06-02 11:24:05,468] 线程:[6124] Recieve BServer message:{"ID":"004"} 
+[2017-06-02 11:24:10,468] 线程:[6124] Recieve BServer message:{"ID":"004"} 
+[2017-06-02 11:24:15,468] 线程:[6124] Recieve BServer message:{"ID":"004"} 
+[2017-06-02 11:24:20,468] 线程:[6124] Recieve BServer message:{"ID":"004"} 
+[2017-06-02 11:24:25,468] 线程:[6124] Recieve BServer message:{"ID":"004"} 
+[2017-06-02 11:24:30,468] 线程:[6124] Recieve BServer message:{"ID":"004"} 
+[2017-06-02 11:24:35,468] 线程:[6124] Recieve BServer message:{"ID":"004"} 
+[2017-06-02 11:24:40,468] 线程:[6124] Recieve BServer message:{"ID":"004"} 
+[2017-06-02 11:24:45,468] 线程:[6124] Recieve BServer message:{"ID":"004"} 
+[2017-06-02 11:24:50,468] 线程:[6124] Recieve BServer message:{"ID":"004"} 

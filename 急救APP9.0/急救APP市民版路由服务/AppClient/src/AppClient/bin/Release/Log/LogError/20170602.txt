@@ -1,0 +1,21 @@
+[2017-06-02 11:20:02,187] 线程:[5548]  
+System.TimeoutException: The host failed to connect. Timeout occured.
+   在 ZIT.Communication.Comm.Client.Tcp.TcpHelper.ConnectToServer(EndPoint endPoint, Int32 timeoutMs) 位置 E:\朱星汉\急救\急救APP市民版路由服务\AppClient\src\COM\Communication\Comm\Client\Tcp\TcpHelper.cs:行号 41
+   在 ZIT.Communication.Comm.Client.Tcp.ScsTcpClient.CreateCommunicationChannel() 位置 E:\朱星汉\急救\急救APP市民版路由服务\AppClient\src\COM\Communication\Comm\Client\Tcp\ScsTcpClient.cs:行号 33
+   在 ZIT.Communication.Comm.Client.ScsClientBase.Connect() 位置 E:\朱星汉\急救\急救APP市民版路由服务\AppClient\src\COM\Communication\Comm\Client\ScsClientBase.cs:行号 150
+   在 ZIT.AppClient.Controller.AppRouteServer.RouteServer.Start() 位置 E:\朱星汉\急救\急救APP市民版路由服务\AppClient\src\Controller\AppRouteServer\RouteServer.cs:行号 72
+   在 ZIT.AppClient.Controller.CoreService.StartService() 位置 E:\朱星汉\急救\急救APP市民版路由服务\AppClient\src\Controller\CoreService.cs:行号 113
+[2017-06-02 11:20:02,265] 线程:[5548]  
+System.TimeoutException: The host failed to connect. Timeout occured.
+   在 ZIT.Communication.Comm.Client.Tcp.TcpHelper.ConnectToServer(EndPoint endPoint, Int32 timeoutMs) 位置 E:\朱星汉\急救\急救APP市民版路由服务\AppClient\src\COM\Communication\Comm\Client\Tcp\TcpHelper.cs:行号 41
+   在 ZIT.Communication.Comm.Client.Tcp.ScsTcpClient.CreateCommunicationChannel() 位置 E:\朱星汉\急救\急救APP市民版路由服务\AppClient\src\COM\Communication\Comm\Client\Tcp\ScsTcpClient.cs:行号 33
+   在 ZIT.Communication.Comm.Client.ScsClientBase.Connect() 位置 E:\朱星汉\急救\急救APP市民版路由服务\AppClient\src\COM\Communication\Comm\Client\ScsClientBase.cs:行号 150
+   在 ZIT.AppClient.Controller.AppRouteServer.RouteServer.Start() 位置 E:\朱星汉\急救\急救APP市民版路由服务\AppClient\src\Controller\AppRouteServer\RouteServer.cs:行号 72
+   在 ZIT.AppClient.Controller.CoreService.StartService() 位置 E:\朱星汉\急救\急救APP市民版路由服务\AppClient\src\Controller\CoreService.cs:行号 120
+[2017-06-02 11:20:02,296] 线程:[5548]  
+System.TimeoutException: The host failed to connect. Timeout occured.
+   在 ZIT.Communication.Comm.Client.Tcp.TcpHelper.ConnectToServer(EndPoint endPoint, Int32 timeoutMs) 位置 E:\朱星汉\急救\急救APP市民版路由服务\AppClient\src\COM\Communication\Comm\Client\Tcp\TcpHelper.cs:行号 41
+   在 ZIT.Communication.Comm.Client.Tcp.ScsTcpClient.CreateCommunicationChannel() 位置 E:\朱星汉\急救\急救APP市民版路由服务\AppClient\src\COM\Communication\Comm\Client\Tcp\ScsTcpClient.cs:行号 33
+   在 ZIT.Communication.Comm.Client.ScsClientBase.Connect() 位置 E:\朱星汉\急救\急救APP市民版路由服务\AppClient\src\COM\Communication\Comm\Client\ScsClientBase.cs:行号 150
+   在 ZIT.AppClient.Controller.AppRouteServer.RouteServer.Start() 位置 E:\朱星汉\急救\急救APP市民版路由服务\AppClient\src\Controller\AppRouteServer\RouteServer.cs:行号 72
+   在 ZIT.AppClient.Controller.CoreService.StartService() 位置 E:\朱星汉\急救\急救APP市民版路由服务\AppClient\src\Controller\CoreService.cs:行号 127

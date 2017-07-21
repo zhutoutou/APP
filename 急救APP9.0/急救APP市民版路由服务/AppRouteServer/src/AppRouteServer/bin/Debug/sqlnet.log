@@ -1,0 +1,931 @@
+
+
+***********************************************************************
+Fatal NI connect error 12541, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=jimmy-work-PC)(PORT=1521))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=orcl)(CID=(PROGRAM=E:\Works\APP\AppRouteServer\src\AppRouteServer\bin\Debug\AppRouteServer.vshost.exe)(HOST=JIMMY-WORK-PC)(USER=jimmy-work))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.2.0.1.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 10.2.0.1.0 - Production
+  Time: 12-6月 -2016 11:50:13
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12541
+    TNS-12541: TNS: 无监听程序
+    ns secondary err code: 12560
+    nt main err code: 511
+    TNS-00511: 无监听程序
+    nt secondary err code: 61
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12541, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=jimmy-work-PC)(PORT=1521))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=orcl)(CID=(PROGRAM=E:\Works\APP\AppRouteServer\src\AppRouteServer\bin\Debug\AppRouteServer.vshost.exe)(HOST=JIMMY-WORK-PC)(USER=jimmy-work))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.2.0.1.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 10.2.0.1.0 - Production
+  Time: 12-6月 -2016 11:50:20
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12541
+    TNS-12541: TNS: 无监听程序
+    ns secondary err code: 12560
+    nt main err code: 511
+    TNS-00511: 无监听程序
+    nt secondary err code: 61
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12541, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=jimmy-work-PC)(PORT=1521))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=orcl)(CID=(PROGRAM=E:\Works\APP\AppRouteServer\src\AppRouteServer\bin\Debug\AppRouteServer.vshost.exe)(HOST=JIMMY-WORK-PC)(USER=jimmy-work))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.2.0.1.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 10.2.0.1.0 - Production
+  Time: 12-6月 -2016 11:50:33
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12541
+    TNS-12541: TNS: 无监听程序
+    ns secondary err code: 12560
+    nt main err code: 511
+    TNS-00511: 无监听程序
+    nt secondary err code: 61
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12541, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=jimmy-work-PC)(PORT=1521))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=orcl)(CID=(PROGRAM=E:\Works\APP\AppRouteServer\src\AppRouteServer\bin\Debug\AppRouteServer.vshost.exe)(HOST=JIMMY-WORK-PC)(USER=jimmy-work))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.2.0.1.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 10.2.0.1.0 - Production
+  Time: 12-6月 -2016 11:50:55
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12541
+    TNS-12541: TNS: 无监听程序
+    ns secondary err code: 12560
+    nt main err code: 511
+    TNS-00511: 无监听程序
+    nt secondary err code: 61
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12541, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=jimmy-work-PC)(PORT=1521))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=orcl)(CID=(PROGRAM=E:\Works\APP\AppRouteServer\src\AppRouteServer\bin\Debug\AppRouteServer.vshost.exe)(HOST=JIMMY-WORK-PC)(USER=jimmy-work))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.2.0.1.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 10.2.0.1.0 - Production
+  Time: 12-6月 -2016 11:51:36
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12541
+    TNS-12541: TNS: 无监听程序
+    ns secondary err code: 12560
+    nt main err code: 511
+    TNS-00511: 无监听程序
+    nt secondary err code: 61
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12541, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=jimmy-work-PC)(PORT=1521))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=orcl)(CID=(PROGRAM=E:\Works\APP\AppRouteServer\src\AppRouteServer\bin\Debug\AppRouteServer.vshost.exe)(HOST=JIMMY-WORK-PC)(USER=jimmy-work))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.2.0.1.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 10.2.0.1.0 - Production
+  Time: 12-6月 -2016 11:52:38
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12541
+    TNS-12541: TNS: 无监听程序
+    ns secondary err code: 12560
+    nt main err code: 511
+    TNS-00511: 无监听程序
+    nt secondary err code: 61
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12541, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=jimmy-work-PC)(PORT=1521))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=orcl)(CID=(PROGRAM=E:\Works\APP\AppRouteServer\src\AppRouteServer\bin\Debug\AppRouteServer.vshost.exe)(HOST=JIMMY-WORK-PC)(USER=jimmy-work))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.2.0.1.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 10.2.0.1.0 - Production
+  Time: 12-6月 -2016 11:53:40
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12541
+    TNS-12541: TNS: 无监听程序
+    ns secondary err code: 12560
+    nt main err code: 511
+    TNS-00511: 无监听程序
+    nt secondary err code: 61
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12541, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=jimmy-work-PC)(PORT=1521))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=orcl)(CID=(PROGRAM=E:\Works\APP\AppRouteServer\src\AppRouteServer\bin\Debug\AppRouteServer.vshost.exe)(HOST=JIMMY-WORK-PC)(USER=jimmy-work))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.2.0.1.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 10.2.0.1.0 - Production
+  Time: 12-6月 -2016 11:54:41
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12541
+    TNS-12541: TNS: 无监听程序
+    ns secondary err code: 12560
+    nt main err code: 511
+    TNS-00511: 无监听程序
+    nt secondary err code: 61
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12541, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=jimmy-work-PC)(PORT=1521))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=orcl)(CID=(PROGRAM=E:\Works\APP\AppRouteServer\src\AppRouteServer\bin\Debug\AppRouteServer.vshost.exe)(HOST=JIMMY-WORK-PC)(USER=jimmy-work))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.2.0.1.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 10.2.0.1.0 - Production
+  Time: 12-6月 -2016 11:55:43
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12541
+    TNS-12541: TNS: 无监听程序
+    ns secondary err code: 12560
+    nt main err code: 511
+    TNS-00511: 无监听程序
+    nt secondary err code: 61
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12541, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=jimmy-work-PC)(PORT=1521))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=orcl)(CID=(PROGRAM=E:\Works\APP\AppRouteServer\src\AppRouteServer\bin\Debug\AppRouteServer.vshost.exe)(HOST=JIMMY-WORK-PC)(USER=jimmy-work))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.2.0.1.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 10.2.0.1.0 - Production
+  Time: 12-6月 -2016 11:56:45
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12541
+    TNS-12541: TNS: 无监听程序
+    ns secondary err code: 12560
+    nt main err code: 511
+    TNS-00511: 无监听程序
+    nt secondary err code: 61
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12541, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=jimmy-work-PC)(PORT=1521))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=orcl)(CID=(PROGRAM=E:\Works\APP\AppRouteServer\src\AppRouteServer\bin\Debug\AppRouteServer.vshost.exe)(HOST=JIMMY-WORK-PC)(USER=jimmy-work))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.2.0.1.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 10.2.0.1.0 - Production
+  Time: 12-6月 -2016 11:57:47
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12541
+    TNS-12541: TNS: 无监听程序
+    ns secondary err code: 12560
+    nt main err code: 511
+    TNS-00511: 无监听程序
+    nt secondary err code: 61
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12541, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=jimmy-work-PC)(PORT=1521))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=orcl)(CID=(PROGRAM=E:\Works\APP\AppRouteServer\src\AppRouteServer\bin\Debug\AppRouteServer.vshost.exe)(HOST=JIMMY-WORK-PC)(USER=jimmy-work))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.2.0.1.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 10.2.0.1.0 - Production
+  Time: 12-6月 -2016 11:58:49
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12541
+    TNS-12541: TNS: 无监听程序
+    ns secondary err code: 12560
+    nt main err code: 511
+    TNS-00511: 无监听程序
+    nt secondary err code: 61
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12541, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=jimmy-work-PC)(PORT=1521))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=orcl)(CID=(PROGRAM=E:\Works\APP\AppRouteServer\src\AppRouteServer\bin\Debug\AppRouteServer.vshost.exe)(HOST=JIMMY-WORK-PC)(USER=jimmy-work))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.2.0.1.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 10.2.0.1.0 - Production
+  Time: 12-6月 -2016 11:59:51
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12541
+    TNS-12541: TNS: 无监听程序
+    ns secondary err code: 12560
+    nt main err code: 511
+    TNS-00511: 无监听程序
+    nt secondary err code: 61
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12541, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=jimmy-work-PC)(PORT=1521))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=orcl)(CID=(PROGRAM=E:\Works\APP\AppRouteServer\src\AppRouteServer\bin\Debug\AppRouteServer.vshost.exe)(HOST=JIMMY-WORK-PC)(USER=jimmy-work))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.2.0.1.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 10.2.0.1.0 - Production
+  Time: 12-6月 -2016 12:00:53
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12541
+    TNS-12541: TNS: 无监听程序
+    ns secondary err code: 12560
+    nt main err code: 511
+    TNS-00511: 无监听程序
+    nt secondary err code: 61
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12541, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=jimmy-work-PC)(PORT=1521))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=orcl)(CID=(PROGRAM=E:\Works\APP\AppRouteServer\src\AppRouteServer\bin\Debug\AppRouteServer.vshost.exe)(HOST=JIMMY-WORK-PC)(USER=jimmy-work))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.2.0.1.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 10.2.0.1.0 - Production
+  Time: 12-6月 -2016 12:01:54
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12541
+    TNS-12541: TNS: 无监听程序
+    ns secondary err code: 12560
+    nt main err code: 511
+    TNS-00511: 无监听程序
+    nt secondary err code: 61
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12541, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=jimmy-work-PC)(PORT=1521))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=orcl)(CID=(PROGRAM=E:\Works\APP\AppRouteServer\src\AppRouteServer\bin\Debug\AppRouteServer.vshost.exe)(HOST=JIMMY-WORK-PC)(USER=jimmy-work))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.2.0.1.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 10.2.0.1.0 - Production
+  Time: 12-6月 -2016 12:02:56
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12541
+    TNS-12541: TNS: 无监听程序
+    ns secondary err code: 12560
+    nt main err code: 511
+    TNS-00511: 无监听程序
+    nt secondary err code: 61
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12541, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=jimmy-work-PC)(PORT=1521))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=orcl)(CID=(PROGRAM=E:\Works\APP\AppRouteServer\src\AppRouteServer\bin\Debug\AppRouteServer.vshost.exe)(HOST=JIMMY-WORK-PC)(USER=jimmy-work))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.2.0.1.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 10.2.0.1.0 - Production
+  Time: 12-6月 -2016 12:03:58
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12541
+    TNS-12541: TNS: 无监听程序
+    ns secondary err code: 12560
+    nt main err code: 511
+    TNS-00511: 无监听程序
+    nt secondary err code: 61
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12541, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=jimmy-work-PC)(PORT=1521))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=orcl)(CID=(PROGRAM=E:\Works\APP\AppRouteServer\src\AppRouteServer\bin\Debug\AppRouteServer.vshost.exe)(HOST=JIMMY-WORK-PC)(USER=jimmy-work))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.2.0.1.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 10.2.0.1.0 - Production
+  Time: 12-6月 -2016 12:05:00
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12541
+    TNS-12541: TNS: 无监听程序
+    ns secondary err code: 12560
+    nt main err code: 511
+    TNS-00511: 无监听程序
+    nt secondary err code: 61
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12541, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=jimmy-work-PC)(PORT=1521))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=orcl)(CID=(PROGRAM=E:\Works\APP\AppRouteServer\src\AppRouteServer\bin\Debug\AppRouteServer.vshost.exe)(HOST=JIMMY-WORK-PC)(USER=jimmy-work))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.2.0.1.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 10.2.0.1.0 - Production
+  Time: 12-6月 -2016 12:06:02
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12541
+    TNS-12541: TNS: 无监听程序
+    ns secondary err code: 12560
+    nt main err code: 511
+    TNS-00511: 无监听程序
+    nt secondary err code: 61
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12541, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=jimmy-work-PC)(PORT=1521))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=orcl)(CID=(PROGRAM=E:\Works\APP\AppRouteServer\src\AppRouteServer\bin\Debug\AppRouteServer.vshost.exe)(HOST=JIMMY-WORK-PC)(USER=jimmy-work))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.2.0.1.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 10.2.0.1.0 - Production
+  Time: 12-6月 -2016 12:07:04
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12541
+    TNS-12541: TNS: 无监听程序
+    ns secondary err code: 12560
+    nt main err code: 511
+    TNS-00511: 无监听程序
+    nt secondary err code: 61
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12541, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=jimmy-work-PC)(PORT=1521))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=orcl)(CID=(PROGRAM=E:\Works\APP\AppRouteServer\src\AppRouteServer\bin\Debug\AppRouteServer.vshost.exe)(HOST=JIMMY-WORK-PC)(USER=jimmy-work))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.2.0.1.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 10.2.0.1.0 - Production
+  Time: 12-6月 -2016 12:08:05
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12541
+    TNS-12541: TNS: 无监听程序
+    ns secondary err code: 12560
+    nt main err code: 511
+    TNS-00511: 无监听程序
+    nt secondary err code: 61
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12541, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=jimmy-work-PC)(PORT=1521))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=orcl)(CID=(PROGRAM=E:\Works\APP\AppRouteServer\src\AppRouteServer\bin\Debug\AppRouteServer.vshost.exe)(HOST=JIMMY-WORK-PC)(USER=jimmy-work))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.2.0.1.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 10.2.0.1.0 - Production
+  Time: 12-6月 -2016 12:09:07
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12541
+    TNS-12541: TNS: 无监听程序
+    ns secondary err code: 12560
+    nt main err code: 511
+    TNS-00511: 无监听程序
+    nt secondary err code: 61
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12541, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=jimmy-work-PC)(PORT=1521))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=orcl)(CID=(PROGRAM=E:\Works\APP\AppRouteServer\src\AppRouteServer\bin\Debug\AppRouteServer.vshost.exe)(HOST=JIMMY-WORK-PC)(USER=jimmy-work))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.2.0.1.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 10.2.0.1.0 - Production
+  Time: 12-6月 -2016 12:10:09
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12541
+    TNS-12541: TNS: 无监听程序
+    ns secondary err code: 12560
+    nt main err code: 511
+    TNS-00511: 无监听程序
+    nt secondary err code: 61
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12541, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=jimmy-work-PC)(PORT=1521))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=orcl)(CID=(PROGRAM=E:\Works\APP\AppRouteServer\src\AppRouteServer\bin\Debug\AppRouteServer.vshost.exe)(HOST=JIMMY-WORK-PC)(USER=jimmy-work))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.2.0.1.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 10.2.0.1.0 - Production
+  Time: 12-6月 -2016 12:10:16
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12541
+    TNS-12541: TNS: 无监听程序
+    ns secondary err code: 12560
+    nt main err code: 511
+    TNS-00511: 无监听程序
+    nt secondary err code: 61
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12541, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=jimmy-work-PC)(PORT=1521))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=orcl)(CID=(PROGRAM=E:\Works\APP\AppRouteServer\src\AppRouteServer\bin\Debug\AppRouteServer.vshost.exe)(HOST=JIMMY-WORK-PC)(USER=jimmy-work))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.2.0.1.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 10.2.0.1.0 - Production
+  Time: 12-6月 -2016 12:10:28
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12541
+    TNS-12541: TNS: 无监听程序
+    ns secondary err code: 12560
+    nt main err code: 511
+    TNS-00511: 无监听程序
+    nt secondary err code: 61
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12541, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=jimmy-work-PC)(PORT=1521))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=orcl)(CID=(PROGRAM=E:\Works\APP\AppRouteServer\src\AppRouteServer\bin\Debug\AppRouteServer.vshost.exe)(HOST=JIMMY-WORK-PC)(USER=jimmy-work))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.2.0.1.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 10.2.0.1.0 - Production
+  Time: 12-6月 -2016 12:10:50
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12541
+    TNS-12541: TNS: 无监听程序
+    ns secondary err code: 12560
+    nt main err code: 511
+    TNS-00511: 无监听程序
+    nt secondary err code: 61
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12541, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=jimmy-work-PC)(PORT=1521))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=orcl)(CID=(PROGRAM=E:\Works\APP\AppRouteServer\src\AppRouteServer\bin\Debug\AppRouteServer.vshost.exe)(HOST=JIMMY-WORK-PC)(USER=jimmy-work))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.2.0.1.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 10.2.0.1.0 - Production
+  Time: 12-6月 -2016 12:11:31
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12541
+    TNS-12541: TNS: 无监听程序
+    ns secondary err code: 12560
+    nt main err code: 511
+    TNS-00511: 无监听程序
+    nt secondary err code: 61
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12541, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=jimmy-work-PC)(PORT=1521))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=orcl)(CID=(PROGRAM=E:\Works\APP\AppRouteServer\src\AppRouteServer\bin\Debug\AppRouteServer.vshost.exe)(HOST=JIMMY-WORK-PC)(USER=jimmy-work))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.2.0.1.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 10.2.0.1.0 - Production
+  Time: 12-6月 -2016 12:12:33
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12541
+    TNS-12541: TNS: 无监听程序
+    ns secondary err code: 12560
+    nt main err code: 511
+    TNS-00511: 无监听程序
+    nt secondary err code: 61
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12541, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=jimmy-work-PC)(PORT=1521))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=orcl)(CID=(PROGRAM=E:\Works\APP\AppRouteServer\src\AppRouteServer\bin\Debug\AppRouteServer.vshost.exe)(HOST=JIMMY-WORK-PC)(USER=jimmy-work))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.2.0.1.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 10.2.0.1.0 - Production
+  Time: 12-6月 -2016 12:13:35
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12541
+    TNS-12541: TNS: 无监听程序
+    ns secondary err code: 12560
+    nt main err code: 511
+    TNS-00511: 无监听程序
+    nt secondary err code: 61
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12541, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=jimmy-work-PC)(PORT=1521))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=orcl)(CID=(PROGRAM=E:\Works\APP\AppRouteServer\src\AppRouteServer\bin\Debug\AppRouteServer.vshost.exe)(HOST=JIMMY-WORK-PC)(USER=jimmy-work))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.2.0.1.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 10.2.0.1.0 - Production
+  Time: 12-6月 -2016 12:14:36
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12541
+    TNS-12541: TNS: 无监听程序
+    ns secondary err code: 12560
+    nt main err code: 511
+    TNS-00511: 无监听程序
+    nt secondary err code: 61
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12541, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=jimmy-work-PC)(PORT=1521))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=orcl)(CID=(PROGRAM=E:\Works\APP\AppRouteServer\src\AppRouteServer\bin\Debug\AppRouteServer.vshost.exe)(HOST=JIMMY-WORK-PC)(USER=jimmy-work))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.2.0.1.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 10.2.0.1.0 - Production
+  Time: 12-6月 -2016 12:15:38
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12541
+    TNS-12541: TNS: 无监听程序
+    ns secondary err code: 12560
+    nt main err code: 511
+    TNS-00511: 无监听程序
+    nt secondary err code: 61
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12541, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=jimmy-work-PC)(PORT=1521))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=orcl)(CID=(PROGRAM=E:\Works\APP\AppRouteServer\src\AppRouteServer\bin\Debug\AppRouteServer.vshost.exe)(HOST=JIMMY-WORK-PC)(USER=jimmy-work))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.2.0.1.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 10.2.0.1.0 - Production
+  Time: 12-6月 -2016 12:16:40
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12541
+    TNS-12541: TNS: 无监听程序
+    ns secondary err code: 12560
+    nt main err code: 511
+    TNS-00511: 无监听程序
+    nt secondary err code: 61
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12541, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=jimmy-work-PC)(PORT=1521))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=orcl)(CID=(PROGRAM=E:\Works\APP\AppRouteServer\src\AppRouteServer\bin\Debug\AppRouteServer.vshost.exe)(HOST=JIMMY-WORK-PC)(USER=jimmy-work))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.2.0.1.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 10.2.0.1.0 - Production
+  Time: 12-6月 -2016 12:16:47
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12541
+    TNS-12541: TNS: 无监听程序
+    ns secondary err code: 12560
+    nt main err code: 511
+    TNS-00511: 无监听程序
+    nt secondary err code: 61
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12541, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=jimmy-work-PC)(PORT=1521))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=orcl)(CID=(PROGRAM=E:\Works\APP\AppRouteServer\src\AppRouteServer\bin\Debug\AppRouteServer.vshost.exe)(HOST=JIMMY-WORK-PC)(USER=jimmy-work))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.2.0.1.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 10.2.0.1.0 - Production
+  Time: 12-6月 -2016 12:16:59
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12541
+    TNS-12541: TNS: 无监听程序
+    ns secondary err code: 12560
+    nt main err code: 511
+    TNS-00511: 无监听程序
+    nt secondary err code: 61
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12541, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=jimmy-work-PC)(PORT=1521))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=orcl)(CID=(PROGRAM=E:\Works\APP\AppRouteServer\src\AppRouteServer\bin\Debug\AppRouteServer.vshost.exe)(HOST=JIMMY-WORK-PC)(USER=jimmy-work))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.2.0.1.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 10.2.0.1.0 - Production
+  Time: 12-6月 -2016 12:17:20
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12541
+    TNS-12541: TNS: 无监听程序
+    ns secondary err code: 12560
+    nt main err code: 511
+    TNS-00511: 无监听程序
+    nt secondary err code: 61
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12541, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=jimmy-work-PC)(PORT=1521))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=orcl)(CID=(PROGRAM=E:\Works\APP\AppRouteServer\src\AppRouteServer\bin\Debug\AppRouteServer.vshost.exe)(HOST=JIMMY-WORK-PC)(USER=jimmy-work))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.2.0.1.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 10.2.0.1.0 - Production
+  Time: 12-6月 -2016 12:18:02
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12541
+    TNS-12541: TNS: 无监听程序
+    ns secondary err code: 12560
+    nt main err code: 511
+    TNS-00511: 无监听程序
+    nt secondary err code: 61
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12541, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=jimmy-work-PC)(PORT=1521))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=orcl)(CID=(PROGRAM=E:\Works\APP\AppRouteServer\src\AppRouteServer\bin\Debug\AppRouteServer.vshost.exe)(HOST=JIMMY-WORK-PC)(USER=jimmy-work))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.2.0.1.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 10.2.0.1.0 - Production
+  Time: 12-6月 -2016 12:19:04
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12541
+    TNS-12541: TNS: 无监听程序
+    ns secondary err code: 12560
+    nt main err code: 511
+    TNS-00511: 无监听程序
+    nt secondary err code: 61
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12541, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=jimmy-work-PC)(PORT=1521))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=orcl)(CID=(PROGRAM=E:\Works\APP\AppRouteServer\src\AppRouteServer\bin\Debug\AppRouteServer.vshost.exe)(HOST=JIMMY-WORK-PC)(USER=jimmy-work))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.2.0.1.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 10.2.0.1.0 - Production
+  Time: 12-6月 -2016 12:20:06
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12541
+    TNS-12541: TNS: 无监听程序
+    ns secondary err code: 12560
+    nt main err code: 511
+    TNS-00511: 无监听程序
+    nt secondary err code: 61
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12170.
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.2.0.1.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 10.2.0.1.0 - Production
+  Time: 20-6月 -2016 15:30:36
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12535
+    TNS-12535: TNS: 操作超时
+    ns secondary err code: 12560
+    nt main err code: 505
+    TNS-00505: 操作超时
+    nt secondary err code: 60
+    nt OS err code: 0
+  Client address: <unknown>
+
+
+***********************************************************************
+Fatal NI connect error 12170.
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.2.0.1.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 10.2.0.1.0 - Production
+  Time: 20-6月 -2016 15:53:26
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12535
+    TNS-12535: TNS: 操作超时
+    ns secondary err code: 12560
+    nt main err code: 505
+    TNS-00505: 操作超时
+    nt secondary err code: 60
+    nt OS err code: 0
+  Client address: <unknown>
+
+
+***********************************************************************
+Fatal NI connect error 12170.
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.2.0.1.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 10.2.0.1.0 - Production
+  Time: 20-6月 -2016 16:23:05
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12535
+    TNS-12535: TNS: 操作超时
+    ns secondary err code: 12560
+    nt main err code: 505
+    TNS-00505: 操作超时
+    nt secondary err code: 60
+    nt OS err code: 0
+  Client address: <unknown>
+
+
+***********************************************************************
+Fatal NI connect error 12170.
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.2.0.1.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 10.2.0.1.0 - Production
+  Time: 20-6月 -2016 16:41:51
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12535
+    TNS-12535: TNS: 操作超时
+    ns secondary err code: 12560
+    nt main err code: 505
+    TNS-00505: 操作超时
+    nt secondary err code: 60
+    nt OS err code: 0
+  Client address: <unknown>
+
+
+***********************************************************************
+Fatal NI connect error 12170.
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.2.0.1.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 10.2.0.1.0 - Production
+  Time: 20-6月 -2016 17:53:23
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12535
+    TNS-12535: TNS: 操作超时
+    ns secondary err code: 12560
+    nt main err code: 505
+    TNS-00505: 操作超时
+    nt secondary err code: 60
+    nt OS err code: 0
+  Client address: <unknown>
+
+
+***********************************************************************
+Fatal NI connect error 12541, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=jimmy-work-PC)(PORT=1521))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=orcl)(CID=(PROGRAM=E:\Works\APP\AppRouteServer\src\AppRouteServer\bin\Debug\AppRouteServer.vshost.exe)(HOST=JIMMY-WORK-PC)(USER=jimmy-work))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.2.0.1.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 10.2.0.1.0 - Production
+  Time: 20-6月 -2016 17:57:11
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12541
+    TNS-12541: TNS: 无监听程序
+    ns secondary err code: 12560
+    nt main err code: 511
+    TNS-00511: 无监听程序
+    nt secondary err code: 61
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12541, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=jimmy-work-PC)(PORT=1521))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=orcl)(CID=(PROGRAM=E:\Works\APP\AppRouteServer\src\AppRouteServer\bin\Debug\AppRouteServer.vshost.exe)(HOST=JIMMY-WORK-PC)(USER=jimmy-work))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.2.0.1.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 10.2.0.1.0 - Production
+  Time: 20-6月 -2016 17:57:18
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12541
+    TNS-12541: TNS: 无监听程序
+    ns secondary err code: 12560
+    nt main err code: 511
+    TNS-00511: 无监听程序
+    nt secondary err code: 61
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12541, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=jimmy-work-PC)(PORT=1521))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=orcl)(CID=(PROGRAM=E:\Works\APP\AppRouteServer\src\AppRouteServer\bin\Debug\AppRouteServer.vshost.exe)(HOST=JIMMY-WORK-PC)(USER=jimmy-work))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.2.0.1.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 10.2.0.1.0 - Production
+  Time: 20-6月 -2016 17:57:29
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12541
+    TNS-12541: TNS: 无监听程序
+    ns secondary err code: 12560
+    nt main err code: 511
+    TNS-00511: 无监听程序
+    nt secondary err code: 61
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12541, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=jimmy-work-PC)(PORT=1521))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=orcl)(CID=(PROGRAM=E:\Works\APP\AppRouteServer\src\AppRouteServer\bin\Debug\AppRouteServer.vshost.exe)(HOST=JIMMY-WORK-PC)(USER=jimmy-work))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.2.0.1.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 10.2.0.1.0 - Production
+  Time: 20-6月 -2016 17:57:51
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12541
+    TNS-12541: TNS: 无监听程序
+    ns secondary err code: 12560
+    nt main err code: 511
+    TNS-00511: 无监听程序
+    nt secondary err code: 61
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12541, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=jimmy-work-PC)(PORT=1521))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=orcl)(CID=(PROGRAM=E:\Works\APP\AppRouteServer\src\AppRouteServer\bin\Debug\AppRouteServer.vshost.exe)(HOST=JIMMY-WORK-PC)(USER=jimmy-work))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.2.0.1.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 10.2.0.1.0 - Production
+  Time: 20-6月 -2016 17:58:34
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12541
+    TNS-12541: TNS: 无监听程序
+    ns secondary err code: 12560
+    nt main err code: 511
+    TNS-00511: 无监听程序
+    nt secondary err code: 61
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12170.
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.2.0.1.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 10.2.0.1.0 - Production
+  Time: 20-6月 -2016 17:59:11
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12535
+    TNS-12535: TNS: 操作超时
+    ns secondary err code: 12560
+    nt main err code: 505
+    TNS-00505: 操作超时
+    nt secondary err code: 60
+    nt OS err code: 0
+  Client address: <unknown>

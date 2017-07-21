@@ -1,0 +1,69 @@
+[2016-06-14 10:32:32,425] 线程:[7832] 程序异常! 
+System.Threading.ThreadAbortException: 正在中止线程。
+   在 System.Data.SimpleType.CreateSimpleType(StorageType typeCode, Type type)
+   在 System.Data.DataColumn..ctor(String columnName, Type dataType, String expr, MappingType type)
+   在 System.Data.Common.DataColumnMapping.CreateDataColumnBySchemaAction(String sourceColumn, String dataSetColumn, DataTable dataTable, Type dataType, MissingSchemaAction schemaAction)
+   在 System.Data.ProviderBase.SchemaMapping.SetupSchemaWithoutKeyInfo(MissingMappingAction mappingAction, MissingSchemaAction schemaAction, Boolean gettingData, DataColumn parentChapterColumn, Object chapterValue)
+   在 System.Data.ProviderBase.SchemaMapping..ctor(DataAdapter adapter, DataSet dataset, DataTable datatable, DataReaderContainer dataReader, Boolean keyInfo, SchemaType schemaType, String sourceTableName, Boolean gettingData, DataColumn parentChapterColumn, Object parentChapterValue)
+   在 System.Data.Common.DataAdapter.FillMapping(DataSet dataset, DataTable datatable, String srcTable, DataReaderContainer dataReader, Int32 schemaCount, DataColumn parentChapterColumn, Object parentChapterValue)
+   在 System.Data.Common.DataAdapter.FillFromReader(DataSet dataset, DataTable datatable, String srcTable, DataReaderContainer dataReader, Int32 startRecord, Int32 maxRecords, DataColumn parentChapterColumn, Object parentChapterValue)
+   在 System.Data.Common.DataAdapter.Fill(DataSet dataSet, String srcTable, IDataReader dataReader, Int32 startRecord, Int32 maxRecords)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, String srcTable)
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.Query(String connstr, String SQLString, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 394
+   在 ZIT.AppRouteServer.DataAccess.Oracle.DBQualityEvaluation.GetNewQualityEvaluation() 位置 E:\Works\APP\AppRouteServer\src\DataAccess\Oracle\DBQualityEvaluation.cs:行号 82
+   在 ZIT.AppRouteServer.Controller.DataAnalysis.QualityComment.Todo() 位置 E:\Works\APP\AppRouteServer\src\Controller\DataAnalysis\QualityComment.cs:行号 43
+[2016-06-14 10:32:32,425] 线程:[7704] 程序异常! 
+System.Threading.ThreadAbortException: 正在中止线程。
+   在 System.Data.Common.UnsafeNativeMethods.OCIStmtExecute(OciHandle svchp, OciHandle stmtp, OciHandle errhp, UInt32 iters, UInt32 rowoff, IntPtr snap_in, IntPtr snap_out, MODE mode)
+   在 System.Data.OracleClient.TracedNativeMethods.OCIStmtExecute(OciHandle svchp, OciHandle stmtp, OciHandle errhp, Int32 iters, MODE mode)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.OracleClient.OracleCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, String srcTable)
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.Query(String connstr, String SQLString, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 394
+   在 ZIT.AppRouteServer.DataAccess.Oracle.DBAppCallInfo.GetNewCallInfo() 位置 E:\Works\APP\AppRouteServer\src\DataAccess\Oracle\DBAppCallInfo.cs:行号 81
+   在 ZIT.AppRouteServer.Controller.DataAnalysis.CallInfo.Todo() 位置 E:\Works\APP\AppRouteServer\src\Controller\DataAnalysis\CallInfo.cs:行号 46
+[2016-06-14 12:04:55,783] 线程:[5776] 程序异常! 
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 ZIT.AppRouteServer.DataAccess.Oracle.DBRouter.GetUnitCodeByRegistCity(String province, String city, String area) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\Oracle\DBRouter.cs:行号 33
+   在 ZIT.AppRouteServer.Controller.DataAnalysis.CallInfo.HandleAppCallInfo(AppCallInfo aci) 位置 E:\Works\APP\AppRouteServer\src\Controller\DataAnalysis\CallInfo.cs:行号 65
+[2016-06-14 12:06:50,179] 线程:[4556] 程序异常! 
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 ZIT.AppRouteServer.DataAccess.Oracle.DBRouter.GetUnitCodeByRegistCity(String province, String city, String area) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\Oracle\DBRouter.cs:行号 33
+   在 ZIT.AppRouteServer.Controller.DataAnalysis.CallInfo.HandleAppCallInfo(AppCallInfo aci) 位置 E:\Works\APP\AppRouteServer\src\Controller\DataAnalysis\CallInfo.cs:行号 65
+[2016-06-14 13:59:48,950] 线程:[8828]  
+System.ServiceModel.EndpointNotFoundException: 没有终结点在侦听可以接受消息的 http://120.25.193.80:8080/AppService/CarInfoManagerPort。这通常是由于不正确的地址或者 SOAP 操作导致的。如果存在此情况，请参见 InnerException 以了解详细信息。 ---> System.Net.WebException: 无法连接到远程服务器 ---> System.Net.Sockets.SocketException: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 120.25.193.80:8080
+   在 System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   在 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.HttpWebRequest.EndGetRequestStream(IAsyncResult asyncResult, TransportContext& context)
+   在 System.ServiceModel.Channels.HttpOutput.WebRequestHttpOutput.GetOutputStreamAsyncResult.CompleteGetRequestStream(IAsyncResult result)
+   --- 内部异常堆栈跟踪的结尾 ---
+
+Server stack trace: 
+   在 System.Runtime.AsyncResult.End[TAsyncResult](IAsyncResult result)
+   在 System.ServiceModel.Channels.ServiceChannel.SendAsyncResult.End(SendAsyncResult result)
+   在 System.ServiceModel.Channels.ServiceChannel.EndCall(String action, Object[] outs, IAsyncResult result)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.InvokeEndService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 ZIT.AppRouteServer.AppServerAPI.CarInfoManagerService.CarInfoManagerDelegate.EndaddCarInfo(IAsyncResult result)
+   在 ZIT.AppRouteServer.AppServerAPI.CarInfoManagerService.CarInfoManagerDelegateClient.ZIT.AppRouteServer.AppServerAPI.CarInfoManagerService.CarInfoManagerDelegate.EndaddCarInfo(IAsyncResult result) 位置 E:\Works\APP\AppRouteServer\src\AppServerAPI\Service References\CarInfoManagerService\Reference.cs:行号 202
+   在 ZIT.AppRouteServer.AppServerAPI.CarInfoManagerService.CarInfoManagerDelegateClient.EndaddCarInfo(IAsyncResult result) 位置 E:\Works\APP\AppRouteServer\src\AppServerAPI\Service References\CarInfoManagerService\Reference.cs:行号 207
+   在 ZIT.AppRouteServer.AppServerAPI.CarInfoManagerService.CarInfoManagerDelegateClient.OnEndaddCarInfo(IAsyncResult result) 位置 E:\Works\APP\AppRouteServer\src\AppServerAPI\Service References\CarInfoManagerService\Reference.cs:行号 218
+   在 System.ServiceModel.ClientBase`1.OnAsyncCallCompleted(IAsyncResult result)
+[2016-06-14 14:44:38,828] 线程:[404] 运行错误! 
+System.Exception: 未找到对于的单位编码
+[2016-06-14 14:45:34,459] 线程:[404] 运行错误! 
+System.Exception: 未找到对于的单位编码
+[2016-06-14 15:13:52,781] 线程:[404] 运行错误! 
+System.Exception: 未找到对于的单位编码

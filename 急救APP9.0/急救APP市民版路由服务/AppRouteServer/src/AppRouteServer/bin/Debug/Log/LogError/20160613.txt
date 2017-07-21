@@ -1,0 +1,6 @@
+[2016-06-13 19:25:06,058] 线程:[2812]  
+System.Exception: ORA-01400: 无法将 NULL 插入 ("APPINFO"."CARLOCATION"."LSH")
+
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.ExecuteSql(String connstr, String SQLString, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 279
+   在 ZIT.AppRouteServer.DataAccess.Oracle.DBCarLocation.Add(CarLocation model) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\Oracle\DBCarLocation.cs:行号 45
+   在 ZIT.AppRouteServer.AppServerAPI.APICarLocation.HandleCarLocation(CarLocation cl) 位置 E:\Works\APP\AppRouteServer\src\AppServerAPI\APICarLocation.cs:行号 22

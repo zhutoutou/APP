@@ -1,0 +1,1687 @@
+[2016-06-20 15:49:04,188] 线程:[4548] 程序异常! 
+System.Exception: ORA-03113: 通信通道的文件结束
+
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.Query(String connstr, String SQLString, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 399
+   在 ZIT.AppRouteServer.DataAccess.Oracle.DBAppCallInfo.GetNewCallInfo() 位置 E:\Works\APP\AppRouteServer\src\DataAccess\Oracle\DBAppCallInfo.cs:行号 81
+   在 ZIT.AppRouteServer.Controller.DataAnalysis.CallInfo.Todo() 位置 E:\Works\APP\AppRouteServer\src\Controller\DataAnalysis\CallInfo.cs:行号 46
+[2016-06-20 15:53:11,087] 线程:[3052] 程序异常! 
+System.Exception: ORA-03113: 通信通道的文件结束
+
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.Query(String connstr, String SQLString, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 399
+   在 ZIT.AppRouteServer.DataAccess.Oracle.DBQualityEvaluation.GetNewQualityEvaluation() 位置 E:\Works\APP\AppRouteServer\src\DataAccess\Oracle\DBQualityEvaluation.cs:行号 82
+   在 ZIT.AppRouteServer.Controller.DataAnalysis.QualityComment.Todo() 位置 E:\Works\APP\AppRouteServer\src\Controller\DataAnalysis\QualityComment.cs:行号 43
+[2016-06-20 15:53:26,949] 线程:[3052] 程序异常! 
+System.Data.OracleClient.OracleException (0x80131938): ORA-12170: TNS: 连接超时
+
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.PrepareCommand(OracleCommand cmd, OracleConnection conn, OracleTransaction trans, String cmdText, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 410
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.Query(String connstr, String SQLString, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 388
+   在 ZIT.AppRouteServer.DataAccess.Oracle.DBQualityEvaluation.GetNewQualityEvaluation() 位置 E:\Works\APP\AppRouteServer\src\DataAccess\Oracle\DBQualityEvaluation.cs:行号 82
+   在 ZIT.AppRouteServer.Controller.DataAnalysis.QualityComment.Todo() 位置 E:\Works\APP\AppRouteServer\src\Controller\DataAnalysis\QualityComment.cs:行号 43
+[2016-06-20 16:02:06,294] 线程:[3052] 程序异常! 
+System.Exception: ORA-03113: 通信通道的文件结束
+
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.Query(String connstr, String SQLString, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 399
+   在 ZIT.AppRouteServer.DataAccess.Oracle.DBQualityEvaluation.GetNewQualityEvaluation() 位置 E:\Works\APP\AppRouteServer\src\DataAccess\Oracle\DBQualityEvaluation.cs:行号 82
+   在 ZIT.AppRouteServer.Controller.DataAnalysis.QualityComment.Todo() 位置 E:\Works\APP\AppRouteServer\src\Controller\DataAnalysis\QualityComment.cs:行号 43
+[2016-06-20 16:04:30,546] 线程:[4548] 程序异常! 
+System.Exception: ORA-03113: 通信通道的文件结束
+
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.Query(String connstr, String SQLString, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 399
+   在 ZIT.AppRouteServer.DataAccess.Oracle.DBAppCallInfo.GetNewCallInfo() 位置 E:\Works\APP\AppRouteServer\src\DataAccess\Oracle\DBAppCallInfo.cs:行号 81
+   在 ZIT.AppRouteServer.Controller.DataAnalysis.CallInfo.Todo() 位置 E:\Works\APP\AppRouteServer\src\Controller\DataAnalysis\CallInfo.cs:行号 46
+[2016-06-20 16:04:46,200] 线程:[3052] 程序异常! 
+System.Exception: ORA-03113: 通信通道的文件结束
+
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.Query(String connstr, String SQLString, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 399
+   在 ZIT.AppRouteServer.DataAccess.Oracle.DBQualityEvaluation.GetNewQualityEvaluation() 位置 E:\Works\APP\AppRouteServer\src\DataAccess\Oracle\DBQualityEvaluation.cs:行号 82
+   在 ZIT.AppRouteServer.Controller.DataAnalysis.QualityComment.Todo() 位置 E:\Works\APP\AppRouteServer\src\Controller\DataAnalysis\QualityComment.cs:行号 43
+[2016-06-20 16:11:31,097] 线程:[4548] 程序异常! 
+System.Exception: ORA-03113: 通信通道的文件结束
+
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.Query(String connstr, String SQLString, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 399
+   在 ZIT.AppRouteServer.DataAccess.Oracle.DBAppCallInfo.GetNewCallInfo() 位置 E:\Works\APP\AppRouteServer\src\DataAccess\Oracle\DBAppCallInfo.cs:行号 81
+   在 ZIT.AppRouteServer.Controller.DataAnalysis.CallInfo.Todo() 位置 E:\Works\APP\AppRouteServer\src\Controller\DataAnalysis\CallInfo.cs:行号 46
+[2016-06-20 16:23:06,908] 线程:[8884] 程序异常! 
+System.Data.OracleClient.OracleException (0x80131938): ORA-12170: TNS: 连接超时
+
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.Query(String connstr, String SQLString, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 388
+   在 ZIT.AppRouteServer.DataAccess.Oracle.DBAppCallInfo.GetNewCallInfo() 位置 E:\Works\APP\AppRouteServer\src\DataAccess\Oracle\DBAppCallInfo.cs:行号 81
+   在 ZIT.AppRouteServer.Controller.DataAnalysis.CallInfo.Todo() 位置 E:\Works\APP\AppRouteServer\src\Controller\DataAnalysis\CallInfo.cs:行号 46
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.GetSingle(String connstr, String SQLString) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 189
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.GetSingle(String connstr, String SQLString) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 189
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.IsConnected(String orcleconstr) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 32
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.Query(String connstr, String SQLString, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 388
+   在 ZIT.AppRouteServer.DataAccess.Oracle.DBQualityEvaluation.GetNewQualityEvaluation() 位置 E:\Works\APP\AppRouteServer\src\DataAccess\Oracle\DBQualityEvaluation.cs:行号 82
+   在 ZIT.AppRouteServer.Controller.DataAnalysis.QualityComment.Todo() 位置 E:\Works\APP\AppRouteServer\src\Controller\DataAnalysis\QualityComment.cs:行号 43
+[2016-06-20 16:23:07,035] 线程:[9288]  
+System.Exception: ORA-12170: TNS: 连接超时
+
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.GetSingle(String connstr, String SQLString) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 203
+   在 ZIT.AppRouteServer.DataAccess.Oracle.DBRouter.GetUnitNameByUnitCode(String UnitCode) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\Oracle\DBRouter.cs:行号 47
+   在 ZIT.AppRouteServer.Controller.CommChannel.MsgHandler.HandleLoginServer(Hashtable htMessage) 位置 E:\Works\APP\AppRouteServer\src\Controller\CommChannel\MsgHandler.cs:行号 78
+[2016-06-20 16:23:07,116] 线程:[7040]  
+System.Exception: ORA-12170: TNS: 连接超时
+
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.GetSingle(String connstr, String SQLString) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 203
+   在 ZIT.AppRouteServer.DataAccess.Oracle.DBRouter.GetUnitNameByUnitCode(String UnitCode) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\Oracle\DBRouter.cs:行号 47
+   在 ZIT.AppRouteServer.Controller.CommChannel.MsgHandler.HandleLoginServer(Hashtable htMessage) 位置 E:\Works\APP\AppRouteServer\src\Controller\CommChannel\MsgHandler.cs:行号 78
+[2016-06-20 16:23:07,165] 线程:[7172] 程序异常! 
+System.Data.OracleClient.OracleException (0x80131938): ORA-12170: TNS: 连接超时
+
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.Query(String connstr, String SQLString, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 388
+   在 ZIT.AppRouteServer.DataAccess.Oracle.DBAppCallInfo.GetNewCallInfo() 位置 E:\Works\APP\AppRouteServer\src\DataAccess\Oracle\DBAppCallInfo.cs:行号 81
+   在 ZIT.AppRouteServer.Controller.DataAnalysis.CallInfo.Todo() 位置 E:\Works\APP\AppRouteServer\src\Controller\DataAnalysis\CallInfo.cs:行号 46
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.GetSingle(String connstr, String SQLString) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 189
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.GetSingle(String connstr, String SQLString) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 189
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.IsConnected(String orcleconstr) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 32
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.Query(String connstr, String SQLString, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 388
+   在 ZIT.AppRouteServer.DataAccess.Oracle.DBQualityEvaluation.GetNewQualityEvaluation() 位置 E:\Works\APP\AppRouteServer\src\DataAccess\Oracle\DBQualityEvaluation.cs:行号 82
+   在 ZIT.AppRouteServer.Controller.DataAnalysis.QualityComment.Todo() 位置 E:\Works\APP\AppRouteServer\src\Controller\DataAnalysis\QualityComment.cs:行号 43
+[2016-06-20 16:23:07,168] 线程:[10080]  
+System.Exception: ORA-12170: TNS: 连接超时
+
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.GetSingle(String connstr, String SQLString) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 203
+   在 ZIT.AppRouteServer.DataAccess.Oracle.DBRouter.GetUnitNameByUnitCode(String UnitCode) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\Oracle\DBRouter.cs:行号 47
+   在 ZIT.AppRouteServer.Controller.CommChannel.MsgHandler.HandleLoginServer(Hashtable htMessage) 位置 E:\Works\APP\AppRouteServer\src\Controller\CommChannel\MsgHandler.cs:行号 78
+[2016-06-20 16:23:08,358] 线程:[8884] 程序异常! 
+System.Data.OracleClient.OracleException (0x80131938): ORA-12170: TNS: 连接超时
+
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.PrepareCommand(OracleCommand cmd, OracleConnection conn, OracleTransaction trans, String cmdText, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 410
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.Query(String connstr, String SQLString, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 388
+   在 ZIT.AppRouteServer.DataAccess.Oracle.DBAppCallInfo.GetNewCallInfo() 位置 E:\Works\APP\AppRouteServer\src\DataAccess\Oracle\DBAppCallInfo.cs:行号 81
+   在 ZIT.AppRouteServer.Controller.DataAnalysis.CallInfo.Todo() 位置 E:\Works\APP\AppRouteServer\src\Controller\DataAnalysis\CallInfo.cs:行号 46
+[2016-06-20 16:23:09,461] 线程:[8884] 程序异常! 
+System.Data.OracleClient.OracleException (0x80131938): ORA-12170: TNS: 连接超时
+
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.PrepareCommand(OracleCommand cmd, OracleConnection conn, OracleTransaction trans, String cmdText, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 410
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.Query(String connstr, String SQLString, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 388
+   在 ZIT.AppRouteServer.DataAccess.Oracle.DBAppCallInfo.GetNewCallInfo() 位置 E:\Works\APP\AppRouteServer\src\DataAccess\Oracle\DBAppCallInfo.cs:行号 81
+   在 ZIT.AppRouteServer.Controller.DataAnalysis.CallInfo.Todo() 位置 E:\Works\APP\AppRouteServer\src\Controller\DataAnalysis\CallInfo.cs:行号 46
+[2016-06-20 16:23:10,559] 线程:[8884] 程序异常! 
+System.Data.OracleClient.OracleException (0x80131938): ORA-12170: TNS: 连接超时
+
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.PrepareCommand(OracleCommand cmd, OracleConnection conn, OracleTransaction trans, String cmdText, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 410
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.Query(String connstr, String SQLString, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 388
+   在 ZIT.AppRouteServer.DataAccess.Oracle.DBAppCallInfo.GetNewCallInfo() 位置 E:\Works\APP\AppRouteServer\src\DataAccess\Oracle\DBAppCallInfo.cs:行号 81
+   在 ZIT.AppRouteServer.Controller.DataAnalysis.CallInfo.Todo() 位置 E:\Works\APP\AppRouteServer\src\Controller\DataAnalysis\CallInfo.cs:行号 46
+[2016-06-20 16:23:30,608] 线程:[10080]  
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 ZIT.AppRouteServer.Controller.CommChannel.ServerClient.SendMessage(ScsTextMessage message) 位置 E:\Works\APP\AppRouteServer\src\Controller\CommChannel\ServerClient.cs:行号 79
+[2016-06-20 16:23:41,505] 线程:[7040]  
+System.InvalidOperationException: 超时时间已到。超时时间已到，但是尚未从池中获取连接。出现这种情况可能是因为所有池连接均在使用，并且达到了最大池大小。
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.GetSingle(String connstr, String SQLString) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 189
+   在 ZIT.AppRouteServer.DataAccess.Oracle.DBRouter.GetUnitNameByUnitCode(String UnitCode) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\Oracle\DBRouter.cs:行号 47
+   在 ZIT.AppRouteServer.Controller.CommChannel.MsgHandler.HandleLoginServer(Hashtable htMessage) 位置 E:\Works\APP\AppRouteServer\src\Controller\CommChannel\MsgHandler.cs:行号 78
+[2016-06-20 16:23:42,307] 线程:[7172] 程序异常! 
+System.InvalidOperationException: 超时时间已到。超时时间已到，但是尚未从池中获取连接。出现这种情况可能是因为所有池连接均在使用，并且达到了最大池大小。
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.PrepareCommand(OracleCommand cmd, OracleConnection conn, OracleTransaction trans, String cmdText, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 410
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.Query(String connstr, String SQLString, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 388
+   在 ZIT.AppRouteServer.DataAccess.Oracle.DBQualityEvaluation.GetNewQualityEvaluation() 位置 E:\Works\APP\AppRouteServer\src\DataAccess\Oracle\DBQualityEvaluation.cs:行号 82
+   在 ZIT.AppRouteServer.Controller.DataAnalysis.QualityComment.Todo() 位置 E:\Works\APP\AppRouteServer\src\Controller\DataAnalysis\QualityComment.cs:行号 43
+[2016-06-20 16:23:53,460] 线程:[9288]  
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 ZIT.AppRouteServer.Controller.CommChannel.ServerClient.SendMessage(ScsTextMessage message) 位置 E:\Works\APP\AppRouteServer\src\Controller\CommChannel\ServerClient.cs:行号 79
+[2016-06-20 16:26:07,101] 线程:[9288]  
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 ZIT.AppRouteServer.Controller.CommChannel.ServerClient.SendMessage(ScsTextMessage message) 位置 E:\Works\APP\AppRouteServer\src\Controller\CommChannel\ServerClient.cs:行号 79
+[2016-06-20 16:26:51,174] 线程:[6520]  
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 ZIT.AppRouteServer.Controller.CommChannel.ServerClient.SendMessage(ScsTextMessage message) 位置 E:\Works\APP\AppRouteServer\src\Controller\CommChannel\ServerClient.cs:行号 79
+[2016-06-20 16:28:24,538] 线程:[6520]  
+System.Exception: ORA-03113: 通信通道的文件结束
+
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.GetSingle(String connstr, String SQLString) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 203
+   在 ZIT.AppRouteServer.DataAccess.Oracle.DBRouter.GetUnitNameByUnitCode(String UnitCode) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\Oracle\DBRouter.cs:行号 47
+   在 ZIT.AppRouteServer.Controller.CommChannel.MsgHandler.HandleLoginServer(Hashtable htMessage) 位置 E:\Works\APP\AppRouteServer\src\Controller\CommChannel\MsgHandler.cs:行号 78
+[2016-06-20 16:41:16,793] 线程:[7172] 程序异常! 
+System.Exception: ORA-03113: 通信通道的文件结束
+
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.Query(String connstr, String SQLString, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 399
+   在 ZIT.AppRouteServer.DataAccess.Oracle.DBQualityEvaluation.GetNewQualityEvaluation() 位置 E:\Works\APP\AppRouteServer\src\DataAccess\Oracle\DBQualityEvaluation.cs:行号 82
+   在 ZIT.AppRouteServer.Controller.DataAnalysis.QualityComment.Todo() 位置 E:\Works\APP\AppRouteServer\src\Controller\DataAnalysis\QualityComment.cs:行号 43
+[2016-06-20 17:53:18,395] 线程:[8884] 程序异常! 
+System.Exception: ORA-03113: 通信通道的文件结束
+
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.Query(String connstr, String SQLString, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 399
+   在 ZIT.AppRouteServer.DataAccess.Oracle.DBAppCallInfo.GetNewCallInfo() 位置 E:\Works\APP\AppRouteServer\src\DataAccess\Oracle\DBAppCallInfo.cs:行号 81
+   在 ZIT.AppRouteServer.Controller.DataAnalysis.CallInfo.Todo() 位置 E:\Works\APP\AppRouteServer\src\Controller\DataAnalysis\CallInfo.cs:行号 46
+[2016-06-20 17:53:18,414] 线程:[7172] 程序异常! 
+System.Exception: ORA-03113: 通信通道的文件结束
+
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.Query(String connstr, String SQLString, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 399
+   在 ZIT.AppRouteServer.DataAccess.Oracle.DBQualityEvaluation.GetNewQualityEvaluation() 位置 E:\Works\APP\AppRouteServer\src\DataAccess\Oracle\DBQualityEvaluation.cs:行号 82
+   在 ZIT.AppRouteServer.Controller.DataAnalysis.QualityComment.Todo() 位置 E:\Works\APP\AppRouteServer\src\Controller\DataAnalysis\QualityComment.cs:行号 43
+[2016-06-20 17:53:24,037] 线程:[8884] 程序异常! 
+System.Data.OracleClient.OracleException (0x80131938): ORA-12170: TNS: 连接超时
+
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.PrepareCommand(OracleCommand cmd, OracleConnection conn, OracleTransaction trans, String cmdText, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 410
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.IsConnected(String orcleconstr) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 32
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.Query(String connstr, String SQLString, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 388
+   在 ZIT.AppRouteServer.DataAccess.Oracle.DBAppCallInfo.GetNewCallInfo() 位置 E:\Works\APP\AppRouteServer\src\DataAccess\Oracle\DBAppCallInfo.cs:行号 81
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+[2016-06-20 17:53:24,072] 线程:[7172] 程序异常! 
+System.Data.OracleClient.OracleException (0x80131938): ORA-12170: TNS: 连接超时
+
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.PrepareCommand(OracleCommand cmd, OracleConnection conn, OracleTransaction trans, String cmdText, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 410
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.IsConnected(String orcleconstr) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 32
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.Query(String connstr, String SQLString, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 388
+   在 ZIT.AppRouteServer.DataAccess.Oracle.DBAppCallInfo.GetNewCallInfo() 位置 E:\Works\APP\AppRouteServer\src\DataAccess\Oracle\DBAppCallInfo.cs:行号 81
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.PrepareCommand(OracleCommand cmd, OracleConnection conn, OracleTransaction trans, String cmdText, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 410
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.Query(String connstr, String SQLString, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 388
+   在 ZIT.AppRouteServer.DataAccess.Oracle.DBQualityEvaluation.GetNewQualityEvaluation() 位置 E:\Works\APP\AppRouteServer\src\DataAccess\Oracle\DBQualityEvaluation.cs:行号 82
+   在 ZIT.AppRouteServer.Controller.DataAnalysis.QualityComment.Todo() 位置 E:\Works\APP\AppRouteServer\src\Controller\DataAnalysis\QualityComment.cs:行号 43
+[2016-06-20 17:53:25,113] 线程:[8884] 程序异常! 
+System.Data.OracleClient.OracleException (0x80131938): ORA-12170: TNS: 连接超时
+
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.PrepareCommand(OracleCommand cmd, OracleConnection conn, OracleTransaction trans, String cmdText, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 410
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.Query(String connstr, String SQLString, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 388
+   在 ZIT.AppRouteServer.DataAccess.Oracle.DBAppCallInfo.GetNewCallInfo() 位置 E:\Works\APP\AppRouteServer\src\DataAccess\Oracle\DBAppCallInfo.cs:行号 81
+   在 ZIT.AppRouteServer.Controller.DataAnalysis.CallInfo.Todo() 位置 E:\Works\APP\AppRouteServer\src\Controller\DataAnalysis\CallInfo.cs:行号 46
+[2016-06-20 17:53:26,186] 线程:[8884] 程序异常! 
+System.Data.OracleClient.OracleException (0x80131938): ORA-12170: TNS: 连接超时
+
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.PrepareCommand(OracleCommand cmd, OracleConnection conn, OracleTransaction trans, String cmdText, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 410
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.Query(String connstr, String SQLString, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 388
+   在 ZIT.AppRouteServer.DataAccess.Oracle.DBAppCallInfo.GetNewCallInfo() 位置 E:\Works\APP\AppRouteServer\src\DataAccess\Oracle\DBAppCallInfo.cs:行号 81
+   在 ZIT.AppRouteServer.Controller.DataAnalysis.CallInfo.Todo() 位置 E:\Works\APP\AppRouteServer\src\Controller\DataAnalysis\CallInfo.cs:行号 46
+[2016-06-20 17:53:27,281] 线程:[8884] 程序异常! 
+System.Data.OracleClient.OracleException (0x80131938): ORA-12170: TNS: 连接超时
+
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.PrepareCommand(OracleCommand cmd, OracleConnection conn, OracleTransaction trans, String cmdText, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 410
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.Query(String connstr, String SQLString, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 388
+   在 ZIT.AppRouteServer.DataAccess.Oracle.DBAppCallInfo.GetNewCallInfo() 位置 E:\Works\APP\AppRouteServer\src\DataAccess\Oracle\DBAppCallInfo.cs:行号 81
+   在 ZIT.AppRouteServer.Controller.DataAnalysis.CallInfo.Todo() 位置 E:\Works\APP\AppRouteServer\src\Controller\DataAnalysis\CallInfo.cs:行号 46
+[2016-06-20 17:53:28,351] 线程:[8884] 程序异常! 
+System.Data.OracleClient.OracleException (0x80131938): ORA-12170: TNS: 连接超时
+
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.PrepareCommand(OracleCommand cmd, OracleConnection conn, OracleTransaction trans, String cmdText, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 410
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.Query(String connstr, String SQLString, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 388
+   在 ZIT.AppRouteServer.DataAccess.Oracle.DBAppCallInfo.GetNewCallInfo() 位置 E:\Works\APP\AppRouteServer\src\DataAccess\Oracle\DBAppCallInfo.cs:行号 81
+   在 ZIT.AppRouteServer.Controller.DataAnalysis.CallInfo.Todo() 位置 E:\Works\APP\AppRouteServer\src\Controller\DataAnalysis\CallInfo.cs:行号 46
+[2016-06-20 17:57:12,214] 线程:[10356] 程序异常! 
+System.Data.OracleClient.OracleException (0x80131938): ORA-12541: TNS: 无监听程序
+
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.Query(String connstr, String SQLString, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 388
+   在 ZIT.AppRouteServer.DataAccess.Oracle.DBAppCallInfo.GetNewCallInfo() 位置 E:\Works\APP\AppRouteServer\src\DataAccess\Oracle\DBAppCallInfo.cs:行号 81
+   在 ZIT.AppRouteServer.Controller.DataAnalysis.CallInfo.Todo() 位置 E:\Works\APP\AppRouteServer\src\Controller\DataAnalysis\CallInfo.cs:行号 46
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.Query(String connstr, String SQLString, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 388
+   在 ZIT.AppRouteServer.DataAccess.Oracle.DBQualityEvaluation.GetNewQualityEvaluation() 位置 E:\Works\APP\AppRouteServer\src\DataAccess\Oracle\DBQualityEvaluation.cs:行号 82
+   在 ZIT.AppRouteServer.Controller.DataAnalysis.QualityComment.Todo() 位置 E:\Works\APP\AppRouteServer\src\Controller\DataAnalysis\QualityComment.cs:行号 43
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.IsConnected(String orcleconstr) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 32
+[2016-06-20 17:57:12,214] 线程:[9684] 程序异常! 
+System.Data.OracleClient.OracleException (0x80131938): ORA-12541: TNS: 无监听程序
+
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.Query(String connstr, String SQLString, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 388
+   在 ZIT.AppRouteServer.DataAccess.Oracle.DBAppCallInfo.GetNewCallInfo() 位置 E:\Works\APP\AppRouteServer\src\DataAccess\Oracle\DBAppCallInfo.cs:行号 81
+   在 ZIT.AppRouteServer.Controller.DataAnalysis.CallInfo.Todo() 位置 E:\Works\APP\AppRouteServer\src\Controller\DataAnalysis\CallInfo.cs:行号 46
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.Query(String connstr, String SQLString, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 388
+   在 ZIT.AppRouteServer.DataAccess.Oracle.DBQualityEvaluation.GetNewQualityEvaluation() 位置 E:\Works\APP\AppRouteServer\src\DataAccess\Oracle\DBQualityEvaluation.cs:行号 82
+   在 ZIT.AppRouteServer.Controller.DataAnalysis.QualityComment.Todo() 位置 E:\Works\APP\AppRouteServer\src\Controller\DataAnalysis\QualityComment.cs:行号 43
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.IsConnected(String orcleconstr) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 32
+[2016-06-20 17:57:13,316] 线程:[10356] 程序异常! 
+System.Data.OracleClient.OracleException (0x80131938): ORA-12541: TNS: 无监听程序
+
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.PrepareCommand(OracleCommand cmd, OracleConnection conn, OracleTransaction trans, String cmdText, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 410
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.Query(String connstr, String SQLString, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 388
+   在 ZIT.AppRouteServer.DataAccess.Oracle.DBAppCallInfo.GetNewCallInfo() 位置 E:\Works\APP\AppRouteServer\src\DataAccess\Oracle\DBAppCallInfo.cs:行号 81
+   在 ZIT.AppRouteServer.Controller.DataAnalysis.CallInfo.Todo() 位置 E:\Works\APP\AppRouteServer\src\Controller\DataAnalysis\CallInfo.cs:行号 46
+[2016-06-20 17:57:14,410] 线程:[10356] 程序异常! 
+System.Data.OracleClient.OracleException (0x80131938): ORA-12541: TNS: 无监听程序
+
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.PrepareCommand(OracleCommand cmd, OracleConnection conn, OracleTransaction trans, String cmdText, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 410
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.Query(String connstr, String SQLString, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 388
+   在 ZIT.AppRouteServer.DataAccess.Oracle.DBAppCallInfo.GetNewCallInfo() 位置 E:\Works\APP\AppRouteServer\src\DataAccess\Oracle\DBAppCallInfo.cs:行号 81
+   在 ZIT.AppRouteServer.Controller.DataAnalysis.CallInfo.Todo() 位置 E:\Works\APP\AppRouteServer\src\Controller\DataAnalysis\CallInfo.cs:行号 46
+[2016-06-20 17:57:15,501] 线程:[10356] 程序异常! 
+System.Data.OracleClient.OracleException (0x80131938): ORA-12541: TNS: 无监听程序
+
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.PrepareCommand(OracleCommand cmd, OracleConnection conn, OracleTransaction trans, String cmdText, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 410
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.Query(String connstr, String SQLString, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 388
+   在 ZIT.AppRouteServer.DataAccess.Oracle.DBAppCallInfo.GetNewCallInfo() 位置 E:\Works\APP\AppRouteServer\src\DataAccess\Oracle\DBAppCallInfo.cs:行号 81
+   在 ZIT.AppRouteServer.Controller.DataAnalysis.CallInfo.Todo() 位置 E:\Works\APP\AppRouteServer\src\Controller\DataAnalysis\CallInfo.cs:行号 46
+[2016-06-20 17:57:16,586] 线程:[10356] 程序异常! 
+System.Data.OracleClient.OracleException (0x80131938): ORA-12541: TNS: 无监听程序
+
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.PrepareCommand(OracleCommand cmd, OracleConnection conn, OracleTransaction trans, String cmdText, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 410
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.Query(String connstr, String SQLString, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 388
+   在 ZIT.AppRouteServer.DataAccess.Oracle.DBAppCallInfo.GetNewCallInfo() 位置 E:\Works\APP\AppRouteServer\src\DataAccess\Oracle\DBAppCallInfo.cs:行号 81
+   在 ZIT.AppRouteServer.Controller.DataAnalysis.CallInfo.Todo() 位置 E:\Works\APP\AppRouteServer\src\Controller\DataAnalysis\CallInfo.cs:行号 46
+[2016-06-20 17:57:18,705] 线程:[10356] 程序异常! 
+System.Data.OracleClient.OracleException (0x80131938): ORA-12541: TNS: 无监听程序
+
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.PrepareCommand(OracleCommand cmd, OracleConnection conn, OracleTransaction trans, String cmdText, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 410
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.PrepareCommand(OracleCommand cmd, OracleConnection conn, OracleTransaction trans, String cmdText, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 410
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.Query(String connstr, String SQLString, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 388
+   在 ZIT.AppRouteServer.DataAccess.Oracle.DBAppCallInfo.GetNewCallInfo() 位置 E:\Works\APP\AppRouteServer\src\DataAccess\Oracle\DBAppCallInfo.cs:行号 81
+   在 ZIT.AppRouteServer.Controller.DataAnalysis.CallInfo.Todo() 位置 E:\Works\APP\AppRouteServer\src\Controller\DataAnalysis\CallInfo.cs:行号 46
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.Query(String connstr, String SQLString, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 388
+   在 ZIT.AppRouteServer.DataAccess.Oracle.DBQualityEvaluation.GetNewQualityEvaluation() 位置 E:\Works\APP\AppRouteServer\src\DataAccess\Oracle\DBQualityEvaluation.cs:行号 82
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+[2016-06-20 17:57:18,705] 线程:[9684] 程序异常! 
+System.Data.OracleClient.OracleException (0x80131938): ORA-12541: TNS: 无监听程序
+
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.PrepareCommand(OracleCommand cmd, OracleConnection conn, OracleTransaction trans, String cmdText, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 410
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.PrepareCommand(OracleCommand cmd, OracleConnection conn, OracleTransaction trans, String cmdText, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 410
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.Query(String connstr, String SQLString, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 388
+   在 ZIT.AppRouteServer.DataAccess.Oracle.DBAppCallInfo.GetNewCallInfo() 位置 E:\Works\APP\AppRouteServer\src\DataAccess\Oracle\DBAppCallInfo.cs:行号 81
+   在 ZIT.AppRouteServer.Controller.DataAnalysis.CallInfo.Todo() 位置 E:\Works\APP\AppRouteServer\src\Controller\DataAnalysis\CallInfo.cs:行号 46
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.Query(String connstr, String SQLString, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 388
+   在 ZIT.AppRouteServer.DataAccess.Oracle.DBQualityEvaluation.GetNewQualityEvaluation() 位置 E:\Works\APP\AppRouteServer\src\DataAccess\Oracle\DBQualityEvaluation.cs:行号 82
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.IsConnected(String orcleconstr) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 32
+[2016-06-20 17:57:19,791] 线程:[10356] 程序异常! 
+System.Data.OracleClient.OracleException (0x80131938): ORA-12541: TNS: 无监听程序
+
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.PrepareCommand(OracleCommand cmd, OracleConnection conn, OracleTransaction trans, String cmdText, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 410
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.Query(String connstr, String SQLString, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 388
+   在 ZIT.AppRouteServer.DataAccess.Oracle.DBAppCallInfo.GetNewCallInfo() 位置 E:\Works\APP\AppRouteServer\src\DataAccess\Oracle\DBAppCallInfo.cs:行号 81
+   在 ZIT.AppRouteServer.Controller.DataAnalysis.CallInfo.Todo() 位置 E:\Works\APP\AppRouteServer\src\Controller\DataAnalysis\CallInfo.cs:行号 46
+[2016-06-20 17:57:20,940] 线程:[10356] 程序异常! 
+System.Data.OracleClient.OracleException (0x80131938): ORA-12541: TNS: 无监听程序
+
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.PrepareCommand(OracleCommand cmd, OracleConnection conn, OracleTransaction trans, String cmdText, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 410
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.Query(String connstr, String SQLString, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 388
+   在 ZIT.AppRouteServer.DataAccess.Oracle.DBAppCallInfo.GetNewCallInfo() 位置 E:\Works\APP\AppRouteServer\src\DataAccess\Oracle\DBAppCallInfo.cs:行号 81
+   在 ZIT.AppRouteServer.Controller.DataAnalysis.CallInfo.Todo() 位置 E:\Works\APP\AppRouteServer\src\Controller\DataAnalysis\CallInfo.cs:行号 46
+[2016-06-20 17:57:21,444] 线程:[9580]  
+System.Exception: ORA-12541: TNS: 无监听程序
+
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.GetSingle(String connstr, String SQLString) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 203
+   在 ZIT.AppRouteServer.DataAccess.Oracle.DBRouter.GetUnitNameByUnitCode(String UnitCode) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\Oracle\DBRouter.cs:行号 47
+   在 ZIT.AppRouteServer.Controller.CommChannel.MsgHandler.HandleLoginServer(Hashtable htMessage) 位置 E:\Works\APP\AppRouteServer\src\Controller\CommChannel\MsgHandler.cs:行号 78
+[2016-06-20 17:57:22,194] 线程:[10356] 程序异常! 
+System.Data.OracleClient.OracleException (0x80131938): ORA-12541: TNS: 无监听程序
+
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.GetSingle(String connstr, String SQLString) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 189
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.PrepareCommand(OracleCommand cmd, OracleConnection conn, OracleTransaction trans, String cmdText, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 410
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.Query(String connstr, String SQLString, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 388
+   在 ZIT.AppRouteServer.DataAccess.Oracle.DBAppCallInfo.GetNewCallInfo() 位置 E:\Works\APP\AppRouteServer\src\DataAccess\Oracle\DBAppCallInfo.cs:行号 81
+   在 ZIT.AppRouteServer.Controller.DataAnalysis.CallInfo.Todo() 位置 E:\Works\APP\AppRouteServer\src\Controller\DataAnalysis\CallInfo.cs:行号 46
+[2016-06-20 17:57:22,272] 线程:[9580]  
+System.Exception: ORA-12541: TNS: 无监听程序
+
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.GetSingle(String connstr, String SQLString) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 203
+   在 ZIT.AppRouteServer.DataAccess.Oracle.DBRouter.GetUnitNameByUnitCode(String UnitCode) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\Oracle\DBRouter.cs:行号 47
+   在 ZIT.AppRouteServer.Controller.CommChannel.MsgHandler.HandleLoginServer(Hashtable htMessage) 位置 E:\Works\APP\AppRouteServer\src\Controller\CommChannel\MsgHandler.cs:行号 78
+[2016-06-20 17:57:22,444] 线程:[6844]  
+System.Exception: ORA-12541: TNS: 无监听程序
+
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.GetSingle(String connstr, String SQLString) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 203
+   在 ZIT.AppRouteServer.DataAccess.Oracle.DBRouter.GetUnitNameByUnitCode(String UnitCode) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\Oracle\DBRouter.cs:行号 47
+   在 ZIT.AppRouteServer.Controller.CommChannel.MsgHandler.HandleLoginServer(Hashtable htMessage) 位置 E:\Works\APP\AppRouteServer\src\Controller\CommChannel\MsgHandler.cs:行号 78
+[2016-06-20 17:57:23,287] 线程:[10356] 程序异常! 
+System.Data.OracleClient.OracleException (0x80131938): ORA-12541: TNS: 无监听程序
+
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.PrepareCommand(OracleCommand cmd, OracleConnection conn, OracleTransaction trans, String cmdText, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 410
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.Query(String connstr, String SQLString, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 388
+   在 ZIT.AppRouteServer.DataAccess.Oracle.DBAppCallInfo.GetNewCallInfo() 位置 E:\Works\APP\AppRouteServer\src\DataAccess\Oracle\DBAppCallInfo.cs:行号 81
+   在 ZIT.AppRouteServer.Controller.DataAnalysis.CallInfo.Todo() 位置 E:\Works\APP\AppRouteServer\src\Controller\DataAnalysis\CallInfo.cs:行号 46
+[2016-06-20 17:57:23,909] 线程:[9684] 程序异常! 
+System.Data.OracleClient.OracleException (0x80131938): ORA-12541: TNS: 无监听程序
+
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.PrepareCommand(OracleCommand cmd, OracleConnection conn, OracleTransaction trans, String cmdText, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 410
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.IsConnected(String orcleconstr) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 32
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.Query(String connstr, String SQLString, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 388
+   在 ZIT.AppRouteServer.DataAccess.Oracle.DBQualityEvaluation.GetNewQualityEvaluation() 位置 E:\Works\APP\AppRouteServer\src\DataAccess\Oracle\DBQualityEvaluation.cs:行号 82
+   在 ZIT.AppRouteServer.Controller.DataAnalysis.QualityComment.Todo() 位置 E:\Works\APP\AppRouteServer\src\Controller\DataAnalysis\QualityComment.cs:行号 43
+[2016-06-20 17:57:24,382] 线程:[10356] 程序异常! 
+System.Data.OracleClient.OracleException (0x80131938): ORA-12541: TNS: 无监听程序
+
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.PrepareCommand(OracleCommand cmd, OracleConnection conn, OracleTransaction trans, String cmdText, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 410
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.Query(String connstr, String SQLString, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 388
+   在 ZIT.AppRouteServer.DataAccess.Oracle.DBAppCallInfo.GetNewCallInfo() 位置 E:\Works\APP\AppRouteServer\src\DataAccess\Oracle\DBAppCallInfo.cs:行号 81
+   在 ZIT.AppRouteServer.Controller.DataAnalysis.CallInfo.Todo() 位置 E:\Works\APP\AppRouteServer\src\Controller\DataAnalysis\CallInfo.cs:行号 46
+[2016-06-20 17:57:25,470] 线程:[10356] 程序异常! 
+System.Data.OracleClient.OracleException (0x80131938): ORA-12541: TNS: 无监听程序
+
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.PrepareCommand(OracleCommand cmd, OracleConnection conn, OracleTransaction trans, String cmdText, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 410
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.Query(String connstr, String SQLString, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 388
+   在 ZIT.AppRouteServer.DataAccess.Oracle.DBAppCallInfo.GetNewCallInfo() 位置 E:\Works\APP\AppRouteServer\src\DataAccess\Oracle\DBAppCallInfo.cs:行号 81
+   在 ZIT.AppRouteServer.Controller.DataAnalysis.CallInfo.Todo() 位置 E:\Works\APP\AppRouteServer\src\Controller\DataAnalysis\CallInfo.cs:行号 46
+[2016-06-20 17:57:26,556] 线程:[10356] 程序异常! 
+System.Data.OracleClient.OracleException (0x80131938): ORA-12541: TNS: 无监听程序
+
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.PrepareCommand(OracleCommand cmd, OracleConnection conn, OracleTransaction trans, String cmdText, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 410
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.Query(String connstr, String SQLString, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 388
+   在 ZIT.AppRouteServer.DataAccess.Oracle.DBAppCallInfo.GetNewCallInfo() 位置 E:\Works\APP\AppRouteServer\src\DataAccess\Oracle\DBAppCallInfo.cs:行号 81
+   在 ZIT.AppRouteServer.Controller.DataAnalysis.CallInfo.Todo() 位置 E:\Works\APP\AppRouteServer\src\Controller\DataAnalysis\CallInfo.cs:行号 46
+[2016-06-20 17:57:27,715] 线程:[10356] 程序异常! 
+System.Data.OracleClient.OracleException (0x80131938): ORA-12541: TNS: 无监听程序
+
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.PrepareCommand(OracleCommand cmd, OracleConnection conn, OracleTransaction trans, String cmdText, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 410
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.Query(String connstr, String SQLString, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 388
+   在 ZIT.AppRouteServer.DataAccess.Oracle.DBAppCallInfo.GetNewCallInfo() 位置 E:\Works\APP\AppRouteServer\src\DataAccess\Oracle\DBAppCallInfo.cs:行号 81
+   在 ZIT.AppRouteServer.Controller.DataAnalysis.CallInfo.Todo() 位置 E:\Works\APP\AppRouteServer\src\Controller\DataAnalysis\CallInfo.cs:行号 46
+[2016-06-20 17:57:30,213] 线程:[9684] 程序异常! 
+System.Data.OracleClient.OracleException (0x80131938): ORA-12541: TNS: 无监听程序
+
+   在 System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.IsConnected(String orcleconstr) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 32
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.Query(String connstr, String SQLString, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 388
+   在 ZIT.AppRouteServer.DataAccess.Oracle.DBQualityEvaluation.GetNewQualityEvaluation() 位置 E:\Works\APP\AppRouteServer\src\DataAccess\Oracle\DBQualityEvaluation.cs:行号 82
+   在 ZIT.AppRouteServer.Controller.DataAnalysis.QualityComment.Todo() 位置 E:\Works\APP\AppRouteServer\src\Controller\DataAnalysis\QualityComment.cs:行号 43
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.PrepareCommand(OracleCommand cmd, OracleConnection conn, OracleTransaction trans, String cmdText, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 410
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.Query(String connstr, String SQLString, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 388
+   在 ZIT.AppRouteServer.DataAccess.Oracle.DBAppCallInfo.GetNewCallInfo() 位置 E:\Works\APP\AppRouteServer\src\DataAccess\Oracle\DBAppCallInfo.cs:行号 81
+   在 ZIT.AppRouteServer.Controller.DataAnalysis.CallInfo.Todo() 位置 E:\Works\APP\AppRouteServer\src\Controller\DataAnalysis\CallInfo.cs:行号 46
+[2016-06-20 17:57:30,230] 线程:[10356] 程序异常! 
+System.Data.OracleClient.OracleException (0x80131938): ORA-12541: TNS: 无监听程序
+
+   在 System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.IsConnected(String orcleconstr) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 32
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.Query(String connstr, String SQLString, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 388
+   在 ZIT.AppRouteServer.DataAccess.Oracle.DBQualityEvaluation.GetNewQualityEvaluation() 位置 E:\Works\APP\AppRouteServer\src\DataAccess\Oracle\DBQualityEvaluation.cs:行号 82
+   在 ZIT.AppRouteServer.Controller.DataAnalysis.QualityComment.Todo() 位置 E:\Works\APP\AppRouteServer\src\Controller\DataAnalysis\QualityComment.cs:行号 43
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.PrepareCommand(OracleCommand cmd, OracleConnection conn, OracleTransaction trans, String cmdText, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 410
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.Query(String connstr, String SQLString, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 388
+   在 ZIT.AppRouteServer.DataAccess.Oracle.DBAppCallInfo.GetNewCallInfo() 位置 E:\Works\APP\AppRouteServer\src\DataAccess\Oracle\DBAppCallInfo.cs:行号 81
+   在 ZIT.AppRouteServer.Controller.DataAnalysis.CallInfo.Todo() 位置 E:\Works\APP\AppRouteServer\src\Controller\DataAnalysis\CallInfo.cs:行号 46
+[2016-06-20 17:57:31,320] 线程:[10356] 程序异常! 
+System.Data.OracleClient.OracleException (0x80131938): ORA-12541: TNS: 无监听程序
+
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.PrepareCommand(OracleCommand cmd, OracleConnection conn, OracleTransaction trans, String cmdText, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 410
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.Query(String connstr, String SQLString, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 388
+   在 ZIT.AppRouteServer.DataAccess.Oracle.DBAppCallInfo.GetNewCallInfo() 位置 E:\Works\APP\AppRouteServer\src\DataAccess\Oracle\DBAppCallInfo.cs:行号 81
+   在 ZIT.AppRouteServer.Controller.DataAnalysis.CallInfo.Todo() 位置 E:\Works\APP\AppRouteServer\src\Controller\DataAnalysis\CallInfo.cs:行号 46
+[2016-06-20 17:57:32,410] 线程:[10356] 程序异常! 
+System.Data.OracleClient.OracleException (0x80131938): ORA-12541: TNS: 无监听程序
+
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.PrepareCommand(OracleCommand cmd, OracleConnection conn, OracleTransaction trans, String cmdText, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 410
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.Query(String connstr, String SQLString, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 388
+   在 ZIT.AppRouteServer.DataAccess.Oracle.DBAppCallInfo.GetNewCallInfo() 位置 E:\Works\APP\AppRouteServer\src\DataAccess\Oracle\DBAppCallInfo.cs:行号 81
+   在 ZIT.AppRouteServer.Controller.DataAnalysis.CallInfo.Todo() 位置 E:\Works\APP\AppRouteServer\src\Controller\DataAnalysis\CallInfo.cs:行号 46
+[2016-06-20 17:57:33,499] 线程:[10356] 程序异常! 
+System.Data.OracleClient.OracleException (0x80131938): ORA-12541: TNS: 无监听程序
+
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.PrepareCommand(OracleCommand cmd, OracleConnection conn, OracleTransaction trans, String cmdText, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 410
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.Query(String connstr, String SQLString, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 388
+   在 ZIT.AppRouteServer.DataAccess.Oracle.DBAppCallInfo.GetNewCallInfo() 位置 E:\Works\APP\AppRouteServer\src\DataAccess\Oracle\DBAppCallInfo.cs:行号 81
+   在 ZIT.AppRouteServer.Controller.DataAnalysis.CallInfo.Todo() 位置 E:\Works\APP\AppRouteServer\src\Controller\DataAnalysis\CallInfo.cs:行号 46
+[2016-06-20 17:57:34,586] 线程:[10356] 程序异常! 
+System.Data.OracleClient.OracleException (0x80131938): ORA-12541: TNS: 无监听程序
+
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.PrepareCommand(OracleCommand cmd, OracleConnection conn, OracleTransaction trans, String cmdText, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 410
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.Query(String connstr, String SQLString, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 388
+   在 ZIT.AppRouteServer.DataAccess.Oracle.DBAppCallInfo.GetNewCallInfo() 位置 E:\Works\APP\AppRouteServer\src\DataAccess\Oracle\DBAppCallInfo.cs:行号 81
+   在 ZIT.AppRouteServer.Controller.DataAnalysis.CallInfo.Todo() 位置 E:\Works\APP\AppRouteServer\src\Controller\DataAnalysis\CallInfo.cs:行号 46
+[2016-06-20 17:57:35,373] 线程:[9684] 程序异常! 
+System.Data.OracleClient.OracleException (0x80131938): ORA-12541: TNS: 无监听程序
+
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.PrepareCommand(OracleCommand cmd, OracleConnection conn, OracleTransaction trans, String cmdText, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 410
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.Query(String connstr, String SQLString, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 388
+   在 ZIT.AppRouteServer.DataAccess.Oracle.DBQualityEvaluation.GetNewQualityEvaluation() 位置 E:\Works\APP\AppRouteServer\src\DataAccess\Oracle\DBQualityEvaluation.cs:行号 82
+   在 ZIT.AppRouteServer.Controller.DataAnalysis.QualityComment.Todo() 位置 E:\Works\APP\AppRouteServer\src\Controller\DataAnalysis\QualityComment.cs:行号 43
+[2016-06-20 17:57:35,670] 线程:[10356] 程序异常! 
+System.Data.OracleClient.OracleException (0x80131938): ORA-12541: TNS: 无监听程序
+
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.PrepareCommand(OracleCommand cmd, OracleConnection conn, OracleTransaction trans, String cmdText, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 410
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.Query(String connstr, String SQLString, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 388
+   在 ZIT.AppRouteServer.DataAccess.Oracle.DBAppCallInfo.GetNewCallInfo() 位置 E:\Works\APP\AppRouteServer\src\DataAccess\Oracle\DBAppCallInfo.cs:行号 81
+   在 ZIT.AppRouteServer.Controller.DataAnalysis.CallInfo.Todo() 位置 E:\Works\APP\AppRouteServer\src\Controller\DataAnalysis\CallInfo.cs:行号 46
+[2016-06-20 17:57:36,755] 线程:[10356] 程序异常! 
+System.Data.OracleClient.OracleException (0x80131938): ORA-12541: TNS: 无监听程序
+
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.PrepareCommand(OracleCommand cmd, OracleConnection conn, OracleTransaction trans, String cmdText, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 410
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.Query(String connstr, String SQLString, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 388
+   在 ZIT.AppRouteServer.DataAccess.Oracle.DBAppCallInfo.GetNewCallInfo() 位置 E:\Works\APP\AppRouteServer\src\DataAccess\Oracle\DBAppCallInfo.cs:行号 81
+   在 ZIT.AppRouteServer.Controller.DataAnalysis.CallInfo.Todo() 位置 E:\Works\APP\AppRouteServer\src\Controller\DataAnalysis\CallInfo.cs:行号 46
+[2016-06-20 17:57:37,841] 线程:[10356] 程序异常! 
+System.Data.OracleClient.OracleException (0x80131938): ORA-12541: TNS: 无监听程序
+
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.PrepareCommand(OracleCommand cmd, OracleConnection conn, OracleTransaction trans, String cmdText, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 410
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.Query(String connstr, String SQLString, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 388
+   在 ZIT.AppRouteServer.DataAccess.Oracle.DBAppCallInfo.GetNewCallInfo() 位置 E:\Works\APP\AppRouteServer\src\DataAccess\Oracle\DBAppCallInfo.cs:行号 81
+   在 ZIT.AppRouteServer.Controller.DataAnalysis.CallInfo.Todo() 位置 E:\Works\APP\AppRouteServer\src\Controller\DataAnalysis\CallInfo.cs:行号 46
+[2016-06-20 17:57:38,930] 线程:[10356] 程序异常! 
+System.Data.OracleClient.OracleException (0x80131938): ORA-12541: TNS: 无监听程序
+
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.PrepareCommand(OracleCommand cmd, OracleConnection conn, OracleTransaction trans, String cmdText, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 410
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.Query(String connstr, String SQLString, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 388
+   在 ZIT.AppRouteServer.DataAccess.Oracle.DBAppCallInfo.GetNewCallInfo() 位置 E:\Works\APP\AppRouteServer\src\DataAccess\Oracle\DBAppCallInfo.cs:行号 81
+   在 ZIT.AppRouteServer.Controller.DataAnalysis.CallInfo.Todo() 位置 E:\Works\APP\AppRouteServer\src\Controller\DataAnalysis\CallInfo.cs:行号 46
+[2016-06-20 17:57:40,015] 线程:[10356] 程序异常! 
+System.Data.OracleClient.OracleException (0x80131938): ORA-12541: TNS: 无监听程序
+
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.PrepareCommand(OracleCommand cmd, OracleConnection conn, OracleTransaction trans, String cmdText, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 410
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.Query(String connstr, String SQLString, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 388
+   在 ZIT.AppRouteServer.DataAccess.Oracle.DBAppCallInfo.GetNewCallInfo() 位置 E:\Works\APP\AppRouteServer\src\DataAccess\Oracle\DBAppCallInfo.cs:行号 81
+   在 ZIT.AppRouteServer.Controller.DataAnalysis.CallInfo.Todo() 位置 E:\Works\APP\AppRouteServer\src\Controller\DataAnalysis\CallInfo.cs:行号 46
+[2016-06-20 17:57:40,529] 线程:[9684] 程序异常! 
+System.Data.OracleClient.OracleException (0x80131938): ORA-12541: TNS: 无监听程序
+
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.PrepareCommand(OracleCommand cmd, OracleConnection conn, OracleTransaction trans, String cmdText, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 410
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.Query(String connstr, String SQLString, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 388
+   在 ZIT.AppRouteServer.DataAccess.Oracle.DBQualityEvaluation.GetNewQualityEvaluation() 位置 E:\Works\APP\AppRouteServer\src\DataAccess\Oracle\DBQualityEvaluation.cs:行号 82
+   在 ZIT.AppRouteServer.Controller.DataAnalysis.QualityComment.Todo() 位置 E:\Works\APP\AppRouteServer\src\Controller\DataAnalysis\QualityComment.cs:行号 43
+[2016-06-20 17:57:41,100] 线程:[10356] 程序异常! 
+System.Data.OracleClient.OracleException (0x80131938): ORA-12541: TNS: 无监听程序
+
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.PrepareCommand(OracleCommand cmd, OracleConnection conn, OracleTransaction trans, String cmdText, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 410
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.Query(String connstr, String SQLString, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 388
+   在 ZIT.AppRouteServer.DataAccess.Oracle.DBAppCallInfo.GetNewCallInfo() 位置 E:\Works\APP\AppRouteServer\src\DataAccess\Oracle\DBAppCallInfo.cs:行号 81
+   在 ZIT.AppRouteServer.Controller.DataAnalysis.CallInfo.Todo() 位置 E:\Works\APP\AppRouteServer\src\Controller\DataAnalysis\CallInfo.cs:行号 46
+[2016-06-20 17:57:42,187] 线程:[10356] 程序异常! 
+System.Data.OracleClient.OracleException (0x80131938): ORA-12541: TNS: 无监听程序
+
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.PrepareCommand(OracleCommand cmd, OracleConnection conn, OracleTransaction trans, String cmdText, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 410
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.Query(String connstr, String SQLString, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 388
+   在 ZIT.AppRouteServer.DataAccess.Oracle.DBAppCallInfo.GetNewCallInfo() 位置 E:\Works\APP\AppRouteServer\src\DataAccess\Oracle\DBAppCallInfo.cs:行号 81
+   在 ZIT.AppRouteServer.Controller.DataAnalysis.CallInfo.Todo() 位置 E:\Works\APP\AppRouteServer\src\Controller\DataAnalysis\CallInfo.cs:行号 46
+[2016-06-20 17:57:43,273] 线程:[10356] 程序异常! 
+System.Data.OracleClient.OracleException (0x80131938): ORA-12541: TNS: 无监听程序
+
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.PrepareCommand(OracleCommand cmd, OracleConnection conn, OracleTransaction trans, String cmdText, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 410
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.Query(String connstr, String SQLString, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 388
+   在 ZIT.AppRouteServer.DataAccess.Oracle.DBAppCallInfo.GetNewCallInfo() 位置 E:\Works\APP\AppRouteServer\src\DataAccess\Oracle\DBAppCallInfo.cs:行号 81
+   在 ZIT.AppRouteServer.Controller.DataAnalysis.CallInfo.Todo() 位置 E:\Works\APP\AppRouteServer\src\Controller\DataAnalysis\CallInfo.cs:行号 46
+[2016-06-20 17:57:44,359] 线程:[10356] 程序异常! 
+System.Data.OracleClient.OracleException (0x80131938): ORA-12541: TNS: 无监听程序
+
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.PrepareCommand(OracleCommand cmd, OracleConnection conn, OracleTransaction trans, String cmdText, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 410
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.Query(String connstr, String SQLString, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 388
+   在 ZIT.AppRouteServer.DataAccess.Oracle.DBAppCallInfo.GetNewCallInfo() 位置 E:\Works\APP\AppRouteServer\src\DataAccess\Oracle\DBAppCallInfo.cs:行号 81
+   在 ZIT.AppRouteServer.Controller.DataAnalysis.CallInfo.Todo() 位置 E:\Works\APP\AppRouteServer\src\Controller\DataAnalysis\CallInfo.cs:行号 46
+[2016-06-20 17:57:45,449] 线程:[10356] 程序异常! 
+System.Data.OracleClient.OracleException (0x80131938): ORA-12541: TNS: 无监听程序
+
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.PrepareCommand(OracleCommand cmd, OracleConnection conn, OracleTransaction trans, String cmdText, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 410
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.Query(String connstr, String SQLString, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 388
+   在 ZIT.AppRouteServer.DataAccess.Oracle.DBAppCallInfo.GetNewCallInfo() 位置 E:\Works\APP\AppRouteServer\src\DataAccess\Oracle\DBAppCallInfo.cs:行号 81
+   在 ZIT.AppRouteServer.Controller.DataAnalysis.CallInfo.Todo() 位置 E:\Works\APP\AppRouteServer\src\Controller\DataAnalysis\CallInfo.cs:行号 46
+[2016-06-20 17:57:45,673] 线程:[9684] 程序异常! 
+System.Data.OracleClient.OracleException (0x80131938): ORA-12541: TNS: 无监听程序
+
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.PrepareCommand(OracleCommand cmd, OracleConnection conn, OracleTransaction trans, String cmdText, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 410
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.Query(String connstr, String SQLString, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 388
+   在 ZIT.AppRouteServer.DataAccess.Oracle.DBQualityEvaluation.GetNewQualityEvaluation() 位置 E:\Works\APP\AppRouteServer\src\DataAccess\Oracle\DBQualityEvaluation.cs:行号 82
+   在 ZIT.AppRouteServer.Controller.DataAnalysis.QualityComment.Todo() 位置 E:\Works\APP\AppRouteServer\src\Controller\DataAnalysis\QualityComment.cs:行号 43
+[2016-06-20 17:57:46,542] 线程:[10356] 程序异常! 
+System.Data.OracleClient.OracleException (0x80131938): ORA-12541: TNS: 无监听程序
+
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.PrepareCommand(OracleCommand cmd, OracleConnection conn, OracleTransaction trans, String cmdText, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 410
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.Query(String connstr, String SQLString, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 388
+   在 ZIT.AppRouteServer.DataAccess.Oracle.DBAppCallInfo.GetNewCallInfo() 位置 E:\Works\APP\AppRouteServer\src\DataAccess\Oracle\DBAppCallInfo.cs:行号 81
+   在 ZIT.AppRouteServer.Controller.DataAnalysis.CallInfo.Todo() 位置 E:\Works\APP\AppRouteServer\src\Controller\DataAnalysis\CallInfo.cs:行号 46
+[2016-06-20 17:57:47,655] 线程:[10356] 程序异常! 
+System.Data.OracleClient.OracleException (0x80131938): ORA-12541: TNS: 无监听程序
+
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.PrepareCommand(OracleCommand cmd, OracleConnection conn, OracleTransaction trans, String cmdText, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 410
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.Query(String connstr, String SQLString, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 388
+   在 ZIT.AppRouteServer.DataAccess.Oracle.DBAppCallInfo.GetNewCallInfo() 位置 E:\Works\APP\AppRouteServer\src\DataAccess\Oracle\DBAppCallInfo.cs:行号 81
+   在 ZIT.AppRouteServer.Controller.DataAnalysis.CallInfo.Todo() 位置 E:\Works\APP\AppRouteServer\src\Controller\DataAnalysis\CallInfo.cs:行号 46
+[2016-06-20 17:57:48,745] 线程:[10356] 程序异常! 
+System.Data.OracleClient.OracleException (0x80131938): ORA-12541: TNS: 无监听程序
+
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.PrepareCommand(OracleCommand cmd, OracleConnection conn, OracleTransaction trans, String cmdText, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 410
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.Query(String connstr, String SQLString, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 388
+   在 ZIT.AppRouteServer.DataAccess.Oracle.DBAppCallInfo.GetNewCallInfo() 位置 E:\Works\APP\AppRouteServer\src\DataAccess\Oracle\DBAppCallInfo.cs:行号 81
+   在 ZIT.AppRouteServer.Controller.DataAnalysis.CallInfo.Todo() 位置 E:\Works\APP\AppRouteServer\src\Controller\DataAnalysis\CallInfo.cs:行号 46
+[2016-06-20 17:57:49,832] 线程:[10356] 程序异常! 
+System.Data.OracleClient.OracleException (0x80131938): ORA-12541: TNS: 无监听程序
+
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.PrepareCommand(OracleCommand cmd, OracleConnection conn, OracleTransaction trans, String cmdText, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 410
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.Query(String connstr, String SQLString, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 388
+   在 ZIT.AppRouteServer.DataAccess.Oracle.DBAppCallInfo.GetNewCallInfo() 位置 E:\Works\APP\AppRouteServer\src\DataAccess\Oracle\DBAppCallInfo.cs:行号 81
+   在 ZIT.AppRouteServer.Controller.DataAnalysis.CallInfo.Todo() 位置 E:\Works\APP\AppRouteServer\src\Controller\DataAnalysis\CallInfo.cs:行号 46
+[2016-06-20 17:57:52,110] 线程:[9684] 程序异常! 
+System.Data.OracleClient.OracleException (0x80131938): ORA-12541: TNS: 无监听程序
+
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.Query(String connstr, String SQLString, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 388
+   在 ZIT.AppRouteServer.DataAccess.Oracle.DBQualityEvaluation.GetNewQualityEvaluation() 位置 E:\Works\APP\AppRouteServer\src\DataAccess\Oracle\DBQualityEvaluation.cs:行号 82
+   在 ZIT.AppRouteServer.Controller.DataAnalysis.QualityComment.Todo() 位置 E:\Works\APP\AppRouteServer\src\Controller\DataAnalysis\QualityComment.cs:行号 43
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.Query(String connstr, String SQLString, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 388
+   在 ZIT.AppRouteServer.DataAccess.Oracle.DBAppCallInfo.GetNewCallInfo() 位置 E:\Works\APP\AppRouteServer\src\DataAccess\Oracle\DBAppCallInfo.cs:行号 81
+   在 ZIT.AppRouteServer.Controller.DataAnalysis.CallInfo.Todo() 位置 E:\Works\APP\AppRouteServer\src\Controller\DataAnalysis\CallInfo.cs:行号 46
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.IsConnected(String orcleconstr) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 32
+[2016-06-20 17:57:52,134] 线程:[10356] 程序异常! 
+System.Data.OracleClient.OracleException (0x80131938): ORA-12541: TNS: 无监听程序
+
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.Query(String connstr, String SQLString, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 388
+   在 ZIT.AppRouteServer.DataAccess.Oracle.DBQualityEvaluation.GetNewQualityEvaluation() 位置 E:\Works\APP\AppRouteServer\src\DataAccess\Oracle\DBQualityEvaluation.cs:行号 82
+   在 ZIT.AppRouteServer.Controller.DataAnalysis.QualityComment.Todo() 位置 E:\Works\APP\AppRouteServer\src\Controller\DataAnalysis\QualityComment.cs:行号 43
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.Query(String connstr, String SQLString, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 388
+   在 ZIT.AppRouteServer.DataAccess.Oracle.DBAppCallInfo.GetNewCallInfo() 位置 E:\Works\APP\AppRouteServer\src\DataAccess\Oracle\DBAppCallInfo.cs:行号 81
+   在 ZIT.AppRouteServer.Controller.DataAnalysis.CallInfo.Todo() 位置 E:\Works\APP\AppRouteServer\src\Controller\DataAnalysis\CallInfo.cs:行号 46
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.IsConnected(String orcleconstr) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 32
+[2016-06-20 17:57:53,050] 线程:[8068]  
+System.Exception: ORA-12541: TNS: 无监听程序
+
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.GetSingle(String connstr, String SQLString) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 203
+   在 ZIT.AppRouteServer.DataAccess.Oracle.DBRouter.GetUnitNameByUnitCode(String UnitCode) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\Oracle\DBRouter.cs:行号 47
+   在 ZIT.AppRouteServer.Controller.CommChannel.MsgHandler.HandleLoginServer(Hashtable htMessage) 位置 E:\Works\APP\AppRouteServer\src\Controller\CommChannel\MsgHandler.cs:行号 78
+[2016-06-20 17:57:53,243] 线程:[10356] 程序异常! 
+System.Data.OracleClient.OracleException (0x80131938): ORA-12541: TNS: 无监听程序
+
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.PrepareCommand(OracleCommand cmd, OracleConnection conn, OracleTransaction trans, String cmdText, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 410
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.Query(String connstr, String SQLString, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 388
+   在 ZIT.AppRouteServer.DataAccess.Oracle.DBAppCallInfo.GetNewCallInfo() 位置 E:\Works\APP\AppRouteServer\src\DataAccess\Oracle\DBAppCallInfo.cs:行号 81
+   在 ZIT.AppRouteServer.Controller.DataAnalysis.CallInfo.Todo() 位置 E:\Works\APP\AppRouteServer\src\Controller\DataAnalysis\CallInfo.cs:行号 46
+[2016-06-20 17:57:53,664] 线程:[7608]  
+System.Exception: ORA-12541: TNS: 无监听程序
+
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.GetSingle(String connstr, String SQLString) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 203
+   在 ZIT.AppRouteServer.DataAccess.Oracle.DBRouter.GetUnitNameByUnitCode(String UnitCode) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\Oracle\DBRouter.cs:行号 47
+   在 ZIT.AppRouteServer.Controller.CommChannel.MsgHandler.HandleLoginServer(Hashtable htMessage) 位置 E:\Works\APP\AppRouteServer\src\Controller\CommChannel\MsgHandler.cs:行号 78
+[2016-06-20 17:57:53,735] 线程:[8068]  
+System.Exception: ORA-12541: TNS: 无监听程序
+
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.GetSingle(String connstr, String SQLString) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 203
+   在 ZIT.AppRouteServer.DataAccess.Oracle.DBRouter.GetUnitNameByUnitCode(String UnitCode) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\Oracle\DBRouter.cs:行号 47
+   在 ZIT.AppRouteServer.Controller.CommChannel.MsgHandler.HandleLoginServer(Hashtable htMessage) 位置 E:\Works\APP\AppRouteServer\src\Controller\CommChannel\MsgHandler.cs:行号 78
+[2016-06-20 17:57:54,332] 线程:[10356] 程序异常! 
+System.Data.OracleClient.OracleException (0x80131938): ORA-12541: TNS: 无监听程序
+
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.PrepareCommand(OracleCommand cmd, OracleConnection conn, OracleTransaction trans, String cmdText, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 410
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.Query(String connstr, String SQLString, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 388
+   在 ZIT.AppRouteServer.DataAccess.Oracle.DBAppCallInfo.GetNewCallInfo() 位置 E:\Works\APP\AppRouteServer\src\DataAccess\Oracle\DBAppCallInfo.cs:行号 81
+   在 ZIT.AppRouteServer.Controller.DataAnalysis.CallInfo.Todo() 位置 E:\Works\APP\AppRouteServer\src\Controller\DataAnalysis\CallInfo.cs:行号 46
+[2016-06-20 17:57:55,419] 线程:[10356] 程序异常! 
+System.Data.OracleClient.OracleException (0x80131938): ORA-12541: TNS: 无监听程序
+
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.PrepareCommand(OracleCommand cmd, OracleConnection conn, OracleTransaction trans, String cmdText, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 410
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.Query(String connstr, String SQLString, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 388
+   在 ZIT.AppRouteServer.DataAccess.Oracle.DBAppCallInfo.GetNewCallInfo() 位置 E:\Works\APP\AppRouteServer\src\DataAccess\Oracle\DBAppCallInfo.cs:行号 81
+   在 ZIT.AppRouteServer.Controller.DataAnalysis.CallInfo.Todo() 位置 E:\Works\APP\AppRouteServer\src\Controller\DataAnalysis\CallInfo.cs:行号 46
+[2016-06-20 17:57:56,513] 线程:[10356] 程序异常! 
+System.Data.OracleClient.OracleException (0x80131938): ORA-12541: TNS: 无监听程序
+
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.PrepareCommand(OracleCommand cmd, OracleConnection conn, OracleTransaction trans, String cmdText, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 410
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.Query(String connstr, String SQLString, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 388
+   在 ZIT.AppRouteServer.DataAccess.Oracle.DBAppCallInfo.GetNewCallInfo() 位置 E:\Works\APP\AppRouteServer\src\DataAccess\Oracle\DBAppCallInfo.cs:行号 81
+   在 ZIT.AppRouteServer.Controller.DataAnalysis.CallInfo.Todo() 位置 E:\Works\APP\AppRouteServer\src\Controller\DataAnalysis\CallInfo.cs:行号 46
+[2016-06-20 17:57:57,391] 线程:[9684] 程序异常! 
+System.Data.OracleClient.OracleException (0x80131938): ORA-12541: TNS: 无监听程序
+
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.IsConnected(String orcleconstr) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 32
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.PrepareCommand(OracleCommand cmd, OracleConnection conn, OracleTransaction trans, String cmdText, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 410
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.Query(String connstr, String SQLString, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 388
+   在 ZIT.AppRouteServer.DataAccess.Oracle.DBQualityEvaluation.GetNewQualityEvaluation() 位置 E:\Works\APP\AppRouteServer\src\DataAccess\Oracle\DBQualityEvaluation.cs:行号 82
+   在 ZIT.AppRouteServer.Controller.DataAnalysis.QualityComment.Todo() 位置 E:\Works\APP\AppRouteServer\src\Controller\DataAnalysis\QualityComment.cs:行号 43
+[2016-06-20 17:57:57,607] 线程:[10356] 程序异常! 
+System.Data.OracleClient.OracleException (0x80131938): ORA-12541: TNS: 无监听程序
+
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.PrepareCommand(OracleCommand cmd, OracleConnection conn, OracleTransaction trans, String cmdText, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 410
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.Query(String connstr, String SQLString, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 388
+   在 ZIT.AppRouteServer.DataAccess.Oracle.DBAppCallInfo.GetNewCallInfo() 位置 E:\Works\APP\AppRouteServer\src\DataAccess\Oracle\DBAppCallInfo.cs:行号 81
+   在 ZIT.AppRouteServer.Controller.DataAnalysis.CallInfo.Todo() 位置 E:\Works\APP\AppRouteServer\src\Controller\DataAnalysis\CallInfo.cs:行号 46
+[2016-06-20 17:57:58,778] 线程:[10356] 程序异常! 
+System.Data.OracleClient.OracleException (0x80131938): ORA-12541: TNS: 无监听程序
+
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.PrepareCommand(OracleCommand cmd, OracleConnection conn, OracleTransaction trans, String cmdText, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 410
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.Query(String connstr, String SQLString, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 388
+   在 ZIT.AppRouteServer.DataAccess.Oracle.DBAppCallInfo.GetNewCallInfo() 位置 E:\Works\APP\AppRouteServer\src\DataAccess\Oracle\DBAppCallInfo.cs:行号 81
+   在 ZIT.AppRouteServer.Controller.DataAnalysis.CallInfo.Todo() 位置 E:\Works\APP\AppRouteServer\src\Controller\DataAnalysis\CallInfo.cs:行号 46
+[2016-06-20 17:57:59,892] 线程:[10356] 程序异常! 
+System.Data.OracleClient.OracleException (0x80131938): ORA-12541: TNS: 无监听程序
+
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.PrepareCommand(OracleCommand cmd, OracleConnection conn, OracleTransaction trans, String cmdText, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 410
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.Query(String connstr, String SQLString, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 388
+   在 ZIT.AppRouteServer.DataAccess.Oracle.DBAppCallInfo.GetNewCallInfo() 位置 E:\Works\APP\AppRouteServer\src\DataAccess\Oracle\DBAppCallInfo.cs:行号 81
+   在 ZIT.AppRouteServer.Controller.DataAnalysis.CallInfo.Todo() 位置 E:\Works\APP\AppRouteServer\src\Controller\DataAnalysis\CallInfo.cs:行号 46
+[2016-06-20 17:58:00,989] 线程:[10356] 程序异常! 
+System.Data.OracleClient.OracleException (0x80131938): ORA-12541: TNS: 无监听程序
+
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.PrepareCommand(OracleCommand cmd, OracleConnection conn, OracleTransaction trans, String cmdText, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 410
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.Query(String connstr, String SQLString, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 388
+   在 ZIT.AppRouteServer.DataAccess.Oracle.DBAppCallInfo.GetNewCallInfo() 位置 E:\Works\APP\AppRouteServer\src\DataAccess\Oracle\DBAppCallInfo.cs:行号 81
+   在 ZIT.AppRouteServer.Controller.DataAnalysis.CallInfo.Todo() 位置 E:\Works\APP\AppRouteServer\src\Controller\DataAnalysis\CallInfo.cs:行号 46
+[2016-06-20 17:58:02,253] 线程:[10356] 程序异常! 
+System.Data.OracleClient.OracleException (0x80131938): ORA-12541: TNS: 无监听程序
+
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.PrepareCommand(OracleCommand cmd, OracleConnection conn, OracleTransaction trans, String cmdText, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 410
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.Query(String connstr, String SQLString, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 388
+   在 ZIT.AppRouteServer.DataAccess.Oracle.DBAppCallInfo.GetNewCallInfo() 位置 E:\Works\APP\AppRouteServer\src\DataAccess\Oracle\DBAppCallInfo.cs:行号 81
+   在 ZIT.AppRouteServer.Controller.DataAnalysis.CallInfo.Todo() 位置 E:\Works\APP\AppRouteServer\src\Controller\DataAnalysis\CallInfo.cs:行号 46
+[2016-06-20 17:58:02,543] 线程:[9684] 程序异常! 
+System.Data.OracleClient.OracleException (0x80131938): ORA-12541: TNS: 无监听程序
+
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.PrepareCommand(OracleCommand cmd, OracleConnection conn, OracleTransaction trans, String cmdText, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 410
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.Query(String connstr, String SQLString, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 388
+   在 ZIT.AppRouteServer.DataAccess.Oracle.DBQualityEvaluation.GetNewQualityEvaluation() 位置 E:\Works\APP\AppRouteServer\src\DataAccess\Oracle\DBQualityEvaluation.cs:行号 82
+   在 ZIT.AppRouteServer.Controller.DataAnalysis.QualityComment.Todo() 位置 E:\Works\APP\AppRouteServer\src\Controller\DataAnalysis\QualityComment.cs:行号 43
+[2016-06-20 17:58:03,386] 线程:[10356] 程序异常! 
+System.Data.OracleClient.OracleException (0x80131938): ORA-12541: TNS: 无监听程序
+
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.PrepareCommand(OracleCommand cmd, OracleConnection conn, OracleTransaction trans, String cmdText, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 410
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.Query(String connstr, String SQLString, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 388
+   在 ZIT.AppRouteServer.DataAccess.Oracle.DBAppCallInfo.GetNewCallInfo() 位置 E:\Works\APP\AppRouteServer\src\DataAccess\Oracle\DBAppCallInfo.cs:行号 81
+   在 ZIT.AppRouteServer.Controller.DataAnalysis.CallInfo.Todo() 位置 E:\Works\APP\AppRouteServer\src\Controller\DataAnalysis\CallInfo.cs:行号 46
+[2016-06-20 17:58:04,488] 线程:[10356] 程序异常! 
+System.Data.OracleClient.OracleException (0x80131938): ORA-12541: TNS: 无监听程序
+
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.PrepareCommand(OracleCommand cmd, OracleConnection conn, OracleTransaction trans, String cmdText, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 410
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.Query(String connstr, String SQLString, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 388
+   在 ZIT.AppRouteServer.DataAccess.Oracle.DBAppCallInfo.GetNewCallInfo() 位置 E:\Works\APP\AppRouteServer\src\DataAccess\Oracle\DBAppCallInfo.cs:行号 81
+   在 ZIT.AppRouteServer.Controller.DataAnalysis.CallInfo.Todo() 位置 E:\Works\APP\AppRouteServer\src\Controller\DataAnalysis\CallInfo.cs:行号 46
+[2016-06-20 17:58:05,587] 线程:[10356] 程序异常! 
+System.Data.OracleClient.OracleException (0x80131938): ORA-12541: TNS: 无监听程序
+
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.PrepareCommand(OracleCommand cmd, OracleConnection conn, OracleTransaction trans, String cmdText, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 410
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.Query(String connstr, String SQLString, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 388
+   在 ZIT.AppRouteServer.DataAccess.Oracle.DBAppCallInfo.GetNewCallInfo() 位置 E:\Works\APP\AppRouteServer\src\DataAccess\Oracle\DBAppCallInfo.cs:行号 81
+   在 ZIT.AppRouteServer.Controller.DataAnalysis.CallInfo.Todo() 位置 E:\Works\APP\AppRouteServer\src\Controller\DataAnalysis\CallInfo.cs:行号 46
+[2016-06-20 17:58:06,681] 线程:[10356] 程序异常! 
+System.Data.OracleClient.OracleException (0x80131938): ORA-12541: TNS: 无监听程序
+
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.PrepareCommand(OracleCommand cmd, OracleConnection conn, OracleTransaction trans, String cmdText, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 410
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.Query(String connstr, String SQLString, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 388
+   在 ZIT.AppRouteServer.DataAccess.Oracle.DBAppCallInfo.GetNewCallInfo() 位置 E:\Works\APP\AppRouteServer\src\DataAccess\Oracle\DBAppCallInfo.cs:行号 81
+   在 ZIT.AppRouteServer.Controller.DataAnalysis.CallInfo.Todo() 位置 E:\Works\APP\AppRouteServer\src\Controller\DataAnalysis\CallInfo.cs:行号 46
+[2016-06-20 17:58:07,772] 线程:[9684] 程序异常! 
+System.Data.OracleClient.OracleException (0x80131938): ORA-12541: TNS: 无监听程序
+
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.PrepareCommand(OracleCommand cmd, OracleConnection conn, OracleTransaction trans, String cmdText, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 410
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.Query(String connstr, String SQLString, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 388
+   在 ZIT.AppRouteServer.DataAccess.Oracle.DBQualityEvaluation.GetNewQualityEvaluation() 位置 E:\Works\APP\AppRouteServer\src\DataAccess\Oracle\DBQualityEvaluation.cs:行号 82
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.PrepareCommand(OracleCommand cmd, OracleConnection conn, OracleTransaction trans, String cmdText, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 410
+[2016-06-20 17:58:07,816] 线程:[10356] 程序异常! 
+System.Data.OracleClient.OracleException (0x80131938): ORA-12541: TNS: 无监听程序
+
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.PrepareCommand(OracleCommand cmd, OracleConnection conn, OracleTransaction trans, String cmdText, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 410
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.Query(String connstr, String SQLString, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 388
+   在 ZIT.AppRouteServer.DataAccess.Oracle.DBQualityEvaluation.GetNewQualityEvaluation() 位置 E:\Works\APP\AppRouteServer\src\DataAccess\Oracle\DBQualityEvaluation.cs:行号 82
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.PrepareCommand(OracleCommand cmd, OracleConnection conn, OracleTransaction trans, String cmdText, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 410
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.Query(String connstr, String SQLString, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 388
+   在 ZIT.AppRouteServer.DataAccess.Oracle.DBAppCallInfo.GetNewCallInfo() 位置 E:\Works\APP\AppRouteServer\src\DataAccess\Oracle\DBAppCallInfo.cs:行号 81
+   在 ZIT.AppRouteServer.Controller.DataAnalysis.CallInfo.Todo() 位置 E:\Works\APP\AppRouteServer\src\Controller\DataAnalysis\CallInfo.cs:行号 46
+[2016-06-20 17:58:08,909] 线程:[10356] 程序异常! 
+System.Data.OracleClient.OracleException (0x80131938): ORA-12541: TNS: 无监听程序
+
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.PrepareCommand(OracleCommand cmd, OracleConnection conn, OracleTransaction trans, String cmdText, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 410
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.Query(String connstr, String SQLString, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 388
+   在 ZIT.AppRouteServer.DataAccess.Oracle.DBAppCallInfo.GetNewCallInfo() 位置 E:\Works\APP\AppRouteServer\src\DataAccess\Oracle\DBAppCallInfo.cs:行号 81
+   在 ZIT.AppRouteServer.Controller.DataAnalysis.CallInfo.Todo() 位置 E:\Works\APP\AppRouteServer\src\Controller\DataAnalysis\CallInfo.cs:行号 46
+[2016-06-20 17:58:10,035] 线程:[10356] 程序异常! 
+System.Data.OracleClient.OracleException (0x80131938): ORA-12541: TNS: 无监听程序
+
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.PrepareCommand(OracleCommand cmd, OracleConnection conn, OracleTransaction trans, String cmdText, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 410
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.Query(String connstr, String SQLString, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 388
+   在 ZIT.AppRouteServer.DataAccess.Oracle.DBAppCallInfo.GetNewCallInfo() 位置 E:\Works\APP\AppRouteServer\src\DataAccess\Oracle\DBAppCallInfo.cs:行号 81
+   在 ZIT.AppRouteServer.Controller.DataAnalysis.CallInfo.Todo() 位置 E:\Works\APP\AppRouteServer\src\Controller\DataAnalysis\CallInfo.cs:行号 46
+[2016-06-20 17:58:11,127] 线程:[10356] 程序异常! 
+System.Data.OracleClient.OracleException (0x80131938): ORA-12541: TNS: 无监听程序
+
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.PrepareCommand(OracleCommand cmd, OracleConnection conn, OracleTransaction trans, String cmdText, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 410
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.Query(String connstr, String SQLString, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 388
+   在 ZIT.AppRouteServer.DataAccess.Oracle.DBAppCallInfo.GetNewCallInfo() 位置 E:\Works\APP\AppRouteServer\src\DataAccess\Oracle\DBAppCallInfo.cs:行号 81
+   在 ZIT.AppRouteServer.Controller.DataAnalysis.CallInfo.Todo() 位置 E:\Works\APP\AppRouteServer\src\Controller\DataAnalysis\CallInfo.cs:行号 46
+[2016-06-20 17:58:12,217] 线程:[10356] 程序异常! 
+System.Data.OracleClient.OracleException (0x80131938): ORA-12541: TNS: 无监听程序
+
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.PrepareCommand(OracleCommand cmd, OracleConnection conn, OracleTransaction trans, String cmdText, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 410
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.Query(String connstr, String SQLString, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 388
+   在 ZIT.AppRouteServer.DataAccess.Oracle.DBAppCallInfo.GetNewCallInfo() 位置 E:\Works\APP\AppRouteServer\src\DataAccess\Oracle\DBAppCallInfo.cs:行号 81
+   在 ZIT.AppRouteServer.Controller.DataAnalysis.CallInfo.Todo() 位置 E:\Works\APP\AppRouteServer\src\Controller\DataAnalysis\CallInfo.cs:行号 46
+[2016-06-20 17:58:12,915] 线程:[9684] 程序异常! 
+System.Data.OracleClient.OracleException (0x80131938): ORA-12541: TNS: 无监听程序
+
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.PrepareCommand(OracleCommand cmd, OracleConnection conn, OracleTransaction trans, String cmdText, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 410
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.Query(String connstr, String SQLString, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 388
+   在 ZIT.AppRouteServer.DataAccess.Oracle.DBQualityEvaluation.GetNewQualityEvaluation() 位置 E:\Works\APP\AppRouteServer\src\DataAccess\Oracle\DBQualityEvaluation.cs:行号 82
+   在 ZIT.AppRouteServer.Controller.DataAnalysis.QualityComment.Todo() 位置 E:\Works\APP\AppRouteServer\src\Controller\DataAnalysis\QualityComment.cs:行号 43
+[2016-06-20 17:58:13,311] 线程:[10356] 程序异常! 
+System.Data.OracleClient.OracleException (0x80131938): ORA-12541: TNS: 无监听程序
+
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.PrepareCommand(OracleCommand cmd, OracleConnection conn, OracleTransaction trans, String cmdText, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 410
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.Query(String connstr, String SQLString, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 388
+   在 ZIT.AppRouteServer.DataAccess.Oracle.DBAppCallInfo.GetNewCallInfo() 位置 E:\Works\APP\AppRouteServer\src\DataAccess\Oracle\DBAppCallInfo.cs:行号 81
+   在 ZIT.AppRouteServer.Controller.DataAnalysis.CallInfo.Todo() 位置 E:\Works\APP\AppRouteServer\src\Controller\DataAnalysis\CallInfo.cs:行号 46
+[2016-06-20 17:58:14,402] 线程:[10356] 程序异常! 
+System.Data.OracleClient.OracleException (0x80131938): ORA-12541: TNS: 无监听程序
+
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.PrepareCommand(OracleCommand cmd, OracleConnection conn, OracleTransaction trans, String cmdText, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 410
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.Query(String connstr, String SQLString, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 388
+   在 ZIT.AppRouteServer.DataAccess.Oracle.DBAppCallInfo.GetNewCallInfo() 位置 E:\Works\APP\AppRouteServer\src\DataAccess\Oracle\DBAppCallInfo.cs:行号 81
+   在 ZIT.AppRouteServer.Controller.DataAnalysis.CallInfo.Todo() 位置 E:\Works\APP\AppRouteServer\src\Controller\DataAnalysis\CallInfo.cs:行号 46
+[2016-06-20 17:58:15,488] 线程:[10356] 程序异常! 
+System.Data.OracleClient.OracleException (0x80131938): ORA-12541: TNS: 无监听程序
+
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.PrepareCommand(OracleCommand cmd, OracleConnection conn, OracleTransaction trans, String cmdText, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 410
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.Query(String connstr, String SQLString, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 388
+   在 ZIT.AppRouteServer.DataAccess.Oracle.DBAppCallInfo.GetNewCallInfo() 位置 E:\Works\APP\AppRouteServer\src\DataAccess\Oracle\DBAppCallInfo.cs:行号 81
+   在 ZIT.AppRouteServer.Controller.DataAnalysis.CallInfo.Todo() 位置 E:\Works\APP\AppRouteServer\src\Controller\DataAnalysis\CallInfo.cs:行号 46
+[2016-06-20 17:58:16,580] 线程:[10356] 程序异常! 
+System.Data.OracleClient.OracleException (0x80131938): ORA-12541: TNS: 无监听程序
+
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.PrepareCommand(OracleCommand cmd, OracleConnection conn, OracleTransaction trans, String cmdText, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 410
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.Query(String connstr, String SQLString, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 388
+   在 ZIT.AppRouteServer.DataAccess.Oracle.DBAppCallInfo.GetNewCallInfo() 位置 E:\Works\APP\AppRouteServer\src\DataAccess\Oracle\DBAppCallInfo.cs:行号 81
+   在 ZIT.AppRouteServer.Controller.DataAnalysis.CallInfo.Todo() 位置 E:\Works\APP\AppRouteServer\src\Controller\DataAnalysis\CallInfo.cs:行号 46
+[2016-06-20 17:58:17,665] 线程:[10356] 程序异常! 
+System.Data.OracleClient.OracleException (0x80131938): ORA-12541: TNS: 无监听程序
+
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.PrepareCommand(OracleCommand cmd, OracleConnection conn, OracleTransaction trans, String cmdText, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 410
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.Query(String connstr, String SQLString, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 388
+   在 ZIT.AppRouteServer.DataAccess.Oracle.DBAppCallInfo.GetNewCallInfo() 位置 E:\Works\APP\AppRouteServer\src\DataAccess\Oracle\DBAppCallInfo.cs:行号 81
+   在 ZIT.AppRouteServer.Controller.DataAnalysis.CallInfo.Todo() 位置 E:\Works\APP\AppRouteServer\src\Controller\DataAnalysis\CallInfo.cs:行号 46
+[2016-06-20 17:58:18,004] 线程:[9684] 程序异常! 
+System.Data.OracleClient.OracleException (0x80131938): ORA-12541: TNS: 无监听程序
+
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.PrepareCommand(OracleCommand cmd, OracleConnection conn, OracleTransaction trans, String cmdText, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 410
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.Query(String connstr, String SQLString, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 388
+   在 ZIT.AppRouteServer.DataAccess.Oracle.DBQualityEvaluation.GetNewQualityEvaluation() 位置 E:\Works\APP\AppRouteServer\src\DataAccess\Oracle\DBQualityEvaluation.cs:行号 82
+   在 ZIT.AppRouteServer.Controller.DataAnalysis.QualityComment.Todo() 位置 E:\Works\APP\AppRouteServer\src\Controller\DataAnalysis\QualityComment.cs:行号 43
+[2016-06-20 17:58:18,749] 线程:[10356] 程序异常! 
+System.Data.OracleClient.OracleException (0x80131938): ORA-12541: TNS: 无监听程序
+
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.PrepareCommand(OracleCommand cmd, OracleConnection conn, OracleTransaction trans, String cmdText, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 410
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.Query(String connstr, String SQLString, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 388
+   在 ZIT.AppRouteServer.DataAccess.Oracle.DBAppCallInfo.GetNewCallInfo() 位置 E:\Works\APP\AppRouteServer\src\DataAccess\Oracle\DBAppCallInfo.cs:行号 81
+   在 ZIT.AppRouteServer.Controller.DataAnalysis.CallInfo.Todo() 位置 E:\Works\APP\AppRouteServer\src\Controller\DataAnalysis\CallInfo.cs:行号 46
+[2016-06-20 17:58:19,839] 线程:[10356] 程序异常! 
+System.Data.OracleClient.OracleException (0x80131938): ORA-12541: TNS: 无监听程序
+
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.PrepareCommand(OracleCommand cmd, OracleConnection conn, OracleTransaction trans, String cmdText, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 410
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.Query(String connstr, String SQLString, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 388
+   在 ZIT.AppRouteServer.DataAccess.Oracle.DBAppCallInfo.GetNewCallInfo() 位置 E:\Works\APP\AppRouteServer\src\DataAccess\Oracle\DBAppCallInfo.cs:行号 81
+   在 ZIT.AppRouteServer.Controller.DataAnalysis.CallInfo.Todo() 位置 E:\Works\APP\AppRouteServer\src\Controller\DataAnalysis\CallInfo.cs:行号 46
+[2016-06-20 17:58:20,945] 线程:[10356] 程序异常! 
+System.Data.OracleClient.OracleException (0x80131938): ORA-12541: TNS: 无监听程序
+
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.PrepareCommand(OracleCommand cmd, OracleConnection conn, OracleTransaction trans, String cmdText, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 410
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.Query(String connstr, String SQLString, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 388
+   在 ZIT.AppRouteServer.DataAccess.Oracle.DBAppCallInfo.GetNewCallInfo() 位置 E:\Works\APP\AppRouteServer\src\DataAccess\Oracle\DBAppCallInfo.cs:行号 81
+   在 ZIT.AppRouteServer.Controller.DataAnalysis.CallInfo.Todo() 位置 E:\Works\APP\AppRouteServer\src\Controller\DataAnalysis\CallInfo.cs:行号 46
+[2016-06-20 17:58:22,038] 线程:[10356] 程序异常! 
+System.Data.OracleClient.OracleException (0x80131938): ORA-12541: TNS: 无监听程序
+
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.PrepareCommand(OracleCommand cmd, OracleConnection conn, OracleTransaction trans, String cmdText, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 410
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.Query(String connstr, String SQLString, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 388
+   在 ZIT.AppRouteServer.DataAccess.Oracle.DBAppCallInfo.GetNewCallInfo() 位置 E:\Works\APP\AppRouteServer\src\DataAccess\Oracle\DBAppCallInfo.cs:行号 81
+   在 ZIT.AppRouteServer.Controller.DataAnalysis.CallInfo.Todo() 位置 E:\Works\APP\AppRouteServer\src\Controller\DataAnalysis\CallInfo.cs:行号 46
+[2016-06-20 17:58:23,162] 线程:[9684] 程序异常! 
+System.Data.OracleClient.OracleException (0x80131938): ORA-12541: TNS: 无监听程序
+
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.PrepareCommand(OracleCommand cmd, OracleConnection conn, OracleTransaction trans, String cmdText, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 410
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.Query(String connstr, String SQLString, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 388
+   在 ZIT.AppRouteServer.DataAccess.Oracle.DBQualityEvaluation.GetNewQualityEvaluation() 位置 E:\Works\APP\AppRouteServer\src\DataAccess\Oracle\DBQualityEvaluation.cs:行号 82
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.PrepareCommand(OracleCommand cmd, OracleConnection conn, OracleTransaction trans, String cmdText, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 410
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.Query(String connstr, String SQLString, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 388
+   在 ZIT.AppRouteServer.DataAccess.Oracle.DBAppCallInfo.GetNewCallInfo() 位置 E:\Works\APP\AppRouteServer\src\DataAccess\Oracle\DBAppCallInfo.cs:行号 81
+   在 ZIT.AppRouteServer.Controller.DataAnalysis.CallInfo.Todo() 位置 E:\Works\APP\AppRouteServer\src\Controller\DataAnalysis\CallInfo.cs:行号 46
+[2016-06-20 17:58:23,197] 线程:[10356] 程序异常! 
+System.Data.OracleClient.OracleException (0x80131938): ORA-12541: TNS: 无监听程序
+
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.PrepareCommand(OracleCommand cmd, OracleConnection conn, OracleTransaction trans, String cmdText, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 410
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.Query(String connstr, String SQLString, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 388
+   在 ZIT.AppRouteServer.DataAccess.Oracle.DBQualityEvaluation.GetNewQualityEvaluation() 位置 E:\Works\APP\AppRouteServer\src\DataAccess\Oracle\DBQualityEvaluation.cs:行号 82
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.PrepareCommand(OracleCommand cmd, OracleConnection conn, OracleTransaction trans, String cmdText, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 410
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.Query(String connstr, String SQLString, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 388
+   在 ZIT.AppRouteServer.DataAccess.Oracle.DBAppCallInfo.GetNewCallInfo() 位置 E:\Works\APP\AppRouteServer\src\DataAccess\Oracle\DBAppCallInfo.cs:行号 81
+   在 ZIT.AppRouteServer.Controller.DataAnalysis.CallInfo.Todo() 位置 E:\Works\APP\AppRouteServer\src\Controller\DataAnalysis\CallInfo.cs:行号 46
+[2016-06-20 17:58:24,291] 线程:[10356] 程序异常! 
+System.Data.OracleClient.OracleException (0x80131938): ORA-12541: TNS: 无监听程序
+
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.PrepareCommand(OracleCommand cmd, OracleConnection conn, OracleTransaction trans, String cmdText, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 410
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.Query(String connstr, String SQLString, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 388
+   在 ZIT.AppRouteServer.DataAccess.Oracle.DBAppCallInfo.GetNewCallInfo() 位置 E:\Works\APP\AppRouteServer\src\DataAccess\Oracle\DBAppCallInfo.cs:行号 81
+   在 ZIT.AppRouteServer.Controller.DataAnalysis.CallInfo.Todo() 位置 E:\Works\APP\AppRouteServer\src\Controller\DataAnalysis\CallInfo.cs:行号 46
+[2016-06-20 17:58:25,379] 线程:[10356] 程序异常! 
+System.Data.OracleClient.OracleException (0x80131938): ORA-12541: TNS: 无监听程序
+
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.PrepareCommand(OracleCommand cmd, OracleConnection conn, OracleTransaction trans, String cmdText, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 410
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.Query(String connstr, String SQLString, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 388
+   在 ZIT.AppRouteServer.DataAccess.Oracle.DBAppCallInfo.GetNewCallInfo() 位置 E:\Works\APP\AppRouteServer\src\DataAccess\Oracle\DBAppCallInfo.cs:行号 81
+   在 ZIT.AppRouteServer.Controller.DataAnalysis.CallInfo.Todo() 位置 E:\Works\APP\AppRouteServer\src\Controller\DataAnalysis\CallInfo.cs:行号 46
+[2016-06-20 17:58:26,475] 线程:[10356] 程序异常! 
+System.Data.OracleClient.OracleException (0x80131938): ORA-12541: TNS: 无监听程序
+
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.PrepareCommand(OracleCommand cmd, OracleConnection conn, OracleTransaction trans, String cmdText, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 410
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.Query(String connstr, String SQLString, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 388
+   在 ZIT.AppRouteServer.DataAccess.Oracle.DBAppCallInfo.GetNewCallInfo() 位置 E:\Works\APP\AppRouteServer\src\DataAccess\Oracle\DBAppCallInfo.cs:行号 81
+   在 ZIT.AppRouteServer.Controller.DataAnalysis.CallInfo.Todo() 位置 E:\Works\APP\AppRouteServer\src\Controller\DataAnalysis\CallInfo.cs:行号 46
+[2016-06-20 17:58:27,562] 线程:[10356] 程序异常! 
+System.Data.OracleClient.OracleException (0x80131938): ORA-12541: TNS: 无监听程序
+
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.PrepareCommand(OracleCommand cmd, OracleConnection conn, OracleTransaction trans, String cmdText, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 410
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.Query(String connstr, String SQLString, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 388
+   在 ZIT.AppRouteServer.DataAccess.Oracle.DBAppCallInfo.GetNewCallInfo() 位置 E:\Works\APP\AppRouteServer\src\DataAccess\Oracle\DBAppCallInfo.cs:行号 81
+   在 ZIT.AppRouteServer.Controller.DataAnalysis.CallInfo.Todo() 位置 E:\Works\APP\AppRouteServer\src\Controller\DataAnalysis\CallInfo.cs:行号 46
+[2016-06-20 17:58:28,286] 线程:[9684] 程序异常! 
+System.Data.OracleClient.OracleException (0x80131938): ORA-12541: TNS: 无监听程序
+
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.PrepareCommand(OracleCommand cmd, OracleConnection conn, OracleTransaction trans, String cmdText, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 410
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.Query(String connstr, String SQLString, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 388
+   在 ZIT.AppRouteServer.DataAccess.Oracle.DBQualityEvaluation.GetNewQualityEvaluation() 位置 E:\Works\APP\AppRouteServer\src\DataAccess\Oracle\DBQualityEvaluation.cs:行号 82
+   在 ZIT.AppRouteServer.Controller.DataAnalysis.QualityComment.Todo() 位置 E:\Works\APP\AppRouteServer\src\Controller\DataAnalysis\QualityComment.cs:行号 43
+[2016-06-20 17:58:28,653] 线程:[10356] 程序异常! 
+System.Data.OracleClient.OracleException (0x80131938): ORA-12541: TNS: 无监听程序
+
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.PrepareCommand(OracleCommand cmd, OracleConnection conn, OracleTransaction trans, String cmdText, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 410
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.Query(String connstr, String SQLString, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 388
+   在 ZIT.AppRouteServer.DataAccess.Oracle.DBAppCallInfo.GetNewCallInfo() 位置 E:\Works\APP\AppRouteServer\src\DataAccess\Oracle\DBAppCallInfo.cs:行号 81
+   在 ZIT.AppRouteServer.Controller.DataAnalysis.CallInfo.Todo() 位置 E:\Works\APP\AppRouteServer\src\Controller\DataAnalysis\CallInfo.cs:行号 46
+[2016-06-20 17:58:29,740] 线程:[10356] 程序异常! 
+System.Data.OracleClient.OracleException (0x80131938): ORA-12541: TNS: 无监听程序
+
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.PrepareCommand(OracleCommand cmd, OracleConnection conn, OracleTransaction trans, String cmdText, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 410
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.Query(String connstr, String SQLString, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 388
+   在 ZIT.AppRouteServer.DataAccess.Oracle.DBAppCallInfo.GetNewCallInfo() 位置 E:\Works\APP\AppRouteServer\src\DataAccess\Oracle\DBAppCallInfo.cs:行号 81
+   在 ZIT.AppRouteServer.Controller.DataAnalysis.CallInfo.Todo() 位置 E:\Works\APP\AppRouteServer\src\Controller\DataAnalysis\CallInfo.cs:行号 46
+[2016-06-20 17:58:30,828] 线程:[10356] 程序异常! 
+System.Data.OracleClient.OracleException (0x80131938): ORA-12541: TNS: 无监听程序
+
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.PrepareCommand(OracleCommand cmd, OracleConnection conn, OracleTransaction trans, String cmdText, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 410
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.Query(String connstr, String SQLString, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 388
+   在 ZIT.AppRouteServer.DataAccess.Oracle.DBAppCallInfo.GetNewCallInfo() 位置 E:\Works\APP\AppRouteServer\src\DataAccess\Oracle\DBAppCallInfo.cs:行号 81
+   在 ZIT.AppRouteServer.Controller.DataAnalysis.CallInfo.Todo() 位置 E:\Works\APP\AppRouteServer\src\Controller\DataAnalysis\CallInfo.cs:行号 46
+[2016-06-20 17:58:31,933] 线程:[10356] 程序异常! 
+System.Data.OracleClient.OracleException (0x80131938): ORA-12541: TNS: 无监听程序
+
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.PrepareCommand(OracleCommand cmd, OracleConnection conn, OracleTransaction trans, String cmdText, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 410
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.Query(String connstr, String SQLString, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 388
+   在 ZIT.AppRouteServer.DataAccess.Oracle.DBAppCallInfo.GetNewCallInfo() 位置 E:\Works\APP\AppRouteServer\src\DataAccess\Oracle\DBAppCallInfo.cs:行号 81
+   在 ZIT.AppRouteServer.Controller.DataAnalysis.CallInfo.Todo() 位置 E:\Works\APP\AppRouteServer\src\Controller\DataAnalysis\CallInfo.cs:行号 46
+[2016-06-20 17:58:34,510] 线程:[9684] 程序异常! 
+System.Data.OracleClient.OracleException (0x80131938): ORA-12541: TNS: 无监听程序
+
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.Query(String connstr, String SQLString, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 388
+   在 ZIT.AppRouteServer.DataAccess.Oracle.DBQualityEvaluation.GetNewQualityEvaluation() 位置 E:\Works\APP\AppRouteServer\src\DataAccess\Oracle\DBQualityEvaluation.cs:行号 82
+   在 ZIT.AppRouteServer.Controller.DataAnalysis.QualityComment.Todo() 位置 E:\Works\APP\AppRouteServer\src\Controller\DataAnalysis\QualityComment.cs:行号 43
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.PrepareCommand(OracleCommand cmd, OracleConnection conn, OracleTransaction trans, String cmdText, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 410
+[2016-06-20 17:58:34,560] 线程:[10356] 程序异常! 
+System.Data.OracleClient.OracleException (0x80131938): ORA-12541: TNS: 无监听程序
+
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.Query(String connstr, String SQLString, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 388
+   在 ZIT.AppRouteServer.DataAccess.Oracle.DBQualityEvaluation.GetNewQualityEvaluation() 位置 E:\Works\APP\AppRouteServer\src\DataAccess\Oracle\DBQualityEvaluation.cs:行号 82
+   在 ZIT.AppRouteServer.Controller.DataAnalysis.QualityComment.Todo() 位置 E:\Works\APP\AppRouteServer\src\Controller\DataAnalysis\QualityComment.cs:行号 43
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.PrepareCommand(OracleCommand cmd, OracleConnection conn, OracleTransaction trans, String cmdText, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 410
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.Query(String connstr, String SQLString, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 388
+   在 ZIT.AppRouteServer.DataAccess.Oracle.DBAppCallInfo.GetNewCallInfo() 位置 E:\Works\APP\AppRouteServer\src\DataAccess\Oracle\DBAppCallInfo.cs:行号 81
+   在 ZIT.AppRouteServer.Controller.DataAnalysis.CallInfo.Todo() 位置 E:\Works\APP\AppRouteServer\src\Controller\DataAnalysis\CallInfo.cs:行号 46
+[2016-06-20 17:58:35,655] 线程:[10356] 程序异常! 
+System.Data.OracleClient.OracleException (0x80131938): ORA-12541: TNS: 无监听程序
+
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.PrepareCommand(OracleCommand cmd, OracleConnection conn, OracleTransaction trans, String cmdText, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 410
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.Query(String connstr, String SQLString, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 388
+   在 ZIT.AppRouteServer.DataAccess.Oracle.DBAppCallInfo.GetNewCallInfo() 位置 E:\Works\APP\AppRouteServer\src\DataAccess\Oracle\DBAppCallInfo.cs:行号 81
+   在 ZIT.AppRouteServer.Controller.DataAnalysis.CallInfo.Todo() 位置 E:\Works\APP\AppRouteServer\src\Controller\DataAnalysis\CallInfo.cs:行号 46
+[2016-06-20 17:58:36,747] 线程:[10356] 程序异常! 
+System.Data.OracleClient.OracleException (0x80131938): ORA-12541: TNS: 无监听程序
+
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.PrepareCommand(OracleCommand cmd, OracleConnection conn, OracleTransaction trans, String cmdText, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 410
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.Query(String connstr, String SQLString, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 388
+   在 ZIT.AppRouteServer.DataAccess.Oracle.DBAppCallInfo.GetNewCallInfo() 位置 E:\Works\APP\AppRouteServer\src\DataAccess\Oracle\DBAppCallInfo.cs:行号 81
+   在 ZIT.AppRouteServer.Controller.DataAnalysis.CallInfo.Todo() 位置 E:\Works\APP\AppRouteServer\src\Controller\DataAnalysis\CallInfo.cs:行号 46
+[2016-06-20 17:58:37,843] 线程:[10356] 程序异常! 
+System.Data.OracleClient.OracleException (0x80131938): ORA-12541: TNS: 无监听程序
+
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.PrepareCommand(OracleCommand cmd, OracleConnection conn, OracleTransaction trans, String cmdText, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 410
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.Query(String connstr, String SQLString, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 388
+   在 ZIT.AppRouteServer.DataAccess.Oracle.DBAppCallInfo.GetNewCallInfo() 位置 E:\Works\APP\AppRouteServer\src\DataAccess\Oracle\DBAppCallInfo.cs:行号 81
+   在 ZIT.AppRouteServer.Controller.DataAnalysis.CallInfo.Todo() 位置 E:\Works\APP\AppRouteServer\src\Controller\DataAnalysis\CallInfo.cs:行号 46
+[2016-06-20 17:58:38,931] 线程:[10356] 程序异常! 
+System.Data.OracleClient.OracleException (0x80131938): ORA-12541: TNS: 无监听程序
+
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.PrepareCommand(OracleCommand cmd, OracleConnection conn, OracleTransaction trans, String cmdText, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 410
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.Query(String connstr, String SQLString, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 388
+   在 ZIT.AppRouteServer.DataAccess.Oracle.DBAppCallInfo.GetNewCallInfo() 位置 E:\Works\APP\AppRouteServer\src\DataAccess\Oracle\DBAppCallInfo.cs:行号 81
+   在 ZIT.AppRouteServer.Controller.DataAnalysis.CallInfo.Todo() 位置 E:\Works\APP\AppRouteServer\src\Controller\DataAnalysis\CallInfo.cs:行号 46
+[2016-06-20 17:58:39,706] 线程:[9684] 程序异常! 
+System.Data.OracleClient.OracleException (0x80131938): ORA-12541: TNS: 无监听程序
+
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.PrepareCommand(OracleCommand cmd, OracleConnection conn, OracleTransaction trans, String cmdText, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 410
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.IsConnected(String orcleconstr) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 32
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.Query(String connstr, String SQLString, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 388
+   在 ZIT.AppRouteServer.DataAccess.Oracle.DBQualityEvaluation.GetNewQualityEvaluation() 位置 E:\Works\APP\AppRouteServer\src\DataAccess\Oracle\DBQualityEvaluation.cs:行号 82
+   在 ZIT.AppRouteServer.Controller.DataAnalysis.QualityComment.Todo() 位置 E:\Works\APP\AppRouteServer\src\Controller\DataAnalysis\QualityComment.cs:行号 43
+[2016-06-20 17:58:40,022] 线程:[10356] 程序异常! 
+System.Data.OracleClient.OracleException (0x80131938): ORA-12541: TNS: 无监听程序
+
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.PrepareCommand(OracleCommand cmd, OracleConnection conn, OracleTransaction trans, String cmdText, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 410
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.Query(String connstr, String SQLString, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 388
+   在 ZIT.AppRouteServer.DataAccess.Oracle.DBAppCallInfo.GetNewCallInfo() 位置 E:\Works\APP\AppRouteServer\src\DataAccess\Oracle\DBAppCallInfo.cs:行号 81
+   在 ZIT.AppRouteServer.Controller.DataAnalysis.CallInfo.Todo() 位置 E:\Works\APP\AppRouteServer\src\Controller\DataAnalysis\CallInfo.cs:行号 46
+[2016-06-20 17:58:41,120] 线程:[10356] 程序异常! 
+System.Data.OracleClient.OracleException (0x80131938): ORA-12541: TNS: 无监听程序
+
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.PrepareCommand(OracleCommand cmd, OracleConnection conn, OracleTransaction trans, String cmdText, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 410
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.Query(String connstr, String SQLString, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 388
+   在 ZIT.AppRouteServer.DataAccess.Oracle.DBAppCallInfo.GetNewCallInfo() 位置 E:\Works\APP\AppRouteServer\src\DataAccess\Oracle\DBAppCallInfo.cs:行号 81
+   在 ZIT.AppRouteServer.Controller.DataAnalysis.CallInfo.Todo() 位置 E:\Works\APP\AppRouteServer\src\Controller\DataAnalysis\CallInfo.cs:行号 46
+[2016-06-20 17:58:42,216] 线程:[10356] 程序异常! 
+System.Data.OracleClient.OracleException (0x80131938): ORA-12541: TNS: 无监听程序
+
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.PrepareCommand(OracleCommand cmd, OracleConnection conn, OracleTransaction trans, String cmdText, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 410
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.Query(String connstr, String SQLString, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 388
+   在 ZIT.AppRouteServer.DataAccess.Oracle.DBAppCallInfo.GetNewCallInfo() 位置 E:\Works\APP\AppRouteServer\src\DataAccess\Oracle\DBAppCallInfo.cs:行号 81
+   在 ZIT.AppRouteServer.Controller.DataAnalysis.CallInfo.Todo() 位置 E:\Works\APP\AppRouteServer\src\Controller\DataAnalysis\CallInfo.cs:行号 46
+[2016-06-20 17:59:11,819] 线程:[10536] 程序异常! 
+System.Data.OracleClient.OracleException (0x80131938): ORA-12170: TNS: 连接超时
+
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.IsConnected(String orcleconstr) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 32
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.Query(String connstr, String SQLString, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 388
+   在 ZIT.AppRouteServer.DataAccess.Oracle.DBAppCallInfo.GetNewCallInfo() 位置 E:\Works\APP\AppRouteServer\src\DataAccess\Oracle\DBAppCallInfo.cs:行号 81
+   在 ZIT.AppRouteServer.Controller.DataAnalysis.CallInfo.Todo() 位置 E:\Works\APP\AppRouteServer\src\Controller\DataAnalysis\CallInfo.cs:行号 46
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.Query(String connstr, String SQLString, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 388
+   在 ZIT.AppRouteServer.DataAccess.Oracle.DBQualityEvaluation.GetNewQualityEvaluation() 位置 E:\Works\APP\AppRouteServer\src\DataAccess\Oracle\DBQualityEvaluation.cs:行号 82
+   在 ZIT.AppRouteServer.Controller.DataAnalysis.QualityComment.Todo() 位置 E:\Works\APP\AppRouteServer\src\Controller\DataAnalysis\QualityComment.cs:行号 43
+[2016-06-20 17:59:11,819] 线程:[10548] 程序异常! 
+System.Data.OracleClient.OracleException (0x80131938): ORA-12170: TNS: 连接超时
+
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.IsConnected(String orcleconstr) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 32
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.Query(String connstr, String SQLString, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 388
+   在 ZIT.AppRouteServer.DataAccess.Oracle.DBAppCallInfo.GetNewCallInfo() 位置 E:\Works\APP\AppRouteServer\src\DataAccess\Oracle\DBAppCallInfo.cs:行号 81
+   在 ZIT.AppRouteServer.Controller.DataAnalysis.CallInfo.Todo() 位置 E:\Works\APP\AppRouteServer\src\Controller\DataAnalysis\CallInfo.cs:行号 46
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.Query(String connstr, String SQLString, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 388
+   在 ZIT.AppRouteServer.DataAccess.Oracle.DBQualityEvaluation.GetNewQualityEvaluation() 位置 E:\Works\APP\AppRouteServer\src\DataAccess\Oracle\DBQualityEvaluation.cs:行号 82
+   在 ZIT.AppRouteServer.Controller.DataAnalysis.QualityComment.Todo() 位置 E:\Works\APP\AppRouteServer\src\Controller\DataAnalysis\QualityComment.cs:行号 43
+[2016-06-20 17:59:12,913] 线程:[10548] 程序异常! 
+System.Data.OracleClient.OracleException (0x80131938): ORA-12170: TNS: 连接超时
+
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.PrepareCommand(OracleCommand cmd, OracleConnection conn, OracleTransaction trans, String cmdText, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 410
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.Query(String connstr, String SQLString, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 388
+   在 ZIT.AppRouteServer.DataAccess.Oracle.DBAppCallInfo.GetNewCallInfo() 位置 E:\Works\APP\AppRouteServer\src\DataAccess\Oracle\DBAppCallInfo.cs:行号 81
+   在 ZIT.AppRouteServer.Controller.DataAnalysis.CallInfo.Todo() 位置 E:\Works\APP\AppRouteServer\src\Controller\DataAnalysis\CallInfo.cs:行号 46
+[2016-06-20 17:59:14,002] 线程:[10548] 程序异常! 
+System.Data.OracleClient.OracleException (0x80131938): ORA-12170: TNS: 连接超时
+
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.PrepareCommand(OracleCommand cmd, OracleConnection conn, OracleTransaction trans, String cmdText, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 410
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.Query(String connstr, String SQLString, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 388
+   在 ZIT.AppRouteServer.DataAccess.Oracle.DBAppCallInfo.GetNewCallInfo() 位置 E:\Works\APP\AppRouteServer\src\DataAccess\Oracle\DBAppCallInfo.cs:行号 81
+   在 ZIT.AppRouteServer.Controller.DataAnalysis.CallInfo.Todo() 位置 E:\Works\APP\AppRouteServer\src\Controller\DataAnalysis\CallInfo.cs:行号 46
+[2016-06-20 17:59:15,098] 线程:[10548] 程序异常! 
+System.Data.OracleClient.OracleException (0x80131938): ORA-12170: TNS: 连接超时
+
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.PrepareCommand(OracleCommand cmd, OracleConnection conn, OracleTransaction trans, String cmdText, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 410
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.Query(String connstr, String SQLString, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 388
+   在 ZIT.AppRouteServer.DataAccess.Oracle.DBAppCallInfo.GetNewCallInfo() 位置 E:\Works\APP\AppRouteServer\src\DataAccess\Oracle\DBAppCallInfo.cs:行号 81
+   在 ZIT.AppRouteServer.Controller.DataAnalysis.CallInfo.Todo() 位置 E:\Works\APP\AppRouteServer\src\Controller\DataAnalysis\CallInfo.cs:行号 46
+[2016-06-20 17:59:16,189] 线程:[10548] 程序异常! 
+System.Data.OracleClient.OracleException (0x80131938): ORA-12170: TNS: 连接超时
+
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.PrepareCommand(OracleCommand cmd, OracleConnection conn, OracleTransaction trans, String cmdText, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 410
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.Query(String connstr, String SQLString, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 388
+   在 ZIT.AppRouteServer.DataAccess.Oracle.DBAppCallInfo.GetNewCallInfo() 位置 E:\Works\APP\AppRouteServer\src\DataAccess\Oracle\DBAppCallInfo.cs:行号 81
+   在 ZIT.AppRouteServer.Controller.DataAnalysis.CallInfo.Todo() 位置 E:\Works\APP\AppRouteServer\src\Controller\DataAnalysis\CallInfo.cs:行号 46
+[2016-06-20 17:59:35,097] 线程:[10548] 程序异常! 
+System.Threading.ThreadAbortException: 正在中止线程。
+   在 System.Data.ProviderBase.DbConnectionInternal..ctor(ConnectionState state, Boolean hidePassword, Boolean allowSetConnectionString)
+   在 System.Data.OracleClient.OracleInternalConnection..ctor(OracleConnectionString connectionOptions)
+   在 System.Data.OracleClient.OracleConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnection owningConnection, DbConnectionPool pool, DbConnectionOptions options)
+   在 System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.PrepareCommand(OracleCommand cmd, OracleConnection conn, OracleTransaction trans, String cmdText, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 410
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.Query(String connstr, String SQLString, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 388
+   在 ZIT.AppRouteServer.DataAccess.Oracle.DBAppCallInfo.GetNewCallInfo() 位置 E:\Works\APP\AppRouteServer\src\DataAccess\Oracle\DBAppCallInfo.cs:行号 81
+   在 ZIT.AppRouteServer.Controller.DataAnalysis.CallInfo.Todo() 位置 E:\Works\APP\AppRouteServer\src\Controller\DataAnalysis\CallInfo.cs:行号 46
+[2016-06-20 17:59:35,222] 线程:[10536] 程序异常! 
+System.Threading.ThreadAbortException: 正在中止线程。
+   在 System.Data.DataTableCollection..ctor(DataSet dataSet)
+   在 System.Data.DataSet..ctor()
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.Query(String connstr, String SQLString, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 391
+   在 ZIT.AppRouteServer.DataAccess.Oracle.DBQualityEvaluation.GetNewQualityEvaluation() 位置 E:\Works\APP\AppRouteServer\src\DataAccess\Oracle\DBQualityEvaluation.cs:行号 82
+   在 ZIT.AppRouteServer.Controller.DataAnalysis.QualityComment.Todo() 位置 E:\Works\APP\AppRouteServer\src\Controller\DataAnalysis\QualityComment.cs:行号 43
+[2016-06-20 18:00:25,750] 线程:[12152] 程序异常! 
+System.Threading.ThreadAbortException: 正在中止线程。
+   在 System.Data.Common.UnsafeNativeMethods.OCIStmtExecute(OciHandle svchp, OciHandle stmtp, OciHandle errhp, UInt32 iters, UInt32 rowoff, IntPtr snap_in, IntPtr snap_out, MODE mode)
+   在 System.Data.OracleClient.TracedNativeMethods.OCIStmtExecute(OciHandle svchp, OciHandle stmtp, OciHandle errhp, Int32 iters, MODE mode)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.OracleClient.OracleCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, String srcTable)
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.Query(String connstr, String SQLString, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 394
+   在 ZIT.AppRouteServer.DataAccess.Oracle.DBAppCallInfo.GetNewCallInfo() 位置 E:\Works\APP\AppRouteServer\src\DataAccess\Oracle\DBAppCallInfo.cs:行号 81
+   在 ZIT.AppRouteServer.Controller.DataAnalysis.CallInfo.Todo() 位置 E:\Works\APP\AppRouteServer\src\Controller\DataAnalysis\CallInfo.cs:行号 46
+[2016-06-20 18:00:26,283] 线程:[12164] 程序异常! 
+System.Threading.ThreadAbortException: 正在中止线程。
+   在 System.Data.Common.UnsafeNativeMethods.OCIStmtFetch(OciHandle stmtp, OciHandle errhp, UInt32 nrows, FETCH orientation, MODE mode)
+   在 System.Data.OracleClient.TracedNativeMethods.OCIStmtFetch(OciHandle stmtp, OciHandle errhp, Int32 nrows, FETCH orientation, MODE mode)
+   在 System.Data.OracleClient.OracleDataReader.ReadInternal()
+   在 System.Data.OracleClient.OracleDataReader.Read()
+   在 System.Data.Common.DataAdapter.FillLoadDataRow(SchemaMapping mapping)
+   在 System.Data.Common.DataAdapter.FillFromReader(DataSet dataset, DataTable datatable, String srcTable, DataReaderContainer dataReader, Int32 startRecord, Int32 maxRecords, DataColumn parentChapterColumn, Object parentChapterValue)
+   在 System.Data.Common.DataAdapter.Fill(DataSet dataSet, String srcTable, IDataReader dataReader, Int32 startRecord, Int32 maxRecords)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, String srcTable)
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.Query(String connstr, String SQLString, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 394
+   在 ZIT.AppRouteServer.DataAccess.Oracle.DBQualityEvaluation.GetNewQualityEvaluation() 位置 E:\Works\APP\AppRouteServer\src\DataAccess\Oracle\DBQualityEvaluation.cs:行号 82
+   在 ZIT.AppRouteServer.Controller.DataAnalysis.QualityComment.Todo() 位置 E:\Works\APP\AppRouteServer\src\Controller\DataAnalysis\QualityComment.cs:行号 43
+[2016-06-20 18:01:12,701] 线程:[9892] 程序异常! 
+System.Threading.ThreadAbortException: 正在中止线程。
+   在 System.Data.Common.UnsafeNativeMethods.OCIStmtExecute(OciHandle svchp, OciHandle stmtp, OciHandle errhp, UInt32 iters, UInt32 rowoff, IntPtr snap_in, IntPtr snap_out, MODE mode)
+   在 System.Data.OracleClient.TracedNativeMethods.OCIStmtExecute(OciHandle svchp, OciHandle stmtp, OciHandle errhp, Int32 iters, MODE mode)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.OracleClient.OracleCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, String srcTable)
+   在 ZIT.AppRouteServer.DataAccess.DbHelperOra.Query(String connstr, String SQLString, OracleParameter[] cmdParms) 位置 E:\Works\APP\AppRouteServer\src\DataAccess\DbHelperOra.cs:行号 394
+   在 ZIT.AppRouteServer.DataAccess.Oracle.DBQualityEvaluation.GetNewQualityEvaluation() 位置 E:\Works\APP\AppRouteServer\src\DataAccess\Oracle\DBQualityEvaluation.cs:行号 82
+   在 ZIT.AppRouteServer.Controller.DataAnalysis.QualityComment.Todo() 位置 E:\Works\APP\AppRouteServer\src\Controller\DataAnalysis\QualityComment.cs:行号 43

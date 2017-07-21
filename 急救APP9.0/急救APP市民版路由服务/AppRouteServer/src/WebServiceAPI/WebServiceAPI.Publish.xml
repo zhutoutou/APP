@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<publishData>
+  <publishProfile publishUrl="C:\Users\jimmy-work\Desktop\AppRouteServer\WebServiceAPI" deleteExistingFiles="False" ftpAnonymousLogin="False" ftpPassiveMode="True" msdeploySite="" msdeploySiteID="" msdeployRemoteSitePhysicalPath="" msdeployAllowUntrustedCertificate="False" msdeploySkipExtraFilesOnServer="True" msdeployMarkAsApp="False" profileName="配置文件1" publishMethod="FileSystem" replaceMatchingFiles="True" userName="" savePWD="False" userPWD="" SelectedForPublish="True">
+    <file relUrl="Web.config" publishTime="06/28/2016 17:14:30" />
+    <file relUrl="bin/DataAccess.dll" publishTime="06/28/2016 17:11:29" />
+    <file relUrl="bin/DataAccess.pdb" publishTime="06/28/2016 17:11:29" />
+    <file relUrl="bin/WebServiceAPI.dll" publishTime="06/28/2016 17:11:32" />
+    <file relUrl="bin/WebServiceController.pdb" publishTime="06/28/2016 17:11:30" />
+    <file relUrl="bin/WebServiceAPI.pdb" publishTime="06/28/2016 17:11:32" />
+    <file relUrl="bin/Newtonsoft.Json.xml" publishTime="03/09/2011 17:23:40" />
+    <file relUrl="bin/Model.dll" publishTime="06/28/2016 17:11:28" />
+    <file relUrl="bin/Utility.dll" publishTime="06/28/2016 17:11:27" />
+    <file relUrl="bin/log4net.dll" publishTime="02/13/2014 09:39:24" />
+    <file relUrl="AppRouteService.asmx" publishTime="06/07/2016 16:43:06" />
+    <file relUrl="bin/Newtonsoft.Json.dll" publishTime="03/09/2011 17:23:40" />
+    <file relUrl="bin/WebServiceController.dll" publishTime="06/28/2016 17:11:30" />
+    <file relUrl="bin/MySql.Data.dll" publishTime="03/20/2013 11:33:00" />
+    <file relUrl="bin/LOG.dll" publishTime="06/28/2016 17:11:27" />
+    <file relUrl="bin/Model.pdb" publishTime="06/28/2016 17:11:28" />
+    <file relUrl="bin/Utility.pdb" publishTime="06/28/2016 17:11:27" />
+  </publishProfile>
+</publishData>

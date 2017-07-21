@@ -1,0 +1,31 @@
+[2016-06-13 19:20:46,980] 线程:[6624] Recieved message Unitcode is  Port is 6001:{"messageName":"LoginServer","unitCode":"522121"} 
+[2016-06-13 19:20:46,980] 线程:[6624] Send message Unitcode is 522121 Port is 6001:{"failtureReason":"","messageName":"LoginServerResp","loginResult":"1"} 
+[2016-06-13 19:20:47,167] 线程:[6624] Recieved message Unitcode is  Port is 6003:{"messageName":"LoginServer","unitCode":"522121"} 
+[2016-06-13 19:20:47,167] 线程:[6624] Send message Unitcode is 522121 Port is 6003:{"failtureReason":"","messageName":"LoginServerResp","loginResult":"1"} 
+[2016-06-13 19:20:47,214] 线程:[6624] Recieved message Unitcode is  Port is 6002:{"messageName":"LoginServer","unitCode":"522121"} 
+[2016-06-13 19:20:47,214] 线程:[6624] Send message Unitcode is 522121 Port is 6002:{"failtureReason":"","messageName":"LoginServerResp","loginResult":"1"} 
+[2016-06-13 19:21:14,592] 线程:[9812] Send message Unitcode is 522121 Port is 6001:{"city":"南京","medicalInsuranceCard":"232335567787","caseId":"4ea63df4-7057-4366-b458-c6c7c9f38e6f","isSelf":1,"name":"测试名","contactWay1":"13404178872","identityCard":"340879198808081211","weight":65,"brithday":"19870101","medicalHistory":"测试病史","contactWay2":"13404178873","height":175,"province":"江苏","phone":"12345","sex":1,"messageName":"CallInfo","wd":"134.799686555","jd":"34.799686555","contactWay3":"13404178874","address":"江苏省南京市秦淮区太平南路333号","area":"秦淮","callTime":"2016-06-13 19:21:08"} 
+[2016-06-13 19:22:41,324] 线程:[7252] Recieved message Unitcode is 522121 Port is 6003:{"driverName":"刘豫","doctorPhone":"13871887869","doctorName":"孙光辉","ccsj":"2016-06-13 19:22:47","ssdw":"孝感市中心医院","driverPhone":"13871888610","caseId":"4ea63df4-7057-4366-b458-c6c7c9f38e6f","lsh":"2016061300000000006","cph":"鄂K06772","clid":"101","messageName":"SendCarInfo","cccc":1} 
+[2016-06-13 19:23:14,853] 线程:[7736] Recieved message Unitcode is 522121 Port is 6003:{"driverName":"刘豫","doctorPhone":"13871887869","doctorName":"孙光辉","ccsj":"2016-06-13 19:23:25","ssdw":"孝感市中心医院","driverPhone":"13871888610","caseId":"4ea63df4-7057-4366-b458-c6c7c9f38e6f","lsh":"2016061300000000006","cph":"鄂K06772","clid":"101","messageName":"SendCarInfo","cccc":1} 
+[2016-06-13 19:24:07,521] 线程:[9544] Recieved message Unitcode is  Port is 6001:{"messageName":"LoginServer","unitCode":"522121"} 
+[2016-06-13 19:24:07,523] 线程:[9544] Send message Unitcode is 522121 Port is 6001:{"failtureReason":"","messageName":"LoginServerResp","loginResult":"1"} 
+[2016-06-13 19:24:07,579] 线程:[9544] Recieved message Unitcode is  Port is 6003:{"messageName":"LoginServer","unitCode":"522121"} 
+[2016-06-13 19:24:07,581] 线程:[9544] Send message Unitcode is 522121 Port is 6003:{"failtureReason":"","messageName":"LoginServerResp","loginResult":"1"} 
+[2016-06-13 19:24:07,680] 线程:[9544] Recieved message Unitcode is  Port is 6002:{"messageName":"LoginServer","unitCode":"522121"} 
+[2016-06-13 19:24:07,681] 线程:[9544] Send message Unitcode is 522121 Port is 6002:{"failtureReason":"","messageName":"LoginServerResp","loginResult":"1"} 
+[2016-06-13 19:24:11,986] 线程:[6776] Recieved message Unitcode is 522121 Port is 6003:{"driverName":"刘豫","doctorPhone":"13871887869","doctorName":"孙光辉","ccsj":"2016-06-13 19:24:22","ssdw":"孝感市中心医院","driverPhone":"13871888610","caseId":"4ea63df4-7057-4366-b458-c6c7c9f38e6f","lsh":"2016061300000000006","cph":"鄂K06772","clid":"101","messageName":"SendCarInfo","cccc":1} 
+[2016-06-13 19:24:33,547] 线程:[2812] Recieved message Unitcode is 522121 Port is 6002:{"sd":0.0,"wd":"31.985252380371094","sj":"2016-04-13 11:39:44","lsh":"2016061300000000006","caseId":"4ea63df4-7057-4366-b458-c6c7c9f38e6f","fx":"0.0","jd":"118.77554321289063","clid":"101","messageName":"CarLocation","cccc":1} 
+[2016-06-13 19:25:25,722] 线程:[2812] Recieved message Unitcode is  Port is 6003:{"messageName":"LoginServer","unitCode":"522121"} 
+[2016-06-13 19:25:25,723] 线程:[2812] Send message Unitcode is 522121 Port is 6003:{"failtureReason":"","messageName":"LoginServerResp","loginResult":"1"} 
+[2016-06-13 19:25:25,820] 线程:[2812] Recieved message Unitcode is  Port is 6001:{"messageName":"LoginServer","unitCode":"522121"} 
+[2016-06-13 19:25:25,822] 线程:[2812] Send message Unitcode is 522121 Port is 6001:{"failtureReason":"","messageName":"LoginServerResp","loginResult":"1"} 
+[2016-06-13 19:25:25,869] 线程:[2812] Recieved message Unitcode is  Port is 6002:{"messageName":"LoginServer","unitCode":"522121"} 
+[2016-06-13 19:25:25,870] 线程:[2812] Send message Unitcode is 522121 Port is 6002:{"failtureReason":"","messageName":"LoginServerResp","loginResult":"1"} 
+[2016-06-13 19:25:31,315] 线程:[2812] Recieved message Unitcode is 522121 Port is 6003:{"driverName":"刘豫","doctorPhone":"13871887869","doctorName":"孙光辉","ccsj":"2016-06-13 19:25:28","ssdw":"孝感市中心医院","driverPhone":"13871888610","caseId":"4ea63df4-7057-4366-b458-c6c7c9f38e6f","lsh":"2016061300000000006","cph":"鄂K06772","clid":"101","messageName":"SendCarInfo","cccc":1} 
+[2016-06-13 19:32:52,507] 线程:[5284] Recieved message Unitcode is  Port is 6001:{"messageName":"LoginServer","unitCode":"522121"} 
+[2016-06-13 19:32:52,507] 线程:[6324] Recieved message Unitcode is  Port is 6002:{"messageName":"LoginServer","unitCode":"522121"} 
+[2016-06-13 19:33:01,728] 线程:[6324] Send message Unitcode is 522121 Port is 6002:{"failtureReason":"","messageName":"LoginServerResp","loginResult":"1"} 
+[2016-06-13 19:33:01,728] 线程:[5284] Send message Unitcode is 522121 Port is 6001:{"failtureReason":"","messageName":"LoginServerResp","loginResult":"1"} 
+[2016-06-13 19:33:11,541] 线程:[5924] Recieved message Unitcode is  Port is 6003:{"messageName":"LoginServer","unitCode":"522121"} 
+[2016-06-13 19:33:11,541] 线程:[5924] Send message Unitcode is 522121 Port is 6003:{"failtureReason":"","messageName":"LoginServerResp","loginResult":"1"} 
+[2016-06-13 19:34:16,153] 线程:[4384] Recieved message Unitcode is 522121 Port is 6002:{"sd":0.0,"wd":"31.985252380371094","sj":"2016-04-13 11:39:44","lsh":"2016061300000000006","caseId":"4ea63df4-7057-4366-b458-c6c7c9f38e6f","fx":"0.0","jd":"118.77554321289063","clid":"101","messageName":"CarLocation","cccc":1} 
