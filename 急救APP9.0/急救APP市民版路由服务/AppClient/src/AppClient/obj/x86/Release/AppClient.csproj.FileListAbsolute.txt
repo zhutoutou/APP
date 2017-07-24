@@ -44,3 +44,6 @@ E:\朱星汉\急救\急救APP市民版路由服务\AppClient\src\AppClient\obj\x
 E:\朱星汉\急救\急救APP市民版路由服务\AppClient\src\AppClient\obj\x86\Release\ZIT.AppClient.UI.Properties.Resources.resources
 E:\朱星汉\急救\急救APP市民版路由服务\AppClient\src\AppClient\obj\x86\Release\GenerateResource.read.1.tlog
 E:\朱星汉\急救\急救APP市民版路由服务\AppClient\src\AppClient\obj\x86\Release\GenerateResource.write.1.tlog
+D:\Upload\APP\急救APP9.0\急救APP市民版路由服务\AppClient\src\AppClient\bin\Release\AppClient.exe.config
+D:\Upload\APP\急救APP9.0\急救APP市民版路由服务\AppClient\src\AppClient\obj\x86\Release\AppClient.exe
+D:\Upload\APP\急救APP9.0\急救APP市民版路由服务\AppClient\src\AppClient\obj\x86\Release\AppClient.pdb
